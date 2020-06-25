@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 508,288
 ---
+<< setMC GameManager Driver>> 
 << changeShot GameManager Front>> 
 << setBubble GameManager PassengerInCar>> 
 This is some filler text. I'm including a lot of it to give Sam a vague idea. Here's some more text. More more more.
@@ -16,4 +17,21 @@ Cool, I can yell out a window, too.
 I'm yelling SO LOUDLY!
 << setBubble GameManager DriverClose>>
 Ah... please... don't...
+[[ Let's drive faster? |question]][[ Drive faster |vroom]]
+===
+title: question
+tags: 
+colorID: 0
+position: 400,45
+---
+<< setBubble GameManager PassengerClose>> 
+I'd rather not.
+===
+title: vroom
+tags: 
+colorID: 0
+position: 848,68
+---
+<< setBubble GameManager PassengerFar>> 
+ahhh!!!
 ===

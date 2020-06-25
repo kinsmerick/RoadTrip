@@ -83,7 +83,6 @@ public class YarnCommands : MonoBehaviour
                         if (activeUI != null)
                         {
                             Transform prevOptions = activeUI.transform.Find(positionOfMC + "Options");
-                            prevOptions.gameObject.SetActive(false);
                             activeUI.SetActive(false);
                         }
 
@@ -103,12 +102,12 @@ public class YarnCommands : MonoBehaviour
                         shotUI[i].SetActive(true);
                         shotEnvironments[j].SetActive(true);
 
+                        Transform optionBubbles = shotUI[i].transform.Find(positionOfMC + "Options");
+                        updateDialogueUIOptions(optionBubbles);
+
                         //record them locally as the active UI and environment
                         activeUI = shotUI[i];
                         activeEnvironment = shotEnvironments[j];
-
-                        Transform optionBubbles = activeUI.transform.Find(positionOfMC + "Options");
-                        updateDialogueUIOptions(optionBubbles);
 
                         //break b/c shot environment was updated
                         break;
@@ -183,11 +182,13 @@ public class YarnCommands : MonoBehaviour
     {
         yarnDialogueUI.optionButtons.Clear();
 
-        for(int i = 0; i < optionsTransform.childCount; i++)
+        for(int i = 0; i < optionsTransform.childCount + 1; i++)
         {
-            Transform opt = optionsTransform.Find("Option" + (i + 1));
+            Debug.Log("childcount: " + optionsTransform.childCount + " i " + i);
+            Transform opt = optionsTransform.Find("Option" + i);
             if (opt != null)
             {
+                Debug.Log(opt + " " + i);
                 yarnDialogueUI.optionButtons.Add(opt.gameObject.GetComponent<Button>());
             }
         }

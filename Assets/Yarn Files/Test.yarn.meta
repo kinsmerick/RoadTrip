@@ -12,6 +12,15 @@ ScriptedImporter:
   stringIDs:
   - Test-Start-0
   - Test-Start-1
+  - Test-Start-2
+  - Test-Start-3
+  - Test-Start-4
+  - Test-Start-5
+  - Test-Start-6
+  - Test-Start-7
+  - Test-Start-8
+  - Test-question-9
+  - Test-vroom-10
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 

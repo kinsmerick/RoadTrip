@@ -33,6 +33,15 @@ public class TextDisplayHandler : MonoBehaviour
 
     }
 
+    private void OnMouseDown()
+    {
+        //if this text is part of an option, return to normal cover when mouse exit
+        if (isOption)
+        {
+            tmp.color = standardTextColor;
+        }
+    }
+
     private void OnMouseExit()
     {
         //if this text is part of an option, return to normal cover when mouse exit
