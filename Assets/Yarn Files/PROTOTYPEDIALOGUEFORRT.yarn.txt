@@ -1,0 +1,143 @@
+title: Start
+tags: 
+colorID: 2
+position: -200,336
+---
+<<setMC GameManager Driver>>
+<<changeShot GameManager Front>>
+<<setBubble GameManager PassengerOutCar>>
+So, what do you think you're going to do first when you get home?
+<<setBubble GameManager DriverOutCar>>
+[[Don't know... Probably hug my mom.|HUGMOM]]
+[[Take a shower definitely. And then sleep for days.|SHOWER]]
+===
+title: HUGMOM
+tags: 
+colorID: 0
+position: 91,132
+---
+<<setBubble GameManager PassengerInCar>>
+Man, I miss your mom. She did give the best hugs. She made the best tasting food, too... 
+Remember when we had that weird pasta with beans?
+<<setBubble GameManager DriverInCar>>
+You ate like five bowls. You’re lucky she made everything potluck style, but my grandma still barely got a plate...
+I think she always resented you for that.
+<<changeShot GameManager Side>>
+<<setBubble GameManager PassengerFar>>
+I could’ve given your grandma everything on my plate and she would’ve still hated me. 
+She was a tough nut to crack…
+<<setBubble GameManager DriverClose>>
+[[Don’t mess with a woman’s beans... I remember she joked about not wanting you to be at the funeral after that. My grandpa really enjoyed having you there, though.|FAMILY]]
+[[She was the TOUGHEST nut. And I respected the hell out of her for it. Never took no for an answer. Told people exactly what she wanted. You know she wrestled a woman for the last baby stroller in the store to surprise my mom when I was born?|STROLLER]]
+===
+title: FAMILY
+tags: 
+colorID: 0
+position: 351,-24
+---
+<<setBubble GameManager PassengerClose>>
+I really enjoyed being there for your grandpa. 
+He told the best stories… 
+I’m glad I was able to be there with you, too. I know how close you were with your grandparents. 
+Your whole family is very close. It always made me jealous…
+
+[[JEALOUSY]]
+===
+title: STROLLER
+tags: 
+colorID: 0
+position: 354,202
+---
+<<setBubble GameManager PassengerClose>>
+I believe that woman would wrestle an alligator for you. 
+Your family has always been tight-knit...
+I wish I could say the same.
+I was always jealous of that.
+
+[[JEALOUSY]]
+===
+title: SHOWER
+tags: 
+colorID: 0
+position: 64,552
+---
+<<setBubble GameManager PassengerInCar>>
+Yeah, I feel the weight of my sweat through my shirt. 
+Are you going to stay in your old bedroom? 
+Have you talked to them about that?
+<<changeShot GameManager Side>>
+<<setBubble GameManager DriverClose>>
+I… haven’t really spoken to my parents about logistics. 
+After everything… 
+when I reached out…
+they just really wanted me to come home…
+<<setBubble GameManager DriverFar>>
+I really wanted to go home. 
+<<setBubble GameManager PassengerClose>>
+If going home is what you want to do, don’t feel guilty about doing what’s best for you. 
+Be bold. Take risks! 
+Remember when that old man cut you off on our way to the movies?
+<<changeShot GameManager Front>>
+<<setBubble GameManager DriverOutCar>>
+[[I remember you pushing me to give him the finger... Then I remember when I tried to pass him, YOU flipped him off,... leading to him FOLLOWING us for the next fifty thousand miles.|OLDMAN]]
+[[I like to remember the movie instead... I still can’t believe the girl was actually a centaur. The SFX people did wonders with those hooves...The guy went to school with her every day and didn’t realize it? A centaur… would you date a centaur?|MOVIE]]
+
+===
+title: OLDMAN
+tags: 
+colorID: 0
+position: 346,457
+---
+<<changeShot GameManager Front>>
+<<setBubble GameManager PassengerOutCar>>
+ I actually distinctly remember you freaking out and wanting to drive to the police station. 
+He gave up after we pulled off the highway like I told you he would... 
+He was just a grumpy little man. 
+Good movie though.
+I can never unsee that actress with hooves... 
+The dude still fell in love after all that, so it couldn’t have been that much of a deal-breaker.
+
+[[DATEACENTAUR]]
+===
+title: MOVIE
+tags: 
+colorID: 0
+position: 345,711
+---
+<<changeShot GameManager Front>>
+<<setBubble GameManager PassengerInCar>>
+In a fictional scenario where centaurs exist… 
+I… 
+actually don’t know if I’d date a centaur. 
+She’d have to be a good person. 
+Funny… 
+Smart… 
+Oh my god, I think I would date a centaur. 
+
+[[DATEACENTAUR]]
+===
+title: JEALOUSY
+tags: 
+colorID: 0
+position: 629,80
+---
+<<changeShot GameManager Front>>
+<<setBubble GameManager DriverInCar>>
+It took a lot for my family to become close, but they really loved you...
+I was always jealous of the freedom you had to go anywhere and do anything.
+I think it made you super accomplished. Getting a job in Old York? That’s everyone’s dream. 
+<<setBubble GameManager PassengerOutCar>>
+Yeah... I guess. 
+===
+title: DATEACENTAUR
+tags: 
+colorID: 0
+position: 640,586
+---
+<<setBubble GameManager DriverOutCar>>
+You should put “must have hooves” in your dating profile. 
+I’m sure it would drive the people wild.
+<<setBubble GameManager PassengerOutCar>>
+Change it to “may have hooves and if the date goes well, I’ll consider it” and I’m sold. 
+
+===
