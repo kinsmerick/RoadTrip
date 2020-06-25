@@ -533,7 +533,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.19686721, g: 0.42696112, b: 0.5283019, a: 1}
+  m_Color: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -629,7 +629,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.3301887, g: 0.12304201, b: 0.22306655, a: 1}
+  m_Color: {r: 0.7019608, g: 0.29411766, b: 0.45882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1349,7 +1349,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.19686721, g: 0.42696112, b: 0.5283019, a: 1}
+  m_Color: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -1445,7 +1445,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.3301887, g: 0.12304201, b: 0.22306655, a: 1}
+  m_Color: {r: 0.6981132, g: 0.29307583, b: 0.45823663, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2245,8 +2245,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
-    m_PressedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
+    m_HighlightedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
+    m_PressedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2431,8 +2431,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
-    m_PressedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
+    m_HighlightedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
+    m_PressedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2564,8 +2564,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
-    m_PressedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
+    m_HighlightedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
+    m_PressedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2730,8 +2730,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4286590783
+  m_fontColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3621,8 +3621,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4286590783
+  m_fontColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4034,7 +4034,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.19686721, g: 0.42696112, b: 0.5283019, a: 1}
+  m_Color: {r: 0.2431603, g: 0.18160376, b: 0.5, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -4482,7 +4482,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.19686721, g: 0.42696112, b: 0.5283019, a: 1}
+  m_Color: {r: 0.2431603, g: 0.18160376, b: 0.5, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4607,8 +4607,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4286590783
+  m_fontColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4857,7 +4857,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.3301887, g: 0.12304201, b: 0.22306655, a: 1}
+  m_Color: {r: 0.7019608, g: 0.29411766, b: 0.45882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5103,8 +5103,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4286590783
+  m_fontColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5411,8 +5411,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
-    m_PressedColor: {r: 0.19607843, g: 0.42745098, b: 0.5294118, a: 1}
+    m_HighlightedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
+    m_PressedColor: {r: 0.24705882, g: 0.18431373, b: 0.5019608, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5562,7 +5562,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300380, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
-  m_Color: {r: 0.3301887, g: 0.12304201, b: 0.22306655, a: 1}
+  m_Color: {r: 0.6981132, g: 0.29307583, b: 0.45823663, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
