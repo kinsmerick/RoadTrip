@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Yarn.Unity;
 
 public class YarnCommands : MonoBehaviour
@@ -9,6 +10,7 @@ public class YarnCommands : MonoBehaviour
     public GameObject[] shotUI; //editor defined list of Shot Dialogue UI containers
     public GameObject[] shotEnvironments;
     private DialogueUI yarnDialogueUI;
+    public string positionOfMC;
     private GameObject activeUI;
     private GameObject activeEnvironment;
     private GameObject activeBubble;
@@ -16,17 +18,37 @@ public class YarnCommands : MonoBehaviour
     private void Awake()
     {
         yarnDialogueUI = this.GetComponent<DialogueUI>();
+        setMC("Driver");
     }
     // Start is called before the first frame update
     void Start()
     {
-
     }//end Start method
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    /*Adds <<setMC>> command to Yarn. Takes in seat position of the MC as posMC. If posMC
+     * is Driver or Passenger, it stores that. If not, it logs an error.*/
+
+    [YarnCommand("setMC")]
+    public void setMC(string posMC)
+    {
+        if(posMC == "Driver")
+        {
+            positionOfMC = posMC;
+        }
+        else if (posMC == "Passenger")
+        {
+            positionOfMC = posMC;
+        }
+        else
+        {
+            Debug.LogError(posMC + " not valid position for MC.");
+        }
     }
 
     /*Adds <<changeShot>> command to Yarn. Takes in a shot name. First iterates through
@@ -42,6 +64,7 @@ public class YarnCommands : MonoBehaviour
     public void changeShot(string shotName)
     {
         Debug.Log("changeShot called with " + shotName);
+
         for(int i = 0; i < shotUI.Length; i++)
         {
             if (shotUI[i].name.Contains(shotName))
@@ -59,6 +82,8 @@ public class YarnCommands : MonoBehaviour
                         //checks for previous UI to de-activate
                         if (activeUI != null)
                         {
+                            Transform prevOptions = activeUI.transform.Find(positionOfMC + "Options");
+                            prevOptions.gameObject.SetActive(false);
                             activeUI.SetActive(false);
                         }
 
@@ -70,11 +95,10 @@ public class YarnCommands : MonoBehaviour
                         }
 
                         //set and activate the new UI and environment
-                        //the dialogueContainer SHOULD make a starter UI active,
-                        //but doesn't handle mid-scene shifts
-                        Debug.Log(yarnDialogueUI.name);
-                        Debug.Log(yarnDialogueUI.dialogueContainer.name);
-                        Debug.Log(shotUI[i].name);
+                        //the dialogueContainer is updated so that, if this is
+                        //the last UI of this yarn node, the Dialogue UI Script
+                        //will know to turn it off at the end.
+                        
                         yarnDialogueUI.dialogueContainer = shotUI[i];
                         shotUI[i].SetActive(true);
                         shotEnvironments[j].SetActive(true);
@@ -82,11 +106,25 @@ public class YarnCommands : MonoBehaviour
                         //record them locally as the active UI and environment
                         activeUI = shotUI[i];
                         activeEnvironment = shotEnvironments[j];
+
+                        Transform optionBubbles = activeUI.transform.Find(positionOfMC + "Options");
+                        updateDialogueUIOptions(optionBubbles);
+
+                        //break b/c shot environment was updated
                         break;
-                    }
+
+                    }//end if specificed shot environment found
+
+                    else if(j == shotEnvironments.Length - 1)
+                    {
+
+                        Debug.LogError("Shot environment " + shotName + " not found.");
+
+                    }//end else if at end of for loop iterating for shot environment
+
                 }//end shot environments for loop
                 
-                //break b/c shot UI was found
+                //break b/c shot UI and environment were updated
                 break;
 
             }//end if shotName matches name in shotUI[]
@@ -94,7 +132,7 @@ public class YarnCommands : MonoBehaviour
             else if(i == shotUI.Length - 1)
             {
 
-                Debug.LogError("Shot name " + shotName + " not found.");
+                Debug.LogError("Shot UI " + shotName + " not found.");
 
             }//end else if at end of for loop iterating for shot UI
 
@@ -102,17 +140,56 @@ public class YarnCommands : MonoBehaviour
 
     }//end Yarn Command changeShot method
 
+    /*Adds <<setBubble>> command to Yarn. Takes in a bubble name. If there is an active speech
+     bubble, it sets it to inactive. Then, it searches through the activeUI's children to find
+     one named bubblename + "Bubble", i.e. "PassengerFarBubble". If this bubble exists in the
+     activeUI, it sets it to be active and records it locally as the active bubble. If it
+     does not exist, it logs an error. The previous active bubble will still be set inactive
+     as an additional meaasure of alerting the dev to the typo in the Yarn command.*/
+
     [YarnCommand("setBubble")]
     public void setBubble(string bubbleName) {
         Debug.Log("setBubble called with " + bubbleName);
+
         if(activeBubble != null)
         {
             activeBubble.SetActive(false);
         }
 
         Transform nextBubble = activeUI.transform.Find(bubbleName + "Bubble");
-        nextBubble.gameObject.SetActive(true);
-        activeBubble = nextBubble.gameObject;
+        
+        if (nextBubble != null)
+        {
+            nextBubble.gameObject.SetActive(true);
+            activeBubble = nextBubble.gameObject;
+        }
+        else
+        {
+            Debug.LogError("Speech Bubble " + bubbleName + " does not exist in active UI " +
+                            activeUI);
+        }
+
 
     }//end Yarn Command setBubble method
+
+    /*Called when the Yarn Command changeShot is called. It takes in the relevant active UI's MC's
+     position-based Options transform (i.e. PassengerOptions of the Front shot) as a parameter.
+     First, it clears out any option buttons that the DialogueUI has. Then, it goes through
+     the Options transform's children to find transforms with the name Option and a number, which
+     are the options buttons. Any matching transform's button is then added to DialogueUI's
+     list of buttons.*/
+
+    private void updateDialogueUIOptions(Transform optionsTransform)
+    {
+        yarnDialogueUI.optionButtons.Clear();
+
+        for(int i = 0; i < optionsTransform.childCount; i++)
+        {
+            Transform opt = optionsTransform.Find("Option" + (i + 1));
+            if (opt != null)
+            {
+                yarnDialogueUI.optionButtons.Add(opt.gameObject.GetComponent<Button>());
+            }
+        }
+    }
 }
