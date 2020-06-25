@@ -1,0 +1,19 @@
+title: Start
+tags: 
+colorID: 0
+position: 508,288
+---
+<< changeShot GameManager Front>> 
+<< setBubble GameManager PassengerInCar>> 
+This is some filler text. I'm including a lot of it to give Sam a vague idea. Here's some more text. More more more.
+Here is more.
+<<setBubble GameManager DriverOutCar>>
+I'm talking, and out here, now.
+<< setBubble GameManager PassengerOutCar>>
+Cool, I can yell out a window, too.
+<< changeShot GameManager Side>> 
+<< setBubble GameManager PassengerFar>>
+I'm yelling SO LOUDLY!
+<< setBubble GameManager DriverClose>>
+Ah... please... don't...
+===
