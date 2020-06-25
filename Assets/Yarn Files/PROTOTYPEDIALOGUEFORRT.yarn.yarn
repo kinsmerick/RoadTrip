@@ -25,14 +25,17 @@ I think she always resented you for that.
 <<setBubble GameManager PassengerFar>>
 I could’ve given your grandma everything on my plate and she would’ve still hated me. 
 She was a tough nut to crack…
-[[Don’t mess with a woman’s beans... I remember she joked about not wanting you to be at the funeral after that. My grandpa really enjoyed having you there, though.|FAMILY]]
-[[She was the TOUGHEST nut. And I respected the hell out of her for it. Never took no for an answer. Told people exactly what she wanted. You know she wrestled a woman for the last baby stroller in the store to surprise my mom when I was born?|STROLLER]]
+[[Don’t mess with a woman’s beans...|FAMILY]]
+[[She was the TOUGHEST nut.|STROLLER]]
 ===
 title: FAMILY
 tags: 
 colorID: 0
 position: 351,-24
 ---
+<< setBubble GameManager DriverClose>> 
+I remember she joked about not wanting you to be at the funeral after that.
+My grandpa really enjoyed having you there, though.
 <<setBubble GameManager PassengerClose>>
 I really enjoyed being there for your grandpa. 
 He told the best stories… 
@@ -46,6 +49,11 @@ tags:
 colorID: 0
 position: 354,202
 ---
+<< setBubble GameManager DriverFar>> 
+And I respected the hell out of her for it. Never took no for an answer.
+Told people exactly what she wanted.
+<< setBubbleGameManager DriverClose>> 
+You know she wrestled a woman for the last baby stroller in the store to surprise my mom when I was born?
 <<setBubble GameManager PassengerClose>>
 I believe that woman would wrestle an alligator for you. 
 Your family has always been tight-knit...
@@ -76,14 +84,17 @@ If going home is what you want to do, don’t feel guilty about doing what’s b
 Be bold. Take risks! 
 Remember when that old man cut you off on our way to the movies?
 <<changeShot GameManager Front>>
-[[I remember you pushing me to give him the finger... Then I remember when I tried to pass him, YOU flipped him off,... leading to him FOLLOWING us for the next fifty thousand miles.|OLDMAN]]
-[[I like to remember the movie instead... I still can’t believe the girl was actually a centaur. The SFX people did wonders with those hooves...The guy went to school with her every day and didn’t realize it? A centaur… would you date a centaur?|MOVIE]]
+[[I remember you pushing me to give him the finger.|OLDMAN]]
+[[I like to remember the movie instead.|MOVIE]]
 ===
 title: OLDMAN
 tags: 
 colorID: 0
 position: 346,457
 ---
+<< setBubble GameManager DriverInCar>> 
+Then I remember when I tried to pass him, YOU flipped him off,
+leading to him FOLLOWING us for the next fifty thousand miles.
 <<changeShot GameManager Front>>
 <<setBubble GameManager PassengerOutCar>>
  I actually distinctly remember you freaking out and wanting to drive to the police station. 
@@ -100,6 +111,11 @@ tags:
 colorID: 0
 position: 345,711
 ---
+<<setBubble GameManager DriverOutCar>>
+I still can’t believe the girl was actually a centaur. The SFX people did wonders with those hooves.
+The guy went to school with her every day and didn’t realize it? A centaur…
+<<setBubble GameManager DriverInCar>>
+would you date a centaur?
 <<changeShot GameManager Front>>
 <<setBubble GameManager PassengerInCar>>
 In a fictional scenario where centaurs exist… 
@@ -123,7 +139,7 @@ It took a lot for my family to become close, but they really loved you...
 I was always jealous of the freedom you had to go anywhere and do anything.
 I think it made you super accomplished. Getting a job in Old York? That’s everyone’s dream. 
 <<setBubble GameManager PassengerOutCar>>
-Yeah... I guess. 
+Yeah... I guess.
 ===
 title: DATEACENTAUR
 tags: 
