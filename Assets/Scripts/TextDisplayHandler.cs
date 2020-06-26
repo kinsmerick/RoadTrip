@@ -5,8 +5,8 @@ using TMPro;
 
 public class TextDisplayHandler : MonoBehaviour
 {
-    private TextMeshProUGUI tmp;
-    private Color standardTextColor;
+    public TextMeshProUGUI tmp;
+    public Color standardTextColor;
 
     public bool isOption;
     public Color hoverTextColor;
@@ -15,13 +15,15 @@ public class TextDisplayHandler : MonoBehaviour
     void Start()
     {
         tmp = this.GetComponent<TextMeshProUGUI>();
-        standardTextColor = tmp.color;
+        if(tmp != null)
+        {
+            standardTextColor = tmp.color;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnMouseEnter()
