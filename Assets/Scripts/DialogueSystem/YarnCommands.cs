@@ -15,9 +15,12 @@ public class YarnCommands : MonoBehaviour
     private GameObject activeEnvironment;
     private GameObject activeBubble;
 
+    public DialogueManager dialogueManager;
+
     private void Awake()
     {
         yarnDialogueUI = this.GetComponent<DialogueUI>();
+        dialogueManager = this.GetComponent<DialogueManager>();
         setMC("Driver");
     }
     // Start is called before the first frame update
@@ -146,6 +149,8 @@ public class YarnCommands : MonoBehaviour
      does not exist, it logs an error. The previous active bubble will still be set inactive
      as an additional meaasure of alerting the dev to the typo in the Yarn command.*/
 
+    //NOTE: ONLY PROTOTYPE BUILD CODE. DO NOT USE.
+
     [YarnCommand("setBubble")]
     public void setBubble(string bubbleName) {
         Debug.Log("setBubble called with " + bubbleName);
@@ -170,6 +175,13 @@ public class YarnCommands : MonoBehaviour
 
 
     }//end Yarn Command setBubble method
+
+    [YarnCommand("setSpeaker")]
+    public void setSpeaker(string speakerName)
+    {
+        Debug.Log("Yarn called setSpeaker with " + speakerName);
+        dialogueManager.setSpeaker(speakerName);
+    }
 
     /*Called when the Yarn Command changeShot is called. It takes in the relevant active UI's MC's
      position-based Options transform (i.e. PassengerOptions of the Front shot) as a parameter.
