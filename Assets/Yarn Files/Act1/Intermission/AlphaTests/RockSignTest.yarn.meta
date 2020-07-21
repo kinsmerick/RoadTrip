@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 36bf7c83075a4430d987f062e6212e2d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - RockSignTest-RockSign-0
+  - RockSignTest-RockSign-1
+  - RockSignTest-RockSign-2
+  - RockSignTest-RockSign-3
+  - RockSignTest-RockSign-4
+  - RockSignTest-RockSign-5
+  - RockSignTest-RockSign-6
+  - RockSignTest-RockSign-7
+  - RockSignTest-RockSign-8
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
