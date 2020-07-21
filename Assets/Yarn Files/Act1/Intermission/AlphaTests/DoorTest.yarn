@@ -22,3 +22,15 @@ tags:
 ---
 I am going to steal this one.
 ===
+title: DogMan
+tags:
+---
+<<if $visited is false>>
+Man: You like my dog?
+Man: Have this poster.
+<<set $visited to true>>
+<<else>>
+How is that poster treating you?
+<<endif>>
+Take care!
+===

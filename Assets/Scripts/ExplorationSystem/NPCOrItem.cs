@@ -5,20 +5,24 @@ using Yarn.Unity;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 
-public class ItemCollectable : MonoBehaviour
+public class NPCOrItem : MonoBehaviour
 {
 
   //this script runs very similarly to Interactable.cs, except will
   //destroy the gameobject after running, because the player has picked
   // up the item.
-  
 
-  public bool canInteract = false;
+
+  private bool canInteract = false;
   private bool interacting = false;
 
   public CharacterController playerControl;
   [Header ("Yarn Script")]
   public string nodeName;
+
+  public bool destroyOnExamination = false;
+
+  private bool itemPickedUp = false;
 
   public ItemCollection itemThisIs;
 
@@ -41,14 +45,18 @@ public class ItemCollectable : MonoBehaviour
       if(canInteract && !interacting && (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump")) ){
         interacting = true;
         playerControl.canWalk = false;
-        AddItemToCollection();
+        if(!itemPickedUp){
+          itemPickedUp = true;
+          AddItemToCollection();
+        }
         dialogueRunner.StartDialogue(nodeName);
       }
       else if(interacting && !dialogueRunner.IsDialogueRunning ){
         interacting = false;
         playerControl.canWalk = true;
-
-        Destroy(gameObject);
+        if(destroyOnExamination){
+          Destroy(gameObject);
+        }
       }
     }
 
