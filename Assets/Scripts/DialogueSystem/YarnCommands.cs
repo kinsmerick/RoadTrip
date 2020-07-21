@@ -4,20 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 using Yarn.Unity;
 
+/*NOTE: Do not use this script. It will be deleted eventually; for now, it exists as a reminder of
+ certain functionalities until they have all been better implemented in other classes.*/
+
 public class YarnCommands : MonoBehaviour
 {
 
     public GameObject[] shotUI; //editor defined list of Shot Dialogue UI containers
     public GameObject[] shotEnvironments;
-    private DialogueUI yarnDialogueUI;
+    private DialogueUI _yarnDialogueUI;
     public string positionOfMC;
     private GameObject activeUI;
     private GameObject activeEnvironment;
     private GameObject activeBubble;
 
+    public DialogueManager dialogueManager;
+
     private void Awake()
     {
-        yarnDialogueUI = this.GetComponent<DialogueUI>();
+        _yarnDialogueUI = this.GetComponent<DialogueUI>();
+        dialogueManager = this.GetComponent<DialogueManager>();
         setMC("Driver");
     }
     // Start is called before the first frame update
@@ -98,7 +104,7 @@ public class YarnCommands : MonoBehaviour
                         //the last UI of this yarn node, the Dialogue UI Script
                         //will know to turn it off at the end.
                         
-                        yarnDialogueUI.dialogueContainer = shotUI[i];
+                        _yarnDialogueUI.dialogueContainer = shotUI[i];
                         shotUI[i].SetActive(true);
                         shotEnvironments[j].SetActive(true);
 
@@ -139,37 +145,23 @@ public class YarnCommands : MonoBehaviour
 
     }//end Yarn Command changeShot method
 
-    /*Adds <<setBubble>> command to Yarn. Takes in a bubble name. If there is an active speech
-     bubble, it sets it to inactive. Then, it searches through the activeUI's children to find
-     one named bubblename + "Bubble", i.e. "PassengerFarBubble". If this bubble exists in the
-     activeUI, it sets it to be active and records it locally as the active bubble. If it
-     does not exist, it logs an error. The previous active bubble will still be set inactive
-     as an additional meaasure of alerting the dev to the typo in the Yarn command.*/
+    /*Adds <<SetSpeaker>> command to Yarn. Takes in the name of the character who will speak/think
+     the next line. Calls the corresponding method in the DialogueManager.*/
+    [YarnCommand("SetSpeaker")]
+    public void SetSpeaker(string speakerName)
+    {
+        Debug.Log("Yarn called SetSpeaker with " + speakerName);
+        dialogueManager.SetSpeaker(speakerName);
+    }
 
-    [YarnCommand("setBubble")]
-    public void setBubble(string bubbleName) {
-        Debug.Log("setBubble called with " + bubbleName);
-
-        if(activeBubble != null)
-        {
-            activeBubble.SetActive(false);
-        }
-
-        Transform nextBubble = activeUI.transform.Find(bubbleName + "Bubble");
-        
-        if (nextBubble != null)
-        {
-            nextBubble.gameObject.SetActive(true);
-            activeBubble = nextBubble.gameObject;
-        }
-        else
-        {
-            Debug.LogError("Speech Bubble " + bubbleName + " does not exist in active UI " +
-                            activeUI);
-        }
-
-
-    }//end Yarn Command setBubble method
+    /*Adds <<SetBubblePosition>> command to Yarn. Takes in the name of the bubble position that we want the
+     speech bubble to be moved to.*/
+    [YarnCommand("SetBubblePosition")]
+    public void SetBubblePositon(string posName)
+    {
+        Debug.Log("Yarn called SetBubblePosition with " + posName);
+        dialogueManager.SetBubblePosition(posName);
+    }
 
     /*Called when the Yarn Command changeShot is called. It takes in the relevant active UI's MC's
      position-based Options transform (i.e. PassengerOptions of the Front shot) as a parameter.
@@ -180,7 +172,7 @@ public class YarnCommands : MonoBehaviour
 
     private void updateDialogueUIOptions(Transform optionsTransform)
     {
-        yarnDialogueUI.optionButtons.Clear();
+        _yarnDialogueUI.optionButtons.Clear();
 
         for(int i = 0; i < optionsTransform.childCount + 1; i++)
         {
@@ -189,8 +181,41 @@ public class YarnCommands : MonoBehaviour
             if (opt != null)
             {
                 Debug.Log(opt + " " + i);
-                yarnDialogueUI.optionButtons.Add(opt.gameObject.GetComponent<Button>());
+                _yarnDialogueUI.optionButtons.Add(opt.gameObject.GetComponent<Button>());
             }
         }
     }
+
+    /*    NOTE: ONLY PROTOTYPE BUILD CODE. DO NOT USE.
+   Adds <<setBubble>> command to Yarn. Takes in a bubble name. If there is an active speech
+   bubble, it sets it to inactive. Then, it searches through the activeUI's children to find
+   one named bubblename + "Bubble", i.e. "PassengerFarBubble". If this bubble exists in the
+   activeUI, it sets it to be active and records it locally as the active bubble. If it
+   does not exist, it logs an error. The previous active bubble will still be set inactive
+   as an additional meaasure of alerting the dev to the typo in the Yarn command.
+
+  [YarnCommand("setBubble")]
+  public void setBubble(string bubbleName) {
+      Debug.Log("setBubble called with " + bubbleName);
+
+      if(activeBubble != null)
+      {
+          activeBubble.SetActive(false);
+      }
+
+      Transform nextBubble = activeUI.transform.Find(bubbleName + "Bubble");
+
+      if (nextBubble != null)
+      {
+          nextBubble.gameObject.SetActive(true);
+          activeBubble = nextBubble.gameObject;
+      }
+      else
+      {
+          Debug.LogError("Speech Bubble " + bubbleName + " does not exist in active UI " +
+                          activeUI);
+      }
+
+
+  }//end Yarn Command setBubble method */
 }
