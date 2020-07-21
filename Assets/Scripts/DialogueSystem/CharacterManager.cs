@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class CharacterManager : MonoBehaviour
 {
-    public Color dialogueColor;
-    public Expression[] expressions;
-    public SpeechBubblePosition[] bubblePositions;
+    public Color DialogueColor;
+    public Expression[] Expressions;
+    public SpeechBubblePosition[] BubblesPositions;
+    public bool isDaniella;
 }
 
 [System.Serializable]
@@ -21,5 +22,7 @@ public struct Expression
 public struct SpeechBubblePosition
 {
     public string posName;
-    public Vector3 pos;
+    public Vector3 textPos;
+    public Vector3 option1Pos;
+    public Vector3 option2Pos;
 }
