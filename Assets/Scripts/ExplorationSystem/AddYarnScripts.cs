@@ -12,7 +12,9 @@ public class AddYarnScripts : MonoBehaviour
   private DialogueRunner dialogueRunner;
 
 
-    // Start is called before the first frame update
+    //this component will be on an object in an exploration scene, and adds the yarn scripts
+    //to the list so npcs can access them
+
     void Start()
     {
       dialogueRunner = FindObjectOfType<DialogueRunner>();

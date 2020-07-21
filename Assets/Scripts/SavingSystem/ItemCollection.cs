@@ -7,11 +7,19 @@ using UnityEngine;
 public class ItemCollection
 {
 
+//a bool for each collectable item you can find.
+//the pickup items will have a instance of this class
+//with the corresponding item set to "true"
+//then, adds (using the override below) that instance to the saved data
   public bool dogPoster = false;
   public bool sadRock = false;
   public bool happyRock = false;
   public bool lollipop = false;
 
+
+
+//addition override so you can simply load the saved save data, add the item from an instance of this class, then save it back
+//for each item there should be another line added to this override to allow for it
   public static ItemCollection operator +(ItemCollection t, ItemCollection t2)
   {
     ItemCollection temp = new ItemCollection();

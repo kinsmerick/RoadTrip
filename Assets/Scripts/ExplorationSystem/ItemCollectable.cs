@@ -8,6 +8,11 @@ using System.IO;
 public class ItemCollectable : MonoBehaviour
 {
 
+  //this script runs very similarly to Interactable.cs, except will
+  //destroy the gameobject after running, because the player has picked
+  // up the item.
+  
+
   public bool canInteract = false;
   private bool interacting = false;
 
@@ -60,8 +65,11 @@ public class ItemCollectable : MonoBehaviour
       }
     }
 
+
+
+//this function checks if saved item data exists, and if so, flips the item found to "true" in
+//the save data. (and creates the file if it doesn't already exist)
     public void AddItemToCollection(){
-      //savedCollection = savedCollection + itemThisIs;
 
       if(File.Exists(Application.persistentDataPath + "/items.sav")) {
         BinaryFormatter bf = new BinaryFormatter();
