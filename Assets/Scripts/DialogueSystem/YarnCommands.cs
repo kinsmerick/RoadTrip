@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using Yarn.Unity;
 
+/*NOTE: Do not use this script. It will be deleted eventually; for now, it exists as a reminder of
+ certain functionalities until they have all been better implemented in other classes.*/
+
 public class YarnCommands : MonoBehaviour
 {
 
