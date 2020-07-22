@@ -13,12 +13,12 @@ using Yarn.Unity;
 
 public class ContinueListener : MonoBehaviour
 {
-    public DialogueUI dialogueUI;
+    private DialogueUI _dialogueUI;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _dialogueUI = this.GetComponent<DialogueUI>();
     }
 
     // Update is called once per frame
@@ -27,7 +27,7 @@ public class ContinueListener : MonoBehaviour
         //if user presses their primary mouse button
         if (Input.GetMouseButtonDown(0))
         {
-            dialogueUI.MarkLineComplete();
+            _dialogueUI.MarkLineComplete();
         }
     }
 }
