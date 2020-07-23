@@ -34,3 +34,20 @@ How is that poster treating you?
 <<endif>>
 Take care!
 ===
+title: CarLeave
+tags:
+---
+Done here? Return to menu?
+[[Let me GO|RETURNTOMENU]]
+[[Let me STAY|STAY]]
+===
+title: RETURNTOMENU
+tags:
+---
+<<ReturnToMenu Examineables AlphaMenu>>
+===
+title: STAY
+tags:
+---
+Yeah let's look around some more.
+===
