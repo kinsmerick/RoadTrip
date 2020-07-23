@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
+using UnityEngine.SceneManagement;
+
 
 
 public class AddYarnScripts : MonoBehaviour
@@ -29,4 +31,10 @@ public class AddYarnScripts : MonoBehaviour
     {
 
     }
+
+    [YarnCommand("ReturnToMenu")]
+    public void ReturnToMenu(string sceneName){
+      SceneManager.LoadScene(sceneName);
+    }
+
 }

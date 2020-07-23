@@ -23,10 +23,17 @@ public class CharacterController : MonoBehaviour
   private float hf = 0.0f;
   private float vf = 0.0f;
 
+  private Animator daniAnimation;
+  private SpriteRenderer daniSprite;
+
     // Start is called before the first frame update
     void Start()
     {
       rb = GetComponent<Rigidbody2D>();
+      daniAnimation = GetComponent<Animator>();
+
+      daniSprite = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -38,16 +45,31 @@ public class CharacterController : MonoBehaviour
       hf = movement.x > 0.01f ? movement.x : movement.x < -0.01f ? 1 : 0;
       vf = movement.y > 0.01f ? movement.y : movement.y < -0.01f ? 1 : 0;
 
+      if(Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical")){
+        daniAnimation.SetTrigger("walk");
+      }
+      else if(Input.GetButtonUp("Horizontal") || Input.GetButtonUp("Vertical")){
+        daniAnimation.SetTrigger("stopwalk");
+      }
+
+
+
       //determines what direction you are facing (put animation triggers below)
       if(Input.GetButton("Horizontal") && canWalk){
         if (movement.x < -0.01f){
           //looking left
             examineBox.transform.position = left.transform.position;
+            if(!daniSprite.flipX){
+              daniSprite.flipX = true;
+            }
         }
         else
         {
           //looking right
             examineBox.transform.position = right.transform.position;
+            if(daniSprite.flipX){
+              daniSprite.flipX = false;
+            }
         }
       }
       if(Input.GetButton("Vertical") && canWalk){
@@ -61,6 +83,8 @@ public class CharacterController : MonoBehaviour
             examineBox.transform.position = up.transform.position;
         }
       }
+
+
 
 
 
