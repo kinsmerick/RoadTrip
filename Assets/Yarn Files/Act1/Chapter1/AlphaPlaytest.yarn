@@ -1,0 +1,45 @@
+title: Start
+tags: 
+colorID: 0
+position: 508,288
+---
+<< SetSpeaker DialogueManager Daniella>>
+<< SetBubblePosition DialogueManager OutCar>>
+We've been driving for awhile, huh?
+<< SetSpeaker DialogueManager Mish>>
+Almost feels like we aren't going anywhere.
+<< SetSpeaker DialogueManager Daniella>>
+Yeah.
+But I think that's because we don't have animations.
+That's more a beta thing.
+<< SetSpeaker DialogueManager Mish>>
+Good point.
+Anyway.
+<< SetSpeaker DialogueManager Daniella>> 
+[[ What now? |Node1]]
+[[ ... |Node2]]
+===
+title: Node1
+tags: 
+colorID: 0
+position: 510,60
+---
+<<SetSpeaker DialogueManager Mish>>
+I mean,
+I guess you try the other part of this playtest.
+===
+title: Node2
+tags: 
+colorID: 0
+position: 848,68
+---
+<<SetSpeaker DialogueManager Daniella>>
+...
+<< SetSpeaker DialogueManager Mish>>
+...
+<<SetSpeaker DialogueManager Daniella>>
+...
+<< SetSpeaker DialogueManager Mish>>
+Okay so anyway
+You can play the other part of the game now
+===
