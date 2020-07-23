@@ -94,10 +94,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 528cec03a101c3c4ab6800eab531e3b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueColor: {r: 0, g: 0, b: 0, a: 0}
+  DialogueColor: {r: 0.35479707, g: 0.48695776, b: 0.6320754, a: 1}
   Expressions: []
   BubblesPositions:
-  - posName: Out Car
+  - posName: OutCar
     textPos: {x: -507, y: 137, z: 0}
     option1Pos: {x: 0, y: 0, z: 0}
     option2Pos: {x: 0, y: 0, z: 0}

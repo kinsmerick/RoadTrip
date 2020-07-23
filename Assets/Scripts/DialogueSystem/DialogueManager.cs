@@ -51,11 +51,7 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //exists for testing
-        if (Input.GetKeyDown("space"))
-        {
-            SetSpeaker("Kinsey");
-        }
+
     }
 
     /*SetSpeaker is called in Yarn command <<SetSpeaker>>. It takes in the name of the desired speaker, iterates through the list
