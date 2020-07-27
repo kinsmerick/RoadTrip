@@ -27,6 +27,7 @@ position: 510,60
 <<SetSpeaker DialogueManager Mish>>
 I mean,
 I guess you try the other part of this playtest.
+<<ReturnToMenu DialogueManager AlphaMenu>>
 ===
 title: Node2
 tags: 
@@ -42,4 +43,5 @@ position: 848,68
 << SetSpeaker DialogueManager Mish>>
 Okay so anyway
 You can play the other part of the game now
+<<ReturnToMenu DialogueManager AlphaMenu>>
 ===

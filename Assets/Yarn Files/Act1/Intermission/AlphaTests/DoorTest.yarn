@@ -26,10 +26,12 @@ title: DogMan
 tags:
 ---
 <<if $visited is false>>
+<<SetSpeaker DialogueManager dogman>>
 Man: You like my dog?
 Man: Have this poster.
 <<set $visited to true>>
 <<else>>
+<<SetSpeaker DialogueManager dogman>>
 How is that poster treating you?
 <<endif>>
 Take care!

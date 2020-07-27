@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 639145079}
   - component: {fileID: 639145078}
   - component: {fileID: 639145077}
+  - component: {fileID: 639145082}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -370,7 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 1761436894}
-  textSpeed: 0.02
+  textSpeed: 0.03
   optionButtons:
   - {fileID: 166288183}
   - {fileID: 737597468}
@@ -525,6 +526,19 @@ MonoBehaviour:
   - {fileID: 874121682650293031}
   - {fileID: 6775904493848398554}
   IsExploration: 0
+--- !u!114 &639145082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639145075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6319bc89153664e26b3974b0bfa4c049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yarnScriptsToAdd: []
 --- !u!1 &737597465
 GameObject:
   m_ObjectHideFlags: 0
