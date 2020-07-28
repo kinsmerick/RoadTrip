@@ -48,7 +48,7 @@ public class CharacterController : MonoBehaviour
       if(Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical")){
         daniAnimation.SetTrigger("walk");
       }
-      else if(Input.GetButtonUp("Horizontal") || Input.GetButtonUp("Vertical")){
+      else if( ( Input.GetButtonUp("Horizontal") || Input.GetButtonUp("Vertical") ) && !(Input.GetButton("Horizontal") || Input.GetButton("Vertical")) ){
         daniAnimation.SetTrigger("stopwalk");
       }
 
