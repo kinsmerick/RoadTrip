@@ -95,7 +95,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueColor: {r: 0.35479707, g: 0.48695776, b: 0.6320754, a: 1}
-  Expressions: []
+  Expressions:
+  - expressionName: Neutral
+    expression: {fileID: 21300000, guid: fd25f97e8fab4404597b891329a61714, type: 3}
+  - expressionName: Sad
+    expression: {fileID: 21300000, guid: 61218296bf813624ab2cfa66546624f1, type: 3}
+  - expressionName: Smile
+    expression: {fileID: 21300000, guid: bf067bfbe4465a2439c798aaacfc2efd, type: 3}
+  - expressionName: Tired
+    expression: {fileID: 21300000, guid: 95b73b34027c5df42ae196de031884e1, type: 3}
+  - expressionName: Angry
+    expression: {fileID: 21300000, guid: 5ef2958e2863c91418d9b61852bab36b, type: 3}
+  - expressionName: Embarrased
+    expression: {fileID: 21300000, guid: 7ad83d6f72e94c74e8f24a4a0cc131f9, type: 3}
+  - expressionName: Happy
+    expression: {fileID: 21300000, guid: c86b1528ad1ad7542b0585e33b4cf05c, type: 3}
+  - expressionName: Nervous
+    expression: {fileID: 21300000, guid: 7bd23da4741e0c549afef772b6a0be77, type: 3}
   BubblesPositions:
   - posName: OutCar
     textPos: {x: -507, y: 137, z: 0}

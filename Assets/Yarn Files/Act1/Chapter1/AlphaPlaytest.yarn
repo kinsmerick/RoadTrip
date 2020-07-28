@@ -7,10 +7,13 @@ position: 508,288
 << SetBubblePosition DialogueManager OutCar>>
 We've been driving for awhile, huh?
 << SetSpeaker DialogueManager Mish>>
+<< SetExpression Mish Nervous>> 
 Almost feels like we aren't going anywhere.
 << SetSpeaker DialogueManager Daniella>>
 Yeah.
 But I think that's because we don't have animations.
+<< SetExpression Daniella Happy>> 
+<< SetExpression Mish Neutral>> 
 That's more a beta thing.
 << SetSpeaker DialogueManager Mish>>
 Good point.

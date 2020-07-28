@@ -66,10 +66,9 @@ public class DialogueManager : MonoBehaviour
     {
         for(int i = 0; i < Characters.Length; i++)
         {
-            if (Characters[i].name.Equals(speakerName))
+            if (Characters[i].name.Equals(speakerName, System.StringComparison.CurrentCultureIgnoreCase))
             {
                 _currentSpeaker = Characters[i].GetComponent<CharacterManager>();
-                Debug.Log(_currentSpeaker.name + " found.");
                 break;
             }//end if
 
@@ -118,7 +117,6 @@ public class DialogueManager : MonoBehaviour
 
     private void _SetBubblePosition()
     {
-        Debug.Log("Finding in-game character position.");
         SpeechBubble.transform.position = new Vector3(_currentSpeaker.transform.position.x, _currentSpeaker.transform.position.y + 2f,
                                                         _currentSpeaker.transform.position.z);
 
@@ -137,7 +135,7 @@ public class DialogueManager : MonoBehaviour
     {
         for(int i = 0; i < _currentSpeaker.BubblesPositions.Length; i++)
         {
-            if(posName == _currentSpeaker.BubblesPositions[i].posName)
+            if(string.Equals(posName, _currentSpeaker.BubblesPositions[i].posName, System.StringComparison.CurrentCultureIgnoreCase))
             {
                 SpeechBubble.transform.localPosition = _currentSpeaker.BubblesPositions[i].textPos;
 
@@ -155,8 +153,7 @@ public class DialogueManager : MonoBehaviour
                 {
                     _SetOptionsPosition(_currentSpeaker.BubblesPositions[i]);
                 }
-
-                Debug.Log(posName + " found.");
+                
                 break;
 
             }//end if
