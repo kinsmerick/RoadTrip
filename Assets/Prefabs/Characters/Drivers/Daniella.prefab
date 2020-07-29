@@ -116,7 +116,7 @@ MonoBehaviour:
     expression: {fileID: 21300000, guid: b5c0eac8cf99dc14299c6d54ac80732c, type: 3}
   BubblesPositions:
   - posName: OutCar
-    textPos: {x: 509, y: 167, z: 0}
-    option1Pos: {x: 387, y: 159.995, z: 0}
-    option2Pos: {x: 479, y: 137, z: 0}
+    textPos: {x: 448, y: 167, z: 0}
+    option1Pos: {x: 387, y: 137, z: 0}
+    option2Pos: {x: 479, y: 114.005, z: 0}
   isDaniella: 1

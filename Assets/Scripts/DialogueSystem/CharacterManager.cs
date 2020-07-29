@@ -35,11 +35,10 @@ public class CharacterManager : MonoBehaviour
         _spriteRenderer = this.GetComponent<SpriteRenderer>();
     }
 
+    //changes sprite being rendered by sprite renderer to sprite in Expressions[] that matches exp
     [YarnCommand("SetExpression")]
     public void SetExpression(string exp)
-    {
-        //changes sprite being rendered by sprite renderer to sprite in Expressions[] that matches exp
-        Debug.Log("SetExpression called with " + exp);
+    {        
 
         //checks to make sure the user entered expressions into the character's Expressions array
         if (Expressions.Length < 1)
@@ -71,14 +70,6 @@ public class CharacterManager : MonoBehaviour
         }//end else insuring Expressions[] was initialized
 
     }//end SetExpression method
-
-    private void Update()
-    {
-        if(Input.GetKeyDown("space") && !isDaniella)
-        {
-            SetExpression("test");
-        }
-    }
 }
 
 /*The Expression struct stores an expression's name and related sprite.
