@@ -402,8 +402,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 12
-    m_Right: 12
+    m_Left: 20
+    m_Right: 20
     m_Top: 15
     m_Bottom: 15
   m_ChildAlignment: 4
@@ -469,7 +469,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 479, y: 137}
-  m_SizeDelta: {x: 256, y: 78.009995}
+  m_SizeDelta: {x: 320, y: 78.009995}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &280105308
 GameObject:
@@ -652,7 +652,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -507, y: 137}
-  m_SizeDelta: {x: 256, y: 30}
+  m_SizeDelta: {x: 320, y: 78.009995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &306741989
 MonoBehaviour:
@@ -681,8 +681,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 12
-    m_Right: 12
+    m_Left: 20
+    m_Right: 20
     m_Top: 15
     m_Bottom: 15
   m_ChildAlignment: 4
@@ -1034,8 +1034,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1206,8 +1206,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1958,13 +1958,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 467c093b74f377b4eba0b77d32d8a4fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeechBubble: {fileID: 306741987}
-  Option1Bubble: {fileID: 2118589948}
-  Option2Bubble: {fileID: 116980573}
-  Characters:
+  speechBubble: {fileID: 306741987}
+  option1Bubble: {fileID: 2118589948}
+  option2Bubble: {fileID: 116980573}
+  characters:
   - {fileID: 1187029127}
   - {fileID: 1787377356}
-  IsExploration: 1
+  bubbleStyles: []
+  isExploration: 1
 --- !u!4 &1254755587
 Transform:
   m_ObjectHideFlags: 0
@@ -2559,8 +2560,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128, y: -15}
-  m_SizeDelta: {x: 196.78, y: 37.88}
+  m_AnchoredPosition: {x: 128, y: -39.004997}
+  m_SizeDelta: {x: 230.09, y: 48.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1877692581
 MonoBehaviour:
@@ -2623,8 +2624,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3443,7 +3444,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 387, y: 159.99501}
-  m_SizeDelta: {x: 256, y: 78.009995}
+  m_SizeDelta: {x: 320, y: 78.009995}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2118589950
 MonoBehaviour:
@@ -3529,8 +3530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 12
-    m_Right: 12
+    m_Left: 20
+    m_Right: 20
     m_Top: 15
     m_Bottom: 15
   m_ChildAlignment: 4
