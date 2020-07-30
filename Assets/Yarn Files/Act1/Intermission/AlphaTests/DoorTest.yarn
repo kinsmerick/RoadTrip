@@ -1,12 +1,14 @@
 ﻿title: DoorTest
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
 I shouldn't go inside.
 I should watch the car.
 ===
 title: RockSign
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
 "See the World Famous rocks of the Rock Museum"
 "Open 24 Hours! Seven days a week! 52 weeks a year!"
 "Ten years per decade!"
@@ -20,6 +22,7 @@ tags:
 title: RockPickup
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
 I am going to steal this one.
 ===
 title: DogMan
