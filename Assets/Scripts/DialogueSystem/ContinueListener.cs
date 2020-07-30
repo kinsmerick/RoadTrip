@@ -24,8 +24,8 @@ public class ContinueListener : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if user presses their primary mouse button
-        if (Input.GetMouseButtonDown(0))
+        //if user presses what would standardly be a left mouse or space key
+        if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump"))
         {
             _dialogueUI.MarkLineComplete();
         }

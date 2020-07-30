@@ -27,11 +27,12 @@ using Yarn.Unity;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject SpeechBubble;
-    public GameObject Option1Bubble;
-    public GameObject Option2Bubble;
-    public GameObject[] Characters;
-    public bool IsExploration = false;
+    public GameObject speechBubble;
+    public GameObject option1Bubble;
+    public GameObject option2Bubble;
+    public GameObject[] characters;
+    public BubbleStyle[] bubbleStyles;
+    public bool isExploration = false;
 
     private Image _bubbleImage;
     private CharacterManager _currentSpeaker;
@@ -40,7 +41,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
-        _bubbleImage = SpeechBubble.GetComponent<Image>();
+        _bubbleImage = speechBubble.GetComponent<Image>();
     }
     // Start is called before the first frame update
     void Start()
@@ -64,16 +65,15 @@ public class DialogueManager : MonoBehaviour
     [YarnCommand("SetSpeaker")]
     public void SetSpeaker(string speakerName)
     {
-        for(int i = 0; i < Characters.Length; i++)
+        for(int i = 0; i < characters.Length; i++)
         {
-            if (Characters[i].name.Equals(speakerName))
+            if (characters[i].name.Equals(speakerName, System.StringComparison.CurrentCultureIgnoreCase))
             {
-                _currentSpeaker = Characters[i].GetComponent<CharacterManager>();
-                Debug.Log(_currentSpeaker.name + " found.");
+                _currentSpeaker = characters[i].GetComponent<CharacterManager>();
                 break;
             }//end if
 
-            if(i == Characters.Length - 1)
+            if(i == characters.Length - 1)
             {
                 Debug.LogError(speakerName + " not found in DialogueManager's character list.");
             }//end else if
@@ -81,7 +81,7 @@ public class DialogueManager : MonoBehaviour
 
         _ChangeBubbleColor(_currentSpeaker.DialogueColor);
 
-        if (IsExploration)
+        if (isExploration)
         {
             _SetBubblePosition();
         }//end if
@@ -118,9 +118,14 @@ public class DialogueManager : MonoBehaviour
 
     private void _SetBubblePosition()
     {
-        Debug.Log("Finding in-game character position.");
-        SpeechBubble.transform.position = new Vector3(_currentSpeaker.transform.position.x, _currentSpeaker.transform.position.y + 2f,
+        speechBubble.transform.position = new Vector3(_currentSpeaker.transform.position.x, _currentSpeaker.transform.position.y + 2f,
                                                         _currentSpeaker.transform.position.z);
+
+        //if the speaker is Daniella, move the options bubbles in relation to her
+        if (_currentSpeaker.isDaniella)
+        {
+            _SetOptionsPosition();
+        }
 
     }//end _SetBubblePosition method
 
@@ -137,9 +142,9 @@ public class DialogueManager : MonoBehaviour
     {
         for(int i = 0; i < _currentSpeaker.BubblesPositions.Length; i++)
         {
-            if(posName == _currentSpeaker.BubblesPositions[i].posName)
+            if(string.Equals(posName, _currentSpeaker.BubblesPositions[i].posName, System.StringComparison.CurrentCultureIgnoreCase))
             {
-                SpeechBubble.transform.localPosition = _currentSpeaker.BubblesPositions[i].textPos;
+                speechBubble.transform.localPosition = _currentSpeaker.BubblesPositions[i].textPos;
 
                 //update the currently used bubble position name if this is a changed
                 //it may not always be, if the only thing being changed is the speaker, but the
@@ -155,8 +160,7 @@ public class DialogueManager : MonoBehaviour
                 {
                     _SetOptionsPosition(_currentSpeaker.BubblesPositions[i]);
                 }
-
-                Debug.Log(posName + " found.");
+                
                 break;
 
             }//end if
@@ -170,15 +174,28 @@ public class DialogueManager : MonoBehaviour
 
     }//end SetBubblePosition method
 
-    /* _SetOptionsPosition is called when the Yarn command SetBubblePosition is called and
+    /* _SetOptionsPosition with no parameters is called by _SetBubblePostion and moves the Options bubbles to screen locations in relation
+     * to Daniella's position. This method is only called if the current speaker is Daniella, as other characters will not have options
+     * attached to them, since we only play as Daniella.*/
+
+    private void _SetOptionsPosition()
+    {
+        option1Bubble.transform.position = new Vector3(_currentSpeaker.transform.position.x - 2f, _currentSpeaker.transform.position.y + 2f,
+                                                        _currentSpeaker.transform.position.z);
+        option2Bubble.transform.position = new Vector3(_currentSpeaker.transform.position.x + 2f, _currentSpeaker.transform.position.y + 2f,
+                                                    _currentSpeaker.transform.position.z);
+    }
+
+    /* _SetOptionsPosition with a SpeechBubblePosition parameter is called when the Yarn command SetBubblePosition is called and
      * takes in the SpeechBubblePosition that was given in the Yarn command call. It moves the Options bubbles to the
      * associated locations. This method is only called if the current speaker is Daniella, as other characters will not
      * have options attached to them, since we only play as Daniella.*/
 
     private void _SetOptionsPosition(SpeechBubblePosition bubble)
     {
-        Option1Bubble.transform.localPosition = bubble.option1Pos;
-        Option2Bubble.transform.localPosition = bubble.option2Pos;
+
+        option1Bubble.transform.localPosition = bubble.option1Pos;
+        option2Bubble.transform.localPosition = bubble.option2Pos;
 
     }//end _SetOptionsPosition method
 
@@ -189,18 +206,44 @@ public class DialogueManager : MonoBehaviour
 
     }//end _ChangeBubbleColor method
 
+    /*SetBubbleStyle creates the Yarn command <<SetBubbleStyle>> which takes in a string for the style of speech bubble
+     you want the next line to be printed in. It looks through an array of BubbleStyles that is set in the Editor and,
+     if any match the name of the style given in the command call, sets the sprite of the text bubble's Image
+     component to the bubble style sprite that is associated with that style name. This is only for the speech bubble,
+     as the option bubbles won't need change bubble style.*/
+
     [YarnCommand("SetBubbleStyle")]
     public void SetBubbleStyle(string styleName)
     {
-        //changes the sprite in _bubbleImage to one that matches styleName
-        //may make like a scriptable object or struct smthg that contains
-        //the style sprite and name
-    }
+        for(int i = 0; i < bubbleStyles.Length; i++)
+        {
+            if(string.Equals(styleName, bubbleStyles[i].styleName, System.StringComparison.CurrentCultureIgnoreCase))
+            {
+                _bubbleImage.sprite = bubbleStyles[i].bubbleStyle;
+                break;
 
-    [YarnCommand("ChangeShot")]
-    public void ChangeShot(string shotName)
-    {
-        //Sets previous shot's environment art to inactive and sets environment art named
-        //shotName to active.
-    }
+            }//end if name matches
+
+            if(i == bubbleStyles.Length - 1)
+            {
+                Debug.LogError(styleName + " does not exist in DialogueManager's array of bubble styles.");
+
+            }//end if no name found
+
+        }//end for loop
+    }//end SetBubbleStyle method
+
 }//end DialogueManager class
+
+/*This struct contains a user defined bubble's style name and sprite. An array of them is initialized in the
+ editor of the DialogueManager component.*/
+
+[System.Serializable]
+public struct BubbleStyle
+{
+    [Tooltip("The name of the bubble style that will be called through Yarn, i.e. \"Thought\".")]
+    public string styleName;
+    [Tooltip("The Sprite that is to be shown when this style is called.")]
+    public Sprite bubbleStyle;
+
+}//end BubbleStyle struct

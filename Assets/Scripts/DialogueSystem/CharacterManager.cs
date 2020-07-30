@@ -30,11 +30,46 @@ public class CharacterManager : MonoBehaviour
 
     private SpriteRenderer _spriteRenderer;
 
+    private void Awake()
+    {
+        _spriteRenderer = this.GetComponent<SpriteRenderer>();
+    }
+
+    //changes sprite being rendered by sprite renderer to sprite in Expressions[] that matches exp
     [YarnCommand("SetExpression")]
     public void SetExpression(string exp)
-    {
-        //changes sprite being rendered by sprite renderer to sprite in Expressions[] that matches exp
-    }
+    {        
+
+        //checks to make sure the user entered expressions into the character's Expressions array
+        if (Expressions.Length < 1)
+        {
+            Debug.LogError(gameObject.name + " doesn't have any initialized expressions in their array.");
+        }//end if
+
+        else
+        {
+            //goes through the character's Expressions array to find an expression with a name that matches the
+            //name passed to the method in the command call. If found, it sets the character's sprite renderer's
+            //sprite to the one associated with the found expression. If not, it throws an error.
+
+            for (int i = 0; i < Expressions.Length; i++)
+            {
+                if (string.Equals(Expressions[i].expressionName, exp, System.StringComparison.CurrentCultureIgnoreCase))
+                {
+                    _spriteRenderer.sprite = Expressions[i].expression;
+                    break;
+                }
+
+                if (i == (Expressions.Length - 1))
+                {
+                    Debug.LogError(exp + " expression not found in " + gameObject.name + "'s Expressions array.");
+                }
+
+            }//end for loop
+
+        }//end else insuring Expressions[] was initialized
+
+    }//end SetExpression method
 }
 
 /*The Expression struct stores an expression's name and related sprite.

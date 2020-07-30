@@ -1,0 +1,27 @@
+title: Start
+tags: 
+colorID: 0
+position: 509,288
+---
+<<ChangeShot DialogueManager Front>>
+<< SetSpeaker DialogueManager Daniella>> 
+<< SetBubblePosition DialogueManager OutCar>> 
+[[ Thank you again… For lending me your car and your arms for three days. |Node1]] 
+[[ I’m surprised you woke up on time. |Node2]]
+===
+title: Node1
+tags: 
+colorID: 0
+position: 629,68
+---
+<< SetSpeaker DialogueManager Mish>>
+<< SetExpression Mish Happy>>
+Is that all I am to you? Arms and a car?
+===
+title: Node2
+tags: 
+colorID: 0
+position: 849,68
+---
+Empty Text
+===
