@@ -26,6 +26,8 @@ public class CharacterController : MonoBehaviour
   private Animator daniAnimation;
   private SpriteRenderer daniSprite;
 
+  private bool lookingForward = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +50,7 @@ public class CharacterController : MonoBehaviour
       if(Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical")){
         daniAnimation.SetTrigger("walk");
       }
-      else if(Input.GetButtonUp("Horizontal") || Input.GetButtonUp("Vertical")){
+      else if( ( Input.GetButtonUp("Horizontal") || Input.GetButtonUp("Vertical") ) && !(Input.GetButton("Horizontal") || Input.GetButton("Vertical")) ){
         daniAnimation.SetTrigger("stopwalk");
       }
 
@@ -76,11 +78,19 @@ public class CharacterController : MonoBehaviour
         if (movement.y < -0.01f){
           //looking down
             examineBox.transform.position = down.transform.position;
+            if(!lookingForward){
+              lookingForward = true;
+              daniAnimation.SetBool("forward", lookingForward);
+            }
         }
         else
         {
           //looking up
             examineBox.transform.position = up.transform.position;
+            if(lookingForward){
+              lookingForward = false;
+              daniAnimation.SetBool("forward", lookingForward);
+            }
         }
       }
 

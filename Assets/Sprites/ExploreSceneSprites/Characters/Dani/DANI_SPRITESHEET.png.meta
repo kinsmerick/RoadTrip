@@ -1,0 +1,710 @@
+fileFormatVersion: 2
+guid: cec49b7e47e75485bb0f5cb11154b30a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3896984645063242575
+    second: DANI_SPRITESHEET_0
+  - first:
+      213: -8184380907661644283
+    second: DANI_SPRITESHEET_1
+  - first:
+      213: 8372231719925499919
+    second: DANI_SPRITESHEET_2
+  - first:
+      213: 8945366494858297893
+    second: DANI_SPRITESHEET_3
+  - first:
+      213: 9049080087803550246
+    second: DANI_SPRITESHEET_4
+  - first:
+      213: 4606324068777169633
+    second: DANI_SPRITESHEET_5
+  - first:
+      213: 6380875807384258574
+    second: DANI_SPRITESHEET_6
+  - first:
+      213: 2163317790429632978
+    second: DANI_SPRITESHEET_7
+  - first:
+      213: 4543699004711004041
+    second: DANI_SPRITESHEET_8
+  - first:
+      213: -8076536771777131930
+    second: DANI_SPRITESHEET_9
+  - first:
+      213: 3209095466436807840
+    second: DANI_SPRITESHEET_10
+  - first:
+      213: 4653900750788956884
+    second: DANI_SPRITESHEET_11
+  - first:
+      213: -2654616089814424828
+    second: DANI_SPRITESHEET_12
+  - first:
+      213: 6804818663481500221
+    second: DANI_SPRITESHEET_13
+  - first:
+      213: -1528012976851250464
+    second: DANI_SPRITESHEET_14
+  - first:
+      213: -3947276126746390154
+    second: DANI_SPRITESHEET_15
+  - first:
+      213: -7331198193195457747
+    second: DANI_SPRITESHEET_16
+  - first:
+      213: 9041937341178591375
+    second: DANI_SPRITESHEET_17
+  - first:
+      213: 6842456354208655646
+    second: DANI_SPRITESHEET_18
+  - first:
+      213: 7854042142443607142
+    second: DANI_SPRITESHEET_19
+  - first:
+      213: 8583890336912103995
+    second: DANI_SPRITESHEET_20
+  - first:
+      213: 2824964126435725056
+    second: DANI_SPRITESHEET_21
+  - first:
+      213: -7427254031218728365
+    second: DANI_SPRITESHEET_0
+  - first:
+      213: -2024315570285113989
+    second: DANI_SPRITESHEET_1
+  - first:
+      213: 3717774482613857319
+    second: DANI_SPRITESHEET_2
+  - first:
+      213: -1911576238291106210
+    second: DANI_SPRITESHEET_3
+  - first:
+      213: -1329573947045910164
+    second: DANI_SPRITESHEET_4
+  - first:
+      213: 8034085573333110267
+    second: DANI_SPRITESHEET_5
+  - first:
+      213: -8803905257558484378
+    second: DANI_SPRITESHEET_6
+  - first:
+      213: 231189093323085106
+    second: DANI_SPRITESHEET_7
+  - first:
+      213: -4016658074493307952
+    second: DANI_SPRITESHEET_8
+  - first:
+      213: 8888104785805186462
+    second: DANI_SPRITESHEET_9
+  - first:
+      213: 4502822412185272894
+    second: DANI_SPRITESHEET_10
+  - first:
+      213: 7388178947163046231
+    second: DANI_SPRITESHEET_11
+  - first:
+      213: -1758105632504347772
+    second: DANI_SPRITESHEET_12
+  - first:
+      213: -8164124300064495531
+    second: DANI_SPRITESHEET_13
+  - first:
+      213: -4280283980962924761
+    second: DANI_SPRITESHEET_14
+  - first:
+      213: -3621538340634132137
+    second: DANI_SPRITESHEET_15
+  - first:
+      213: 9082616108090534839
+    second: DANI_SPRITESHEET_16
+  - first:
+      213: -3525503301391726882
+    second: DANI_SPRITESHEET_17
+  - first:
+      213: 8132567152985073424
+    second: DANI_SPRITESHEET_18
+  - first:
+      213: -1333717182840481990
+    second: DANI_SPRITESHEET_19
+  - first:
+      213: -8808759151396066049
+    second: DANI_SPRITESHEET_20
+  - first:
+      213: 7075196786248573170
+    second: DANI_SPRITESHEET_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352ae945fc71de890800000000000000
+      internalID: -7427254031218728365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3072
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d0ddfc6bf28e3e0800000000000000
+      internalID: -2024315570285113989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 3072
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ce53fb130389330800000000000000
+      internalID: 3717774482613857319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 3072
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c49b0a87b875e0800000000000000
+      internalID: -1911576238291106210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_4
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 3066
+        width: 563
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69e6bf1a876c8de0800000000000000
+      internalID: -1329573947045910164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_5
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 3072
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd4c95334ece7f60800000000000000
+      internalID: 8034085573333110267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_6
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 3072
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a580730de32d580800000000000000
+      internalID: -8803905257558484378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23597776149553300800000000000000
+      internalID: 231189093323085106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_8
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2048
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d33f9d23c6f148c0800000000000000
+      internalID: -4016658074493307952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_9
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 2048
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e951e542634e85b70800000000000000
+      internalID: 8888104785805186462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_10
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 2048
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3288fc702d3d7e30800000000000000
+      internalID: 4502822412185272894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_11
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 2048
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7514ca2bb95188660800000000000000
+      internalID: 7388178947163046231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_12
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 2048
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48307f8fd34f997e0800000000000000
+      internalID: -1758105632504347772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_13
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 2048
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5586588543433be80800000000000000
+      internalID: -8164124300064495531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f8e0b5606994c0800000000000000
+      internalID: -4280283980962924761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_15
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1024
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7518b022116bdbdc0800000000000000
+      internalID: -3621538340634132137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_16
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1024
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb2af18a3feb0e70800000000000000
+      internalID: 9082616108090534839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_17
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1024
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed644122d65e21fc0800000000000000
+      internalID: -3525503301391726882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_18
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 1024
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0176fa9ccbeacd070800000000000000
+      internalID: 8132567152985073424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_19
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 1024
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3755fdd94fad7de0800000000000000
+      internalID: -1333717182840481990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_20
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 1024
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffce01df83001c580800000000000000
+      internalID: -8808759151396066049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DANI_SPRITESHEET_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 563.4286
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e458bdf5203260800000000000000
+      internalID: 7075196786248573170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

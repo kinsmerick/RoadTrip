@@ -84,12 +84,12 @@ public class NPCOrItem : MonoBehaviour
         FileStream file = File.Open(Application.persistentDataPath + "/items.sav", FileMode.Open);
         itemDataLoad = (ItemCollection)bf.Deserialize(file);
         file.Close();
-        //loads file, updates jump number
+        //loads file, updates item list
         itemDataToSave = itemDataLoad + itemThisIs;
 
       }
       else{
-        //fresh file, saves jump number
+        //fresh file, saves item list
         itemDataToSave = itemThisIs;
       }
 
