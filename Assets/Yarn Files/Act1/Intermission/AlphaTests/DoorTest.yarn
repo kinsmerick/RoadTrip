@@ -42,6 +42,7 @@ Take care!
 title: CarLeave
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
 Done here? Return to menu?
 [[Let me GO|RETURNTOMENU]]
 [[Let me STAY|STAY]]
@@ -54,5 +55,6 @@ tags:
 title: STAY
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
 Yeah let's look around some more.
 ===
