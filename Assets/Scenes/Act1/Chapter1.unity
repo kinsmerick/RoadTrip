@@ -253,8 +253,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 12
-    m_Right: 12
+    m_Left: 20
+    m_Right: 20
     m_Top: 15
     m_Bottom: 15
   m_ChildAlignment: 4
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yarnScripts:
-  - {fileID: 2480198943629176163, guid: 313df1a0b882bd94e9f78b3961eb5751, type: 3}
+  - {fileID: 2480198943629176163, guid: e102b478a5c1c1b4a8c5e94f62c5ee49, type: 3}
   textLanguage: 
   variableStorage: {fileID: 639145078}
   dialogueUI: {fileID: 639145079}
@@ -592,7 +592,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -469, y: 114.00499}
-  m_SizeDelta: {x: 320, y: 204.01}
+  m_SizeDelta: {x: 320, y: 127.01}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &737597467
 MonoBehaviour:
@@ -678,8 +678,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 12
-    m_Right: 12
+    m_Left: 20
+    m_Right: 20
     m_Top: 15
     m_Bottom: 15
   m_ChildAlignment: 4
@@ -794,8 +794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 12
-    m_Right: 12
+    m_Left: 20
+    m_Right: 20
     m_Top: 15
     m_Bottom: 15
   m_ChildAlignment: 4
@@ -1096,6 +1096,79 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2069493772}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1480790425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1480790426}
+  - component: {fileID: 1480790428}
+  - component: {fileID: 1480790427}
+  m_Layer: 5
+  m_Name: TMP SubMeshUI [OpenDyslexic-Regular SDF Material + LiberationSans SDF Atlas]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1480790426
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480790425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1871218509}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1480790427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480790425}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_material: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
+  m_isDefaultMaterial: 0
+  m_padding: 1.25
+  m_canvasRenderer: {fileID: 1480790428}
+  m_TextComponent: {fileID: 1871218510}
+  m_materialReferenceIndex: 1
+--- !u!222 &1480790428
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480790425}
+  m_CullTransparentMesh: 0
 --- !u!1 &1761436894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1205,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 160, y: -63.505}
-  m_SizeDelta: {x: 296, y: 97.01}
+  m_SizeDelta: {x: 280, y: 97.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761436896
 MonoBehaviour:
@@ -1304,7 +1377,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 160, y: -102.005}
-  m_SizeDelta: {x: 162.26, y: 174.01}
+  m_SizeDelta: {x: 260.64, y: 174.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783023151
 MonoBehaviour:
@@ -1325,13 +1398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I''m option 1.
-
-    Some more.
-
-    More.
-
-    More text.'
+  m_text: "I'm option 1.\nYeaaaaaaaaaaaaaaa\nIt's filler \nbaby"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbba0cc55a4ea934b97736cfd55d8585, type: 2}
   m_sharedMaterial: {fileID: 4149538952067840280, guid: fbba0cc55a4ea934b97736cfd55d8585,
@@ -1398,13 +1465,13 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 10, y: 10, z: 10, w: 10}
+  m_margin: {x: 14.503193, y: 10, z: 14.503193, w: 10}
   m_textInfo:
     textComponent: {fileID: 1783023151}
-    characterCount: 41
+    characterCount: 49
     spriteCount: 0
     spaceCount: 7
-    wordCount: 8
+    wordCount: 7
     linkCount: 0
     lineCount: 4
     pageCount: 1
@@ -1475,14 +1542,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1480790426}
   m_Father: {fileID: 737597466}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 160, y: -102.005}
-  m_SizeDelta: {x: 142.88, y: 174.01}
+  m_AnchoredPosition: {x: 160, y: -63.505}
+  m_SizeDelta: {x: 280, y: 97.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1871218510
 MonoBehaviour:
@@ -1503,13 +1571,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I''m option 2.
-
-    More.
-
-    More.
-
-    More text.'
+  m_text: "I\u2019m surprised you woke up on time."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbba0cc55a4ea934b97736cfd55d8585, type: 2}
   m_sharedMaterial: {fileID: 4149538952067840280, guid: fbba0cc55a4ea934b97736cfd55d8585,
@@ -1576,24 +1638,24 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -26.480373, y: 10, z: -32.180477, w: 10}
+  m_margin: {x: 27.5578, y: 10, z: 26.360928, w: 10}
   m_textInfo:
     textComponent: {fileID: 1871218510}
-    characterCount: 36
+    characterCount: 34
     spriteCount: 0
     spaceCount: 6
     wordCount: 7
     linkCount: 0
-    lineCount: 4
+    lineCount: 2
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1480790427}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
