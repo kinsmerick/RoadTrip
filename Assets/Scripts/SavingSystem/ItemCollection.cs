@@ -17,6 +17,8 @@ public class ItemCollection
   public bool lollipop = false;
   public bool robot = false;
   public bool plushFrog = false;
+  public bool happyOwl = false;
+  public bool sadOwl = false;
 
 
 
@@ -33,6 +35,8 @@ public class ItemCollection
     temp.lollipop = t.lollipop || t2.lollipop;
     temp.robot = t.robot || t2.robot;
     temp.plushFrog = t.plushFrog || t2.plushFrog;
+    temp.happyOwl = t.happyOwl || t2.happyOwl;
+    temp.sadOwl = t.sadOwl || t2.sadOwl;
 
     return temp;
   }
