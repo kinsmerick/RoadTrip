@@ -13,9 +13,7 @@ public class LoadInventoryItems : MonoBehaviour
 
   private ItemCollection itemCollection;
 
-  private GameObject tempSpawnedItem;
 
-  public GameObject dogPoster;
 
 
 
@@ -30,9 +28,7 @@ public class LoadInventoryItems : MonoBehaviour
         file.Close();
       }
 
-      if(itemCollection.dogPoster){
-        tempSpawnedItem = Instantiate(dogPoster);
-      }
+
 
     }
 
