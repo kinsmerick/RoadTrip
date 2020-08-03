@@ -108,12 +108,14 @@ MonoBehaviour:
     expression: {fileID: 21300000, guid: b4a930f3ed2c1b949af577d04f2bdfe2, type: 3}
   - expressionName: Happy
     expression: {fileID: 21300000, guid: 26f37ed7a918d6f4b9343ee2cd16579c, type: 3}
-  - expressionName: Embarassed
+  - expressionName: Embarrassed
     expression: {fileID: 21300000, guid: 6ea162996c4bdc34c92d369de7a48eb8, type: 3}
   - expressionName: Angry
     expression: {fileID: 21300000, guid: 26259605850fb4e47bcbfbb7b0064d0c, type: 3}
   - expressionName: AngryCry
     expression: {fileID: 21300000, guid: b5c0eac8cf99dc14299c6d54ac80732c, type: 3}
+  CharacterSounds:
+  - {fileID: 11400000, guid: 6057b2049a1928841b7b073071ceffea, type: 2}
   BubblesPositions:
   - posName: OutCar
     textPos: {x: -462, y: 137, z: 0}

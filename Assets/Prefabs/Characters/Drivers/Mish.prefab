@@ -106,7 +106,7 @@ MonoBehaviour:
     expression: {fileID: 21300000, guid: 95b73b34027c5df42ae196de031884e1, type: 3}
   - expressionName: Angry
     expression: {fileID: 21300000, guid: 5ef2958e2863c91418d9b61852bab36b, type: 3}
-  - expressionName: Embarrased
+  - expressionName: Embarrassed
     expression: {fileID: 21300000, guid: 7ad83d6f72e94c74e8f24a4a0cc131f9, type: 3}
   - expressionName: Happy
     expression: {fileID: 21300000, guid: c86b1528ad1ad7542b0585e33b4cf05c, type: 3}
