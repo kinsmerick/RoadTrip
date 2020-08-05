@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 528cec03a101c3c4ab6800eab531e3b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueColor: {r: 0.6603774, g: 0.3270737, b: 0.43725684, a: 1}
+  DialogueColor: {r: 0.9098039, g: 0.5921569, b: 0.7607843, a: 1}
   Expressions:
   - expressionName: Neutral
     expression: {fileID: 21300000, guid: 7000ad3f73567164c99e6a4377a5f4b9, type: 3}
@@ -121,4 +121,12 @@ MonoBehaviour:
     textPos: {x: -462, y: 137, z: 0}
     option1Pos: {x: -379, y: 137, z: 0}
     option2Pos: {x: -469, y: 114.005, z: 0}
+  - posName: Far
+    textPos: {x: -442, y: 199, z: 0}
+    option1Pos: {x: -480, y: 217, z: 0}
+    option2Pos: {x: -198, y: 138, z: 0}
+  - posName: Close
+    textPos: {x: -324, y: -26, z: 0}
+    option1Pos: {x: -411, y: -149, z: 0}
+    option2Pos: {x: -114, y: 177, z: 0}
   isDaniella: 1
