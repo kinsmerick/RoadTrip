@@ -1,0 +1,195 @@
+title: MAINBRANCH6
+tags: 
+colorID: 0
+position: -17,258
+---
+<<ChangeShot DialogueManager Front>>
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Neutral>>
+<<SetExpression Daniella Neutral>>
+Wow… Hell is real?
+
+<<SetSpeaker DialogueManager Daniella>>
+What are you talking about?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Happy>>
+Did you not see that sign back there? HELL IS REAL
+
+<<SetSpeaker DialogueManager Daniella>>
+[[Oh my god, hell is real?|BRANCH6A]]
+[[Isn’t it an insane thought that…|BRANCH6B]]
+===
+title: BRANCH6A
+tags: 
+colorID: 0
+position: 245,82
+---
+<<set $forgiveness to $forgiveness + 0>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>> 
+Oh my god, hell is real? 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Happy>>
+That’s what I’m saying!
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+Does this mean we’re in the middle of nowhere?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+We are officially entering the Midwest, yes.
+
+[[MAINBRANCH7]]
+===
+title: BRANCH6B
+tags: 
+colorID: 0
+position: 250,373
+---
+<<set $forgiveness to $forgiveness + 0>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+Isn’t it an insane thought that...
+there are two powerful beings, 
+one above the earth and one below,
+just waiting for us to die so they can choose favorites?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Like team captains in dodgeball.
+
+<<SetSpeaker DialogueManager Daniella>>
+Are you insinuating that someone is bound to be the last person on earth? 
+Because no one wants them?
+
+<<SetSpeaker DialogueManager Mish>>
+Someone is BOUND to be last.
+Like in dodgeball.
+
+<<SetSpeaker DialogueManager Daniella>>
+Why are you going back to dodgeball?
+
+<<SetSpeaker DialogueManager Mish>>
+I don’t know.
+We’re near where I grew up and we used to play a lot of dodgeball.
+
+<<SetSpeaker DialogueManager Daniella>>
+Were you picked last?
+
+<<SetSpeaker DialogueManager Mish>>
+...The Midwest was never kind to baby Mish. 
+Baby Mish had too many existential crises when they saw hell signs.
+
+[[MAINBRANCH7]]
+===
+title: MAINBRANCH7
+tags: 
+colorID: 0
+position: 516,268
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+Ahh, the Midwest. 
+I wonder how many more signs we’ll see about- 
+Oh, there’s another one. “Gays are going to hell.” 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Wow that one was handmade. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+If my friends and I were truly hell bound, 
+I think we’d have a pretty good time. 
+I think Satan would look at me and say, 
+“Who is she? I want to know her.”
+Do you think Satan is gay? 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Happy>>
+I think Satan is gay and would throw a party for all of us. I think I’d be friends with him. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+YES that’d be so sick. Like that one back in college with Bri and her friends.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Oh god, don’t remind me. I’m still nauseous from that night.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+[[Remember when you dove into the pool fully clothed?|BRANCH7A]]
+[[That night was such a disaster.|BRANCH7B]]
+===
+title: BRANCH7A
+tags: 
+colorID: 0
+position: 773,88
+---
+<<set $forgiveness to $forgiveness + 1>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+Remember when you dove into the pool fully clothed?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+And I made you drive me home. Yes I remember that. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Come on, it wasn’t that bad. At least you sat on a towel so your car wouldn’t get wet. I tucked you into bed.
+
+[[MAINBRANCH8]]
+===
+title: BRANCH7B
+tags: 
+colorID: 0
+position: 777,390
+---
+$forgiveness - 1
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+That night was such a disaster. 
+Bri had to stop you from stealing her dog 
+and then you jumped into a pool. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Okay, I don’t think it was that dramatic, and at least I knew how to swim. You wouldn’t even go in!
+
+<<SetSpeaker DialogueManager Daniella>>
+It was like 60 degrees at night! Just admit that it was a terrible night.
+
+<<SetSpeaker DialogueManager Mish>>
+I will not.
+
+[[MAINBRANCH8]]
+===
+title: MAINBRANCH8
+tags: 
+colorID: 0
+position: 1070,244
+---
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+I was lucky that you volunteered to be the D.D., 
+otherwise I know we wouldn’t have left until 2am. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+Yeah, I’m pretty useful.
+
+<<SetSpeaker DialogueManager Mish>>
+Thanks for going out then. 
+I know you didn’t like being social with me all the time, 
+but I really appreciated it. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+No problem.
+===

@@ -447,6 +447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
+      propertyPath: yarnScripts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
       propertyPath: variableStorage
       value: 
       objectReference: {fileID: 631591897}
@@ -509,6 +514,17 @@ PrefabInstance:
         type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: yarnScripts.Array.data[0]
+      value: 
+      objectReference: {fileID: 2480198943629176163, guid: 6f4d3cfef27411c4881f657be63958d6,
+        type: 3}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: startNode
+      value: MAINBRANCH12
       objectReference: {fileID: 0}
     - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}

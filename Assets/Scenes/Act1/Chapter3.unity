@@ -212,8 +212,13 @@ PrefabInstance:
         type: 3}
       propertyPath: yarnScripts.Array.data[0]
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 313df1a0b882bd94e9f78b3961eb5751,
+      objectReference: {fileID: 2480198943629176163, guid: bccb0325b9baaf14f8301c0491ec6c4c,
         type: 3}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: startNode
+      value: MAINBRANCH3
+      objectReference: {fileID: 0}
     - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: optionButtons.Array.size
@@ -874,7 +879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caf69e8fbc5327c40bd3636839ddc350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundArray: []
+  soundArray:
+  - {fileID: 11400000, guid: 435c92d81e1abea4f87f661494340207, type: 2}
 --- !u!4 &1586239402
 Transform:
   m_ObjectHideFlags: 0

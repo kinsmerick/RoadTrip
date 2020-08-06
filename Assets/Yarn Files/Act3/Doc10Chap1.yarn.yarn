@@ -1,0 +1,227 @@
+title: MAINBRANCH14
+tags: 
+colorID: 0
+position: -233,294
+---
+<<ChangeShot DialogueManager Front>>
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Tired>>
+<<SetExpression Daniella Tired>>
+Your exit isn’t for another 100 miles, so we’re good. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Thanks.
+
+<<SetSpeaker DialogueManager Mish>>
+Yup, no problem.
+
+<<PlaySound AudioManager Rain_Heavy>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+Wow, it’s coming down really hard.
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah. It’ll be fine. Rain is pretty calming. I could sleep in this.
+
+<<SetSpeaker DialogueManager Daniella>>
+[[I’m scared. I can’t see anything, Mish.|BRANCH14A]]
+[[Yeah haha... Super relaxing when you’re not the one driving.|BRANCH14B]]
+===
+title: BRANCH14A
+tags: 
+colorID: 0
+position: 21,133
+---
+<<set $forgiveness to $forgiveness + 1>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+I’m scared. I can’t see anything, Mish.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Nervous>>
+Yeah, wow do you need me to take over?
+
+<<SetSpeaker DialogueManager Daniella>>
+I can’t even see the side of the road. 
+How am I supposed to pull over? 
+Oh my god a big 18 wheeler is coming behind me. What do I do?
+
+<<SetSpeaker DialogueManager Mish>>
+Hey! You’re okay. 
+You’re going to be fine. 
+Go as fast as you’re comfortable. They’ll pass you.
+
+[[MAINBRANCH15]]
+===
+title: BRANCH14B
+tags: 
+colorID: 0
+position: 22,388
+---
+<<set $forgiveness to $forgiveness - 1>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+Yeah haha... Super relaxing when you’re not the one driving.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Angry>>
+I’m sorry. I didn’t know it was going to rain this hard, but it’s just rain, Dani. 
+
+<<SetSpeaker DialogueManager Daniella>>
+It’s not just rain, Mish! It’s everyone on the road driving faster than me, and your car’s wipers aren’t doing anything. 
+
+<<SetSpeaker DialogueManager Mish>>
+ No car wipers could make this any better. Just go slow! Stop being so nervous! It’ll just make things worse.
+
+[[MAINBRANCH15]]
+===
+title: MAINBRANCH15
+tags: 
+colorID: 0
+position: 313,282
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+I can’t see! Mish, I can’t do this. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Nervous>>
+Breathe! Dani, please just listen to my voice. Just breathe. 
+
+<<SetSpeaker DialogueManager Daniella>>
+*breathes in* *breathes out* 
+...
+
+<<SetSpeaker DialogueManager Mish>>
+Breathe deeper.
+
+
+<<SetSpeaker DialogueManager Daniella>>
+[[I’m BREATHING, MISH.|BRANCH15A]]
+[[STOP. I really hate when you do this.|BRANCH15B]]
+===
+title: BRANCH15A
+tags: 
+colorID: 0
+position: 584,130
+---
+<<set $forgiveness to $forgiveness + 0>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+I’m BREATHING, MISH. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Nervous>>
+I know, but just breathe deeper.
+I want to hear the biggest, deepest breath in the world.
+
+<<SetSpeaker DialogueManager Daniella>>
+Okay… *breathes in* - - - - - - - - - - *breathes out*
+
+[[MAINBRANCH16]]
+===
+title: BRANCH15B
+tags: 
+colorID: 0
+position: 597,422
+---
+<<set $forgiveness to $forgiveness - 1>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Angry>>
+STOP. I really hate when you do this. 
+I’m breathing just let me focus on BREATHING. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Nervous>>
+Okay! I’m sorry! 
+I know you know how to breathe. I’m just trying to help.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+No, I know! I just need to focus.
+
+[[MAINBRANCH16]]
+===
+title: MAINBRANCH16
+tags: 
+colorID: 0
+position: 870,287
+---
+<<ChangeShot DialogueManager Front>>
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Nervous>>
+Now, just keep driving straight. 
+You’re doing fine. 
+If there’s a turn, you’ll see it. I’m on the lookout, too.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+I’m fine. We’re okay. 
+
+<<SetSpeaker DialogueManager Mish>>
+You’re a pro driver. You’ve got this. If gays can’t drive, you’re the exception. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+Yeah… Yeah! I’m the exception!
+
+<<PlaySound AudioManager Car_Swerve>>
+
+<<SetSpeaker DialogueManager Mish>>
+Maybe we should exit!
+
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+Just point the way. 
+
+<<SetSpeaker DialogueManager Mish>>
+Okay, exit here on the left. Put your emergency lights on and go slow. 
+
+<<SetSpeaker DialogueManager Daniella>>
+I know! I’ve got this.
+
+<<SetExpression Daniella Neutral>>
+I’m going to pull into this neighborhood. 
+
+<<StopSound AudioManager Rain_Heavy>>
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Sounds good. Wait, did you see that sign near the entrance?
+
+<<SetSpeaker DialogueManager Daniella>>
+No, what did it say?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Happy>>
+Yard Sard. And then an arrow pointing forward.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+I LOVE YARD SARDS. Let’s follow it. 
+
+<<SetSpeaker DialogueManager Mish>>
+Sounds good to me!
+
+<<SetSpeaker DialogueManager Daniella>>
+YALE SALE.
+
+<<SetSpeaker DialogueManager Mish>>
+YADE SALE! We’re close. I can feel it. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Hey, there it is with the garage open! 
+And it’s stopped raining almost completely. 
+If that’s not a sign to go in, I don’t know what is.
+
+<<SetSpeaker DialogueManager Mish>>
+Let’s go check it out!
+Let’s go check it out!
+===

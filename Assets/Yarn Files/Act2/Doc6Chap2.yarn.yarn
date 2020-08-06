@@ -1,0 +1,213 @@
+title: MAINBRANCH9
+tags: 
+colorID: 0
+position: 1,268
+---
+<<ChangeShot DialogueManager Front>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+<<SetExpression Mish Neutral>>
+You know I don’t have a problem being social right? 
+As long as I’m with good people.
+
+<<SetSpeaker DialogueManager Mish>>
+What are you talking about?
+
+<<SetSpeaker DialogueManager Daniella>>
+Earlier, you said I didn’t like being social, but I do. 
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah, of course. 
+I didn’t mean it like you hated people, 
+but I know in Old York, you stopped wanting to go out. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Angry>>
+I stopped wanting to go out because I didn’t feel like I was with good people. 
+
+<<SetSpeaker DialogueManager Mish>>
+Hey, I’m not saying that- but wait, why did you think my coworkers weren’t good people?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>> 
+[[Did you forget that your coworkers were very rude to me when I tried going out?|BRANCH9A]]
+[[You don’t remember when they made me so upset I had to leave?|BRANCH9B]]
+===
+title: BRANCH9A
+tags: 
+colorID: 0
+position: 268,78
+---
+<<set $forgiveness to $forgiveness - 1>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Angry>>
+Did you forget that your coworkers were very rude to me when I tried going out?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+That’s not fair to them. They joke around. They didn’t mean to offend you. You’re the one who walked off.
+
+<<SetSpeaker DialogueManager Daniella>>
+I’m sorry that I believe I deserve to be in a space where others respect me. And I’m sorry I felt like I didn’t have to sit there while they made fun of me because I was being quiet.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Angry>>
+You know, you could’ve just told me that, and I would’ve defended you. But it’s like you developed this problem with telling me things. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Oh, so what happened was my fault for not staying and telling you I was offended? Me walking off wasn’t a clue?
+
+[[MAINBRANCH10]]
+===
+title: BRANCH9B
+tags: 
+colorID: 0
+position: 265,392
+---
+<<set $forgiveness to $forgiveness + 1>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Sad>>
+You don’t remember when they made me so upset I had to leave?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+I know they upset you, but they didn’t mean it. You know that they can be a little bit much.
+
+<<SetSpeaker DialogueManager Daniella>>
+You still could have stood up for me. 
+You just sat there like I was nothing! 
+I walked off and you did nothing.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Angry>>
+You can’t just be sad over that when you didn’t tell me anything. 
+You just walked off when you could’ve talked about it like an adult. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Angry>>
+You know it’s hard for me to open up to strangers! 
+I thought you knew me well enough to understand and read my body language. 
+I was UNCOMFORTABLE!
+
+[[MAINBRANCH10]]
+===
+title: MAINBRANCH10
+tags: 
+colorID: 0
+position: 544,254
+---
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Angry>>
+It was hard to read you Dani! 
+It was always hard to read you… 
+You stopped talking to me, you stopped telling me things.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Angry>>
+Oh yeah? Like what.
+
+<<SetSpeaker DialogueManager Mish>>
+Like your dad. 
+Why didn’t you tell me about your dad?
+
+<<SetSpeaker DialogueManager Daniella>>
+Don’t bring my father into this.
+Maybe I would’ve opened up to you more if you came home
+instead of leaving all the time to go hang out with your friends.
+
+<<SetSpeaker DialogueManager Mish>>
+Wow, Dani. You know, I realize that maybe I should’ve been home more, 
+but that doesn’t mean I deserved the complete shutout you gave me. 
+
+<<SetSpeaker DialogueManager Daniella>>
+[[Fuck you, Mish.|BRANCH10A]]
+[[God, you are the worst person I’ve ever met.|BRANCH10B]]
+===
+title: BRANCH10A
+tags: 
+colorID: 0
+position: 805,82
+---
+<<set $forgiveness to $forgiveness + 0>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella AngryCry>>
+Fuck you, Mish. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Angry>>
+Nice.
+
+[[MAINBRANCH11]]
+===
+title: BRANCH10B
+tags: 
+colorID: 0
+position: 808,406
+---
+<<set $forgiveness to $forgiveness - 1>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella AngryCry>>
+God, you are the worst person I’ve ever met.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Angry>>
+Okay.
+
+[[MAINBRANCH11]]
+===
+title: MAINBRANCH11
+tags: 
+colorID: 0
+position: 1099,253
+---
+<<PlaySound AudioManager Engine_Dying>>
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Oh please no! 
+No no no no no.
+
+<<SetExpression Mish Angry>>
+Holy hell. God dammit.
+
+<<SetExpression Mish Nervous>>
+Ah beans… 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Angry>>
+What?
+
+<<SetSpeaker DialogueManager Mish>>
+I don’t know. I have to go look. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Nervous>>
+Well what am I supposed to do? 
+
+<<SetSpeaker DialogueManager Mish>>
+I think there’s a gas station close by. 
+Can you go see if you can get a canister of gas?
+
+<<SetSpeaker DialogueManager Daniella>>
+YOU WANT ME TO WALK BY MYSELF?
+
+<<SetSpeaker DialogueManager Mish>>
+You have the moon. It’s fine.
+
+<<SetSpeaker DialogueManager Daniella>>
+God. Seriously, Mish?
+
+<<SetSpeaker DialogueManager Mish>>
+I’m the one with a car to fix! 
+Look, the moon is bright enough! Just go... 
+please. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Fine. Whatever. 
+
+<<SetBubbleStyle DialogueManager Thought>>
+This is fine. The moon will guide me. 
+She is my girlfriend, my protector..
+===

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using TMPro;
 
 /* OptionTextDisplayHandler implements three interfaces, one for pointer enter and then select and deselect.
@@ -18,12 +19,14 @@ public class OptionsHandler : MonoBehaviour, IPointerEnterHandler, ISelectHandle
     private TextMeshProUGUI _tmp;
     private Color _standardTextColor;
     private EventSystem _eventSystem;
+    private Button _button;
 
     // Start is called before the first frame update
     //Gets the option's TMP component and stores the set starting text color for it.
     void Start()
     {
         _tmp = this.GetComponentInChildren<TextMeshProUGUI>();
+        _button = this.GetComponent<Button>();
 
         if(_tmp != null)
         {
@@ -35,16 +38,16 @@ public class OptionsHandler : MonoBehaviour, IPointerEnterHandler, ISelectHandle
         }
     }
 
-    //Each time the options bubbles are enabled, it grabs the current event system. It also checks to see that,
-    //if an option is selected upon enable, that the text is adjusted to the correct color.
+    //Each time the options bubbles are enabled, it grabs the current event system. It also makes sure that
+    //the scene does not start with a button selected, so that, if players are spamming continue,
+    //they won't accidentally select a choice before they see it.
 
     private void OnEnable()
     {
         _eventSystem = EventSystem.current;
         if (_eventSystem.currentSelectedGameObject == this.gameObject)
         {
-            _tmp.color = hoverTextColor;
-            Debug.Log("on enable this was current selected gameobject");
+            _eventSystem.SetSelectedGameObject(null);
         }
     }
 

@@ -1,0 +1,189 @@
+title: MAINBRANCH17
+tags: 
+colorID: 0
+position: 33,261
+---
+<<ChangeShot DialogueManager Front>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+<<SetExpression Mish Neutral>>
+Everything is becoming so familiar now!
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah, we’re only a little bit out.
+
+<<SetSpeaker DialogueManager Daniella>>
+Wow… God, I’m really going home.
+
+<<SetSpeaker DialogueManager Mish>>
+What’s next for you?
+
+<<SetSpeaker DialogueManager Daniella>>
+Like, when I get home?
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah.
+
+<<SetSpeaker DialogueManager Daniella>>
+[[I’m going to hug my mom for 5 hours|BRANCH17A]]
+[[I really didn’t put much thought into it.|BRANCH17B]]
+===
+title: BRANCH17A
+tags: 
+colorID: 0
+position: 294,149
+---
+<<set $forgiveness to $forgiveness + 0>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+I’m going to hug my mom for 5 hours, 
+then probably take a shower and sleep for days. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Sure, but what about after that?
+
+<<SetSpeaker DialogueManager Daniella>>
+I don’t really know. I didn’t really think too far ahead. I just couldn’t be alone anymore.
+
+[[MAINBRANCH18]]
+===
+title: BRANCH17B
+tags: 
+colorID: 0
+position: 285,404
+---
+<<set $forgiveness to $forgiveness + 0>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+I really didn’t put much thought into it.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+So, do you think leaving was an impulse?
+
+<<SetSpeaker DialogueManager Daniella>>
+I… No. It was very intentional. I really hated being there. I hated being so close to… I just needed to be with people I loved.
+
+[[MAINBRANCH18]]
+===
+title: MAINBRANCH18
+tags: 
+colorID: 0
+position: 548,279
+---
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Sad>>
+Yeah.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Sad>> 
+It’s a reset. I really need a do-over of my life. Maybe pursue a passion?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Like art? You’re really good at that.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+Haha thanks… Maybe. It’ll be nice to be creative for myself and not for design projects and clients. Or, maybe I can just sit in my room for the rest of my life. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+As long as you’re happy.
+
+<<SetSpeaker DialogueManager Daniella>>
+[[I think I’ll be better at home.|BRANCH18A]]
+[[I don’t really know if I’m at a place to be happy yet, but one day.|BRANCH18B]]
+===
+title: BRANCH18A
+tags: 
+colorID: 0
+position: 792,125
+---
+<<set $forgiveness to $forgiveness + 0>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+I think that I’ll be better at home.
+At least better than I was.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+I don’t know if you care to hear this, but I’m proud of you for doing this. It’s a big change.
+
+<<SetSpeaker DialogueManager Daniella>>
+I like to think if I could move across the country for someone else, I can also do it for myself. 
+
+[[MAINBRANCH19]]
+===
+title: BRANCH18B
+tags: 
+colorID: 0
+position: 786,399
+---
+<<set $forgiveness to $forgiveness + 1>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+I don’t really know if I’m at a place to be happy yet, but one day. 
+It’s been a long recovery process.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Sad>>
+What are you referring to?
+
+<<SetSpeaker DialogueManager Daniella>>
+I don’t know… Everything? 
+It took awhile for me to actually get back to a normal life,
+ but when I realized that wasn’t happening as smoothly as I wanted, I started packing.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Yeah, I’m sorry. 
+
+<<SetSpeaker DialogueManager Daniella>>
+There’s no need to be sorry. It was mutual, right?
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah... 
+
+[[MAINBRANCH19]]
+===
+title: MAINBRANCH19
+tags: 
+colorID: 0
+position: 1039,279
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+It’s getting pretty late. Were you planning on starting the trip back tonight?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Embarrassed>>
+Well, I was, yeah, because I didn’t want to impose on your family. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Family, shmamily. You’re not going to start your drive back at midnight. No, you’re going to stay with us for the night and head out early in the morning.  
+
+<<SetSpeaker DialogueManager Mish>>
+Are you sure?
+
+<<SetSpeaker DialogueManager Daniella>>
+Oh my god, you’re so annoying, 
+YES. It’ll be fine. 
+My mom will welcome you with no questions. I’ll text her.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Thanks, Daniella. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Of course. Now, come on. 
+Let’s focus up and finish this stretch of road. 
+I can smell my mom’s arroz con gandules from here.
+===
