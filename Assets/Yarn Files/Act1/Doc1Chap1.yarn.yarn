@@ -1,0 +1,225 @@
+title: INTRO
+tags: 
+colorID: 0
+position: -340,262
+---
+<<set $forgiveness to 0>>
+<<ChangeShot DialogueManager Front>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+<<SetExpression Mish Neutral>>
+[[Thanks for getting up so early.|TUTINTROA]]
+[[I’m excited to get on the road.|TUTINTROB]]
+===
+title: TUTINTROA
+tags: 
+colorID: 0
+position: -79,85
+---
+<<SetBubbleStyle DialogueManager Standard>>
+Thanks for getting up so early. I really wanted to get a good head start.
+[[MAINBRANCH1]]
+===
+title: TUTINTROB
+tags: 
+colorID: 0
+position: -77,406
+---
+<<SetBubbleStyle DialogueManager Standard>>
+ I’m excited to get on the road. Thank you for coming with me.
+[[MAINBRANCH1]]
+===
+title: MAINBRANCH1
+tags: 
+colorID: 0
+position: 196,257
+---
+<<SetSpeaker DialogueManager Mish>>
+No problem.
+
+<<SetSpeaker DialogueManager Daniella>>
+The roads are pretty empty right now.
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah.
+
+<<SetSpeaker DialogueManager Daniella>>
+[[Thank you again…|BRANCH1A]] 
+[[I’m surprised you woke up on time.|BRANCH1B]]
+===
+title: BRANCH1A
+tags: 
+colorID: 0
+position: 462,92
+---
+<<set $forgiveness to $forgiveness + 0>>
+Thank you again…For lending me your car and your arms for three days.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Happy>>
+Is that all I am to you? 
+Arms and a car?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+You know what I mean! 
+You didn’t have to help me.
+
+<<SetSpeaker DialogueManager Mish>>
+And what, 
+have you spend thousands to ship everything home? 
+You hate flying. It’s really no problem.
+
+[[MAINBRANCH2]]
+===
+title: BRANCH1B
+tags: 
+colorID: 0
+position: 465,415
+---
+<<set $forgiveness to $forgiveness - 1>>
+I’m surprised you woke up on time. 
+
+<<SetSpeaker DialogueManager Mish>>
+What’s that supposed to mean?
+
+<<SetSpeaker DialogueManager Daniella>>
+I always had to drag you out of bed in the morning for work!
+
+<<SetSpeaker DialogueManager Mish>>
+Hah, I think you’re exaggerating a bit there, 
+but I guess I’ve turned into a morning person since then.
+
+[[MAINBRANCH2]]
+===
+title: MAINBRANCH2
+tags: 
+colorID: 0
+position: 730,260
+---
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+When you called to ask, 
+I was really shocked to hear that you were moving.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+You couldn’t have expected me to stay in Old York forever, could you? 
+There’s nothing here for me.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Embarrassed>>
+Yeah. 
+I guess I was the one who dragged you here. 
+Well, I’m glad you’re making plans!
+
+<<SetSpeaker DialogueManager Daniella>>
+If you consider me moving back in with my parents “plans,”
+ then, yeah. I have hella plans. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Happy>>
+What I wouldn’t give to hang out with your parents 24/7.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
+Yeah, okay, sure.
+
+<<SetSpeaker DialogueManager Mish>>
+Honest!
+
+<<SetExpression Mish Neutral>>
+Did you tell them about…
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+[[Us? Yeah. It’s chill.|BRANCH2A]]
+[[Umm|BRANCH2B]]
+===
+title: BRANCH2A
+tags: 
+colorID: 0
+position: 990,84
+---
+<<set $forgiveness to $forgiveness + 1>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+Us? Yeah. It’s chill.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Oh! Cool.
+
+<<SetSpeaker DialogueManager Daniella>>
+We broke up 7 months ago, 
+you think I wouldn’t tell my parents?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Embarrassed>>
+I mean, yeah, but I am helping you move. 
+Do they still like me? 
+Do you think they’ll beat me up when they see me again?
+
+<<SetSpeaker DialogueManager Daniella>>
+Nah. If you didn’t help me… 
+then, maybe they would kick your ass. 
+They know I don’t have a car. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+Speaking of cars, 
+this one needs a quick fill before we get too far out of town. 
+Do you mind if we pull over?
+
+<<SetSpeaker DialogueManager Daniella>>
+Yeah no, 
+let’s keep going until we’re stranded on the side of the road. 
+Sorry, yeah we can.
+===
+title: BRANCH2B
+tags: 
+colorID: 0
+position: 988,423
+---
+<<set $forgiveness to $forgiveness - 1>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Neutral>>
+Umm
+About what? 
+The end to our little shindig? 
+Yeah just a little.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
+If you call 3 years a shindig then yeah, sure. 
+
+<<SetSpeaker DialogueManager Daniella>>
+You know what I mean.
+
+<<SetSpeaker DialogueManager Mish>>
+I went over to your house... 
+Met your parents... 
+Your mom made me special menudo!
+<<SetExpression Mish Angry>> 
+She called it Mish’s Menudo!
+That’s a “shindig” to you?
+
+<<SetSpeaker DialogueManager Daniella>>
+Mish, it’s a joke!
+<<SetExpression Mish Neutral>> 
+Yes, I told them about us breaking up. 
+I told them you were helping me drive back home, too. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Embarrassed>>
+Right, sorry, I know!  
+Uhh, 
+so we need to fill up before we get too far. 
+Can we make a stop?
+
+<<SetSpeaker DialogueManager Daniella>>
+Yeah, I don’t care.
+===

@@ -1,0 +1,75 @@
+fileFormatVersion: 2
+guid: bccb0325b9baaf14f8301c0491ec6c4c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Doc3Chap3.yarn-MAINBRANCH3-0
+  - Doc3Chap3.yarn-MAINBRANCH3-1
+  - Doc3Chap3.yarn-MAINBRANCH3-2
+  - Doc3Chap3.yarn-MAINBRANCH3-3
+  - Doc3Chap3.yarn-MAINBRANCH3-4
+  - Doc3Chap3.yarn-MAINBRANCH3-5
+  - Doc3Chap3.yarn-MAINBRANCH3-6
+  - Doc3Chap3.yarn-MAINBRANCH3-7
+  - Doc3Chap3.yarn-MAINBRANCH3-8
+  - Doc3Chap3.yarn-MAINBRANCH3-9
+  - Doc3Chap3.yarn-MAINBRANCH3-10
+  - Doc3Chap3.yarn-MAINBRANCH3-11
+  - Doc3Chap3.yarn-MAINBRANCH3-12
+  - Doc3Chap3.yarn-MAINBRANCH3-13
+  - Doc3Chap3.yarn-MAINBRANCH3-14
+  - Doc3Chap3.yarn-MAINBRANCH3-15
+  - Doc3Chap3.yarn-MAINBRANCH3-16
+  - Doc3Chap3.yarn-BRANCH3A-17
+  - Doc3Chap3.yarn-BRANCH3A-18
+  - Doc3Chap3.yarn-BRANCH3A-19
+  - Doc3Chap3.yarn-BRANCH3A-20
+  - Doc3Chap3.yarn-BRANCH3B-21
+  - Doc3Chap3.yarn-BRANCH3B-22
+  - Doc3Chap3.yarn-MAINBRANCH4-23
+  - Doc3Chap3.yarn-MAINBRANCH4-24
+  - Doc3Chap3.yarn-MAINBRANCH4-25
+  - Doc3Chap3.yarn-MAINBRANCH4-26
+  - Doc3Chap3.yarn-MAINBRANCH4-27
+  - Doc3Chap3.yarn-MAINBRANCH4-28
+  - Doc3Chap3.yarn-MAINBRANCH4-29
+  - Doc3Chap3.yarn-MAINBRANCH4-30
+  - Doc3Chap3.yarn-MAINBRANCH4-31
+  - Doc3Chap3.yarn-MAINBRANCH4-32
+  - Doc3Chap3.yarn-MAINBRANCH4-33
+  - Doc3Chap3.yarn-MAINBRANCH4-34
+  - Doc3Chap3.yarn-MAINBRANCH4-35
+  - Doc3Chap3.yarn-MAINBRANCH4-36
+  - Doc3Chap3.yarn-MAINBRANCH4-37
+  - Doc3Chap3.yarn-MAINBRANCH4-38
+  - Doc3Chap3.yarn-MAINBRANCH4-39
+  - Doc3Chap3.yarn-MAINBRANCH4-40
+  - Doc3Chap3.yarn-BRANCH4A-41
+  - Doc3Chap3.yarn-BRANCH4A-42
+  - Doc3Chap3.yarn-BRANCH4A-43
+  - Doc3Chap3.yarn-BRANCH4A-44
+  - Doc3Chap3.yarn-BRANCH4A-45
+  - Doc3Chap3.yarn-BRANCH4A-46
+  - Doc3Chap3.yarn-BRANCH4B-47
+  - Doc3Chap3.yarn-BRANCH4B-48
+  - Doc3Chap3.yarn-BRANCH4B-49
+  - Doc3Chap3.yarn-BRANCH4B-50
+  - Doc3Chap3.yarn-BRANCH4B-51
+  - Doc3Chap3.yarn-BRANCH4B-52
+  - Doc3Chap3.yarn-BRANCH4B-53
+  - Doc3Chap3.yarn-MAINBRANCH5-54
+  - Doc3Chap3.yarn-MAINBRANCH5-55
+  - Doc3Chap3.yarn-MAINBRANCH5-56
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: bccb0325b9baaf14f8301c0491ec6c4c,
+    type: 3}
+  localizations: []

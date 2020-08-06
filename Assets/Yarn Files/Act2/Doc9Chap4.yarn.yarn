@@ -1,0 +1,84 @@
+title: NIGHT2
+tags: 
+colorID: 0
+position: 87,227
+---
+<<if $forgiveness >= 0>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubblePosition DialogueManager Night2>>
+<<SetBubbleStyle DialogueManager Standard>>
+I’m sorry.
+
+<<SetSpeaker DialogueManager Mish>>
+For what?
+
+<<SetSpeaker DialogueManager Daniella>>
+For being defensive and stuff. I’m working on that. Well, I’m trying to.
+
+<<SetSpeaker DialogueManager Mish>>
+It’s fine. It’s in the past. I was defensive, too. 
+
+
+<<SetSpeaker DialogueManager Daniella>>
+I think I get it now.
+
+<<SetSpeaker DialogueManager Mish>>
+Get what?
+
+<<SetSpeaker DialogueManager Daniella>>
+Us. Why we didn’t work.
+ 
+<<SetSpeaker DialogueManager Mish>>
+Yeah... me too. 
+
+
+<<SetSpeaker DialogueManager Mish>>
+Let’s just get you home, okay?
+
+<<SetSpeaker DialogueManager Daniella>>
+Yeah, I think that’s best. 
+
+<<else>>
+// shouldn’t need but I’ll keep this here if $forgiveness < 0
+
+<<SetSpeaker DialogueManager Mish>>
+I didn’t appreciate the way you talked to me earlier.
+
+<<SetSpeaker DialogueManager Daniella>>
+When?
+
+<<SetSpeaker DialogueManager Mish>>
+When we got into that fight about my friends.
+
+<<SetSpeaker DialogueManager Daniella>>
+You mean your coworkers?
+
+<<SetSpeaker DialogueManager Mish>>
+My coworkers can be my friends, too. 
+
+<<SetSpeaker DialogueManager Daniella>>
+Yeah for sure.
+
+<<SetSpeaker DialogueManager Mish>>
+Okay, well I didn’t appreciate it.
+
+<<SetSpeaker DialogueManager Daniella>>
+Okay...Well, if we’re being honest, 
+I didn’t like the way you handled the situation back then. 
+And maybe I’m holding a grudge, 
+but maybe I have the right to. 
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah.
+Maybe you do. 
+
+<<SetSpeaker DialogueManager Daniella>>
+I’m going to try and get some sleep. 
+Goodnight.
+
+<<SetSpeaker DialogueManager Mish>>
+Yeah, okay.
+Night.
+
+<<endif>>
+===

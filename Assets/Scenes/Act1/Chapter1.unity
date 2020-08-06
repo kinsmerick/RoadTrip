@@ -398,11 +398,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yarnScripts:
-  - {fileID: 2480198943629176163, guid: 313df1a0b882bd94e9f78b3961eb5751, type: 3}
+  - {fileID: 2480198943629176163, guid: e028badadd6e9aa488e28c20f2a9a5fa, type: 3}
   textLanguage: 
   variableStorage: {fileID: 639145078}
   dialogueUI: {fileID: 639145079}
-  startNode: Start
+  startNode: INTRO
   startAutomatically: 1
   onNodeStart:
     m_PersistentCalls:

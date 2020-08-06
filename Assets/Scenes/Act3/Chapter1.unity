@@ -367,6 +367,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 69f87cbf46fd6ec4f8f7b553a9566c33,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c58236acf5dc784ab019b98336ff238,
+        type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: m_Name
@@ -756,6 +773,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
+      propertyPath: yarnScripts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
       propertyPath: dialogueUI
       value: 
       objectReference: {fileID: 1953999215}
@@ -818,6 +840,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: yarnScripts.Array.data[0]
+      value: 
+      objectReference: {fileID: 2480198943629176163, guid: c191445d7c1970d479e89059e5d85c6c,
+        type: 3}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: startAutomatically
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4259205472040560105, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: startNode
+      value: MAINBRANCH14
       objectReference: {fileID: 0}
     - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
