@@ -1,0 +1,40 @@
+fileFormatVersion: 2
+guid: 24de0b3fd948248d2b84c866a3ec267c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Doc2Chap2-CARL-0
+  - Doc2Chap2-CARL-1
+  - Doc2Chap2-CARL-2
+  - Doc2Chap2-CARL-3
+  - Doc2Chap2-CARL-4
+  - Doc2Chap2-CARL-5
+  - Doc2Chap2-CARL-6
+  - Doc2Chap2-CARL-7
+  - Doc2Chap2-CARL-8
+  - Doc2Chap2-CARL-9
+  - Doc2Chap2-CARL-10
+  - Doc2Chap2-CARL-11
+  - Doc2Chap2-RETURNTOCAR-12
+  - Doc2Chap2-ROCK-13
+  - Doc2Chap2-DOORTOFOODMART-14
+  - Doc2Chap2-ROCKSIGN-15
+  - Doc2Chap2-ROCKSIGN-16
+  - Doc2Chap2-ROCKSIGN-17
+  - Doc2Chap2-ROCKSIGN-18
+  - Doc2Chap2-ROCKSIGN-19
+  - Doc2Chap2-POSTER-20
+  - Doc2Chap2-POSTER-21
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 24de0b3fd948248d2b84c866a3ec267c,
+    type: 3}
+  localizations: []

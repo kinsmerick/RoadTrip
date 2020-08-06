@@ -27,7 +27,7 @@ public class Interactable : MonoBehaviour
     {
 
       //begins dialogue and sets canwalk to false so the player can't run away during dialogue
-      if(canInteract && !interacting && (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump")) ){
+      if(canInteract && playerControl.canInteract && !interacting && (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump")) ){
         interacting = true;
         playerControl.canWalk = false;
 
