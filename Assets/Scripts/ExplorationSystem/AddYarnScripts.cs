@@ -11,6 +11,8 @@ public class AddYarnScripts : MonoBehaviour
 
   public YarnProgram [] yarnScriptsToAdd;
 
+  public string yarnScriptSceneLoadOverride = "";
+
   private DialogueRunner dialogueRunner;
 
 
@@ -34,7 +36,13 @@ public class AddYarnScripts : MonoBehaviour
 
     [YarnCommand("ReturnToMenu")]
     public void ReturnToMenu(string sceneName){
-      SceneManager.LoadScene(sceneName);
+      if(yarnScriptSceneLoadOverride == ""){
+        SceneManager.LoadScene(sceneName);
+      }
+      else{
+        SceneManager.LoadScene(yarnScriptSceneLoadOverride);
+      }
+
     }
 
 }

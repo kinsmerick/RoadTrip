@@ -445,7 +445,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverTextColor: {r: 1, g: 1, b: 1, a: 1}
-  _tmp: {fileID: 0}
 --- !u!114 &116980575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2614,6 +2613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueColor: {r: 0.22559153, g: 0.2171591, b: 0.754717, a: 1}
   Expressions: []
+  CharacterSounds: []
   BubblesPositions: []
   isDaniella: 1
 --- !u!1 &1194462662
@@ -3751,6 +3751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueColor: {r: 0.09189212, g: 0.5566038, b: 0.40924692, a: 1}
   Expressions: []
+  CharacterSounds: []
   BubblesPositions: []
   isDaniella: 0
 --- !u!95 &1787377362
@@ -3856,6 +3857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yarnScriptsToAdd:
   - {fileID: 2480198943629176163, guid: c98e834438c6c4958925e2f8ab557570, type: 3}
+  yarnScriptSceneLoadOverride: Act3Chapter3
 --- !u!114 &1811378317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4851,7 +4853,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverTextColor: {r: 1, g: 1, b: 1, a: 1}
-  _tmp: {fileID: 0}
 --- !u!114 &2118589951
 MonoBehaviour:
   m_ObjectHideFlags: 0

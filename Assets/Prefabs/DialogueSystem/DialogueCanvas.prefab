@@ -699,9 +699,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "I'm option 1.\nYeaaaaaaaaaaaaaaa\nIt's filler \nbaby"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbba0cc55a4ea934b97736cfd55d8585, type: 2}
-  m_sharedMaterial: {fileID: 4149538952067840280, guid: fbba0cc55a4ea934b97736cfd55d8585,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7154f6d25a9e1b447a46857a177a9e32, type: 2}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -778,7 +777,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -871,9 +870,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: I'm some sample text.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbba0cc55a4ea934b97736cfd55d8585, type: 2}
-  m_sharedMaterial: {fileID: 4149538952067840280, guid: fbba0cc55a4ea934b97736cfd55d8585,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7154f6d25a9e1b447a46857a177a9e32, type: 2}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -950,7 +948,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -1043,9 +1041,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "I\u2019m surprised you woke up on time."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fbba0cc55a4ea934b97736cfd55d8585, type: 2}
-  m_sharedMaterial: {fileID: 4149538952067840280, guid: fbba0cc55a4ea934b97736cfd55d8585,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7154f6d25a9e1b447a46857a177a9e32, type: 2}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1122,7 +1119,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}

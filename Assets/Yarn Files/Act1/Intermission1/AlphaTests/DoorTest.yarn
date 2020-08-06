@@ -43,7 +43,7 @@ title: CarLeave
 tags:
 ---
 <<SetSpeaker DialogueManager Daniella>>
-Done here? Return to menu?
+Done here? Next Scene?
 [[Let me GO|RETURNTOMENU]]
 [[Let me STAY|STAY]]
 ===
