@@ -1,0 +1,144 @@
+title: MAINBRANCH12
+tags: 
+colorID: 0
+position: -73,254
+---
+<<ChangeShot DialogueManager Front>>
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+So there was this really weird woman at the gas station.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Neutral>>
+Yeah? What happened?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+So, she made me answer this riddle 
+and then gave me a lollipop all before telling me there was no gas. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Happy>>
+Oh my god. Martha still works there?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+Wait how do you- 
+Oh, wow. We’re already in your hometown? 
+That means we only have like one stretch left. 
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Neutral>>
+Yeah! Wow, I can’t believe they put her on the night shift. Was the playground still there?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+[[No, it was all cut up and torn apart… She looked so lonely sitting by herself.|BRANCH12A]]
+[[Not really, but it kind of had this spooky aesthetic.|BRANCH12B]]
+===
+title: BRANCH12A
+tags: 
+colorID: 0
+position: 261,52
+---
+<<set $forgiveness to $forgiveness + 1>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Sad>>
+No, it was all cut up and torn apart… She looked so lonely sitting by herself.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Sad>>
+Man, I remember as a kid, 
+I would love going to that playground because of Martha. 
+I got those riddles wrong almost every time, 
+but she still gave me a lollipop.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+Damn. So I’m not special for getting one?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Happy>>
+Haha she may have gotten hard over the years, but she just wanted to make us laugh and feel special. I’m so jealous you got to see Martha.
+
+[[MAINBRANCH13]]
+===
+title: BRANCH12B
+tags: 
+colorID: 0
+position: 259,348
+---
+<<set $forgiveness to $forgiveness + 0>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+Not really, but it kind of had this spooky aesthetic. 
+The poles were cut and there was this horse all alone. 
+You’d like it, but I was scared out of my mind.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Neutral>>
+Not even the slide was left?
+ Wow that sucks. 
+That was the only playground around.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+Yeah, but I’m sure that kids are amused by anything. 
+They don’t really need a gas station playground right?
+ I can’t imagine the fumes being healthy.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Neutral>>
+No, you’re right I guess. It’s better that it’s gone.
+
+[[MAINBRANCH13]]
+===
+title: MAINBRANCH13
+tags: 
+colorID: 0
+position: 601,219
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Daniella Neutral>>
+Yeah. It’s getting late. Did you plan on stopping here?
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+<<SetBubblePosition DialogueManager OutCar>>
+<<SetExpression Mish Neutral>>
+Yeah let’s pull in for the night. I wanted to get a little farther, but that’s alright.
+===

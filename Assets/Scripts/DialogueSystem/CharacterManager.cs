@@ -21,6 +21,8 @@ public class CharacterManager : MonoBehaviour
     public Color DialogueColor;
     [Tooltip("This is the array of possible expressions a character can have during car and motel scenes.")]
     public Expression[] Expressions;
+    [Tooltip("This is the array of possible sounds that will play when a character speaks or thinks.")]
+    public Sound[] CharacterSounds;
     [Tooltip("This is the array of possible placements of speech bubbles for a character during car and motel " +
                 "scenes. Only Daniella needs positions for the option bubbles, as other characters will not " +
                 "have dialogue choices connected to them.")]
@@ -29,10 +31,18 @@ public class CharacterManager : MonoBehaviour
     public bool isDaniella;
 
     private SpriteRenderer _spriteRenderer;
+    private Sound _activeSound;
 
+    //Gets the character's sprite renderer and sets their active sound to be the first sound in their array,
+    //which should be the character's standard sound.
     private void Awake()
     {
         _spriteRenderer = this.GetComponent<SpriteRenderer>();
+
+        if(CharacterSounds.Length > 0)
+        {
+            _activeSound = CharacterSounds[0];
+        }
     }
 
     //changes sprite being rendered by sprite renderer to sprite in Expressions[] that matches exp
@@ -70,6 +80,55 @@ public class CharacterManager : MonoBehaviour
         }//end else insuring Expressions[] was initialized
 
     }//end SetExpression method
+
+    [YarnCommand("SetSound")]
+    public void SetSound(string snd)
+    {
+
+        //checks to make sure the user entered sounds into the character's Sounds array
+        if (CharacterSounds.Length < 1)
+        {
+            Debug.LogError(gameObject.name + " doesn't have any initialized sounds in their array.");
+        }//end if
+
+        else
+        {
+            //goes through the character's Sounds array to find an expression with a name that matches the
+            //name passed to the method in the command call. If found, it sets _activeSound to the one
+            //associated with the found Sound Object. If not, it throws an error.
+
+            for (int i = 0; i < CharacterSounds.Length; i++)
+            {
+                if (string.Equals(CharacterSounds[i].clipName, snd, System.StringComparison.CurrentCultureIgnoreCase))
+                {
+                    _activeSound = CharacterSounds[i];
+                    break;
+                }
+
+                if (i == (CharacterSounds.Length - 1))
+                {
+                    Debug.LogError(snd + " sound object not found in " + gameObject.name + "'s CharacterSounds array.");
+                }
+
+            }//end for loop
+
+        }//end else insuring CharacterSounds[] was initialized
+
+    }//end SetExpression method
+
+    //Returns _activeSound, called by AudioManager.
+    public Sound getActiveSound()
+    {
+        if (_activeSound != null)
+        {
+            return _activeSound;
+        }
+        else
+        {
+            Debug.LogError(gameObject.name + " has no sounds in their array.");
+            return null;
+        }
+    }
 }
 
 /*The Expression struct stores an expression's name and related sprite.

@@ -67,15 +67,21 @@ public class ShotManager : MonoBehaviour
     }//end ChangeShot method
 
     /*SwitchCharacterArtVisible is called whenever a shot is changed to or from the Front shot. It
-     goes through the characters in the DialogueManager, finds each of their sprite renderers,
-     and sets them to either be enabled or disabled depending on the call's parameters.*/
+     goes through the characters in the DialogueManager, finds all of their sprite renderers,
+     (this is important because the driver character has a child gameobject with a sprite
+     renderer for the hands) and sets them to either be enabled or disabled depending on the
+     call's parameters.*/
+
     private void SwitchCharacterArtVisible(bool state)
     {
         foreach (var chara in _dialogueManager.characters)
         {
-            chara.GetComponent<SpriteRenderer>().enabled = state;
+            foreach (var spriteRenderer in chara.GetComponentsInChildren<SpriteRenderer>())
+            {
+                spriteRenderer.enabled = state;
+            }//end foreach for each sprite renderer
 
-        }//end foreach
+        }//end foreach for each character
 
     }//end SwitchCharacterArt
 }//end class

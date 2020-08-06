@@ -233,6 +233,13 @@ public class DialogueManager : MonoBehaviour
         }//end for loop
     }//end SetBubbleStyle method
 
+    //Returns the current speaker, called by the Audio Manager.
+    public CharacterManager getCurrentSpeaker()
+    {
+        return _currentSpeaker;
+
+    }//end getCurrentSpeaker method
+
 }//end DialogueManager class
 
 /*This struct contains a user defined bubble's style name and sprite. An array of them is initialized in the
