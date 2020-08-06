@@ -907,6 +907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mish
       objectReference: {fileID: 0}
+    - target: {fileID: 386760428373362072, guid: 1863233fb2627c747ae59ce9fd719b42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4770926842644062073, guid: 1863233fb2627c747ae59ce9fd719b42,
         type: 3}
       propertyPath: m_LocalPosition.x
