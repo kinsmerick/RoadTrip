@@ -34,11 +34,11 @@ Oh my god, hell is real?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
-That’s what I’m saying!
+That's what I'm saying!
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-Does this mean we’re in the middle of nowhere?
+Does this mean we're in the middle of nowhere?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -54,7 +54,7 @@ position: 250,373
 <<set $forgiveness to $forgiveness + 0>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-Isn’t it an insane thought that...
+Isn't it an insane thought that...
 there are two powerful beings, 
 one above the earth and one below,
 just waiting for us to die so they can choose favorites?
@@ -75,8 +75,8 @@ Like in dodgeball.
 Why are you going back to dodgeball?
 
 <<SetSpeaker DialogueManager Mish>>
-I don’t know.
-We’re near where I grew up and we used to play a lot of dodgeball.
+I don't know.
+We're near where I grew up and we used to play a lot of dodgeball.
 
 <<SetSpeaker DialogueManager Daniella>>
 Were you picked last?
@@ -95,8 +95,8 @@ position: 516,268
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
 Ahh, the Midwest. 
-I wonder how many more signs we’ll see about- 
-Oh, there’s another one. “Gays are going to hell.” 
+I wonder how many more signs we'll see about- 
+Oh, there's another one. “Gays are going to hell.” 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -105,22 +105,22 @@ Wow that one was handmade.
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
 If my friends and I were truly hell bound, 
-I think we’d have a pretty good time. 
+I think we'd have a pretty good time. 
 I think Satan would look at me and say, 
 “Who is she? I want to know her.”
 Do you think Satan is gay? 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
-I think Satan is gay and would throw a party for all of us. I think I’d be friends with him. 
+I think Satan is gay and would throw a party for all of us. I think I'd be friends with him. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
-YES that’d be so sick. Like that one back in college with Bri and her friends.
+YES that'd be so sick. Like that one back in college with Bri and her friends.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-Oh god, don’t remind me. I’m still nauseous from that night.
+Oh god, don't remind me. I'm still nauseous from that night.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
@@ -142,7 +142,7 @@ Remember when you dove into the pool fully clothed?
 And I made you drive me home. Yes I remember that. 
 
 <<SetSpeaker DialogueManager Daniella>>
-Come on, it wasn’t that bad. At least you sat on a towel so your car wouldn’t get wet. I tucked you into bed.
+Come on, it wasn't that bad. At least you sat on a towel so your car wouldn't get wet. I tucked you into bed.
 
 [[MAINBRANCH8]]
 ===
@@ -151,7 +151,7 @@ tags:
 colorID: 0
 position: 777,390
 ---
-$forgiveness - 1
+<< set $forgiveness to $forgiveness - 1>> 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
 That night was such a disaster. 
@@ -160,7 +160,7 @@ and then you jumped into a pool.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-Okay, I don’t think it was that dramatic, and at least I knew how to swim. You wouldn’t even go in!
+Okay, I don't think it was that dramatic, and at least I knew how to swim. You wouldn't even go in!
 
 <<SetSpeaker DialogueManager Daniella>>
 It was like 60 degrees at night! Just admit that it was a terrible night.
@@ -178,15 +178,15 @@ position: 1070,244
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
 I was lucky that you volunteered to be the D.D., 
-otherwise I know we wouldn’t have left until 2am. 
+otherwise I know we wouldn't have left until 2am. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
-Yeah, I’m pretty useful.
+Yeah, I'm pretty useful.
 
 <<SetSpeaker DialogueManager Mish>>
 Thanks for going out then. 
-I know you didn’t like being social with me all the time, 
+I know you didn't like being social with me all the time, 
 but I really appreciated it. 
 
 <<SetSpeaker DialogueManager Daniella>>

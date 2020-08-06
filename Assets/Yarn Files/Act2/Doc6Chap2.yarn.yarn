@@ -9,31 +9,31 @@ position: 1,268
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Neutral>>
 <<SetExpression Mish Neutral>>
-You know I don’t have a problem being social right? 
-As long as I’m with good people.
+You know I don't have a problem being social right? 
+As long as I'm with good people.
 
 <<SetSpeaker DialogueManager Mish>>
 What are you talking about?
 
 <<SetSpeaker DialogueManager Daniella>>
-Earlier, you said I didn’t like being social, but I do. 
+Earlier, you said I didn't like being social, but I do. 
 
 <<SetSpeaker DialogueManager Mish>>
 Yeah, of course. 
-I didn’t mean it like you hated people, 
+I didn't mean it like you hated people, 
 but I know in Old York, you stopped wanting to go out. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Angry>>
-I stopped wanting to go out because I didn’t feel like I was with good people. 
+I stopped wanting to go out because I didn't feel like I was with good people. 
 
 <<SetSpeaker DialogueManager Mish>>
-Hey, I’m not saying that- but wait, why did you think my coworkers weren’t good people?
+Hey, I'm not saying that- but wait, why did you think my coworkers weren't good people?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>> 
 [[Did you forget that your coworkers were very rude to me when I tried going out?|BRANCH9A]]
-[[You don’t remember when they made me so upset I had to leave?|BRANCH9B]]
+[[You don't remember when they made me so upset I had to leave?|BRANCH9B]]
 ===
 title: BRANCH9A
 tags: 
@@ -47,17 +47,17 @@ Did you forget that your coworkers were very rude to me when I tried going out?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-That’s not fair to them. They joke around. They didn’t mean to offend you. You’re the one who walked off.
+That's not fair to them. They joke around. They didn't mean to offend you. You're the one who walked off.
 
 <<SetSpeaker DialogueManager Daniella>>
-I’m sorry that I believe I deserve to be in a space where others respect me. And I’m sorry I felt like I didn’t have to sit there while they made fun of me because I was being quiet.
+I'm sorry that I believe I deserve to be in a space where others respect me. And I'm sorry I felt like I didn't have to sit there while they made fun of me because I was being quiet.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Angry>>
-You know, you could’ve just told me that, and I would’ve defended you. But it’s like you developed this problem with telling me things. 
+You know, you could've just told me that, and I would've defended you. But it's like you developed this problem with telling me things. 
 
 <<SetSpeaker DialogueManager Daniella>>
-Oh, so what happened was my fault for not staying and telling you I was offended? Me walking off wasn’t a clue?
+Oh, so what happened was my fault for not staying and telling you I was offended? Me walking off wasn't a clue?
 
 [[MAINBRANCH10]]
 ===
@@ -69,11 +69,11 @@ position: 265,392
 <<set $forgiveness to $forgiveness + 1>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Sad>>
-You don’t remember when they made me so upset I had to leave?
+You don't remember when they made me so upset I had to leave?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-I know they upset you, but they didn’t mean it. You know that they can be a little bit much.
+I know they upset you, but they didn't mean it. You know that they can be a little bit much.
 
 <<SetSpeaker DialogueManager Daniella>>
 You still could have stood up for me. 
@@ -82,12 +82,12 @@ I walked off and you did nothing.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Angry>>
-You can’t just be sad over that when you didn’t tell me anything. 
-You just walked off when you could’ve talked about it like an adult. 
+You can't just be sad over that when you didn't tell me anything. 
+You just walked off when you could've talked about it like an adult. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Angry>>
-You know it’s hard for me to open up to strangers! 
+You know it's hard for me to open up to strangers! 
 I thought you knew me well enough to understand and read my body language. 
 I was UNCOMFORTABLE!
 
@@ -110,20 +110,20 @@ Oh yeah? Like what.
 
 <<SetSpeaker DialogueManager Mish>>
 Like your dad. 
-Why didn’t you tell me about your dad?
+Why didn't you tell me about your dad?
 
 <<SetSpeaker DialogueManager Daniella>>
-Don’t bring my father into this.
-Maybe I would’ve opened up to you more if you came home
+Don't bring my father into this.
+Maybe I would've opened up to you more if you came home
 instead of leaving all the time to go hang out with your friends.
 
 <<SetSpeaker DialogueManager Mish>>
-Wow, Dani. You know, I realize that maybe I should’ve been home more, 
-but that doesn’t mean I deserved the complete shutout you gave me. 
+Wow, Dani. You know, I realize that maybe I should've been home more, 
+but that doesn't mean I deserved the complete shutout you gave me. 
 
 <<SetSpeaker DialogueManager Daniella>>
 [[Fuck you, Mish.|BRANCH10A]]
-[[God, you are the worst person I’ve ever met.|BRANCH10B]]
+[[God, you are the worst person I've ever met.|BRANCH10B]]
 ===
 title: BRANCH10A
 tags: 
@@ -149,7 +149,7 @@ position: 808,406
 <<set $forgiveness to $forgiveness - 1>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella AngryCry>>
-God, you are the worst person I’ve ever met.
+God, you are the worst person I've ever met.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Angry>>
@@ -180,27 +180,27 @@ Ah beans…
 What?
 
 <<SetSpeaker DialogueManager Mish>>
-I don’t know. I have to go look. 
+I don't know. I have to go look. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Nervous>>
 Well what am I supposed to do? 
 
 <<SetSpeaker DialogueManager Mish>>
-I think there’s a gas station close by. 
+I think there's a gas station close by. 
 Can you go see if you can get a canister of gas?
 
 <<SetSpeaker DialogueManager Daniella>>
 YOU WANT ME TO WALK BY MYSELF?
 
 <<SetSpeaker DialogueManager Mish>>
-You have the moon. It’s fine.
+You have the moon. It's fine.
 
 <<SetSpeaker DialogueManager Daniella>>
 God. Seriously, Mish?
 
 <<SetSpeaker DialogueManager Mish>>
-I’m the one with a car to fix! 
+I'm the one with a car to fix! 
 Look, the moon is bright enough! Just go... 
 please. 
 

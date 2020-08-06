@@ -11,15 +11,15 @@ Hi! This is a really cool selection of things!
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
-Oh, hi! Thank you so much! I’m Jam and this is Honey.
+Oh, hi! Thank you so much! I'm Jam and this is Honey.
 
 <<SetSpeaker DialogueManager Honey>>
 <<SetBubbleStyle DialogueManager Standard>>
-Hello! We’re moving soon because-
+Hello! We're moving soon because-
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
-I’m pregnant!
+I'm pregnant!
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -27,7 +27,7 @@ Wow! Congrats
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
-Thank you so much! They’re our little bun in the oven.
+Thank you so much! They're our little bun in the oven.
 
 <<SetSpeaker DialogueManager Honey>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -47,7 +47,7 @@ Oh no we-
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>> 
-We love couples. Why don’t you just take whatever you like! It’s on us. 
+We love couples. Why don't you just take whatever you like! It's on us. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -63,7 +63,7 @@ I actually have something I think you both would love.
 
 <<SetSpeaker DialogueManager Honey>>
 <<SetBubbleStyle DialogueManager Standard>>
-Oh, you’d love this.
+Oh, you'd love this.
 
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -72,8 +72,8 @@ Wow! This is… so cute!
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>> 
-See, I knew she’d love it. 
-I loved it so much! It’s so unique. 
+See, I knew she'd love it. 
+I loved it so much! It's so unique. 
 If you put batteries in, it sings you a love song!
 
 <<SetSpeaker DialogueManager Honey>>
@@ -82,9 +82,9 @@ You have such good taste.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-I’m going to go look around now.
+I'm going to go look around now.
 
-// I want honey and jam to talk at the same time but idk if that’s possible
+// I want honey and jam to talk at the same time but idk if that's possible
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
 Enjoy!
@@ -101,7 +101,7 @@ No, I love you!
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
-You’re so cute…
+You're so cute…
 
 <<endif>>
 ===
@@ -114,7 +114,7 @@ position: 334,167
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
-Hey! I found this! I thought you’d like it.
+Hey! I found this! I thought you'd like it.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -122,17 +122,17 @@ Oh. My. God. Thank you so much!
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
-No problem. I’m ready to go whenever you are.
+No problem. I'm ready to go whenever you are.
 
 <<else>>
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
-I’m ready to go whenever you are.
+I'm ready to go whenever you are.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-[[I’m ready]]
+[[I'm ready]]
 [[Give me a second.]]
 ===
 title: BOXES
@@ -146,6 +146,20 @@ title: YARDSALESIGN
 tags: 
 colorID: 0
 position: 610,213
+---
+Empty Text
+===
+title: I'm ready
+tags: 
+colorID: 0
+position: 454,-53
+---
+Empty Text
+===
+title: Give me a second.
+tags: 
+colorID: 0
+position: 674,-53
 ---
 Empty Text
 ===

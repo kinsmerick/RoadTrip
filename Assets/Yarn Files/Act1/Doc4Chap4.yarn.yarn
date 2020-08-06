@@ -6,34 +6,34 @@ position: 68,281
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubblePosition DialogueManager Night1>>
 <<SetBubbleStyle DialogueManager Standard>>
-What’s one thing you wish we did differently?
+What's one thing you wish we did differently?
 
 <<SetSpeaker DialogueManager Mish>>
 What do you mean?
 
 <<SetSpeaker DialogueManager Daniella>>
-You know what I mean. In our relationship, what do you think we could’ve done better?
+You know what I mean. In our relationship, what do you think we could've done better?
 
 <<SetSpeaker DialogueManager Mish>>
-Oh Dani, I don’t know what you want me to say. 
+Oh Dani, I don't know what you want me to say. 
 
 <<SetSpeaker DialogueManager Daniella>>
-I don’t want you to say anything… Sometimes, I just don’t know where we went so wrong.
+I don't want you to say anything… Sometimes, I just don't know where we went so wrong.
 
 <<SetSpeaker DialogueManager Mish>>
-Do you have ideas on how we could’ve done better?
+Do you have ideas on how we could've done better?
 
 <<SetSpeaker DialogueManager Daniella>>
-I know I could’ve talked to you more. I could’ve been there more-
+I know I could've talked to you more. I could've been there more-
 
 <<SetSpeaker DialogueManager Mish>>
-You shouldn’t put all of the blame on yourself. We both could’ve been there for each other more.
+You shouldn't put all of the blame on yourself. We both could've been there for each other more.
 
 <<SetSpeaker DialogueManager Daniella>>
 ...Yeah… 
 
 <<SetSpeaker DialogueManager Mish>>
-It’s in the past. We can’t change what happened.
+It's in the past. We can't change what happened.
 
 <<SetSpeaker DialogueManager Daniella>>
 Yeah.
@@ -49,13 +49,13 @@ Was what ever hard?
 Being alone. Everything was changing so fast.
 
 <<SetSpeaker DialogueManager Mish>>
-Yeah… It wasn’t easy. 
+Yeah… It wasn't easy. 
 
 <<SetSpeaker DialogueManager Daniella>>
 I would stay up all night watching the door sometimes. I think I thought someone was going to break in.
 
 <<SetSpeaker DialogueManager Mish>>
-I definitely didn’t like the fact that I had a queen size bed all to myself. I think I bought 5 pillows just to fill the empty space.
+I definitely didn't like the fact that I had a queen size bed all to myself. I think I bought 5 pillows just to fill the empty space.
 
 <<SetSpeaker DialogueManager Daniella>>
 My studio apartment was only big enough for a twin. I still had my stuffed animals around me though. 
@@ -65,7 +65,7 @@ Haha, I do miss your giant stuffed whale.
 
 <<SetSpeaker DialogueManager Daniella>>
 Yeah, Bluey is a good sleep buddy.
-It’s getting late. 
+It's getting late. 
 
 <<SetSpeaker DialogueManager Mish>>
 Yeah, we should get some sleep. 
@@ -73,7 +73,7 @@ Yeah, we should get some sleep.
 <<SetSpeaker DialogueManager Daniella>>
 Sweet dreams.
 
-// shouldn’t be necessary but will keep this here: if $forgiveness < -1 
+// shouldn't be necessary but will keep this here: if $forgiveness < -1 
 
 <<else>>
 
@@ -81,7 +81,7 @@ Sweet dreams.
 Did you have a hard time with the breakup?
 
 <<SetSpeaker DialogueManager Mish>>
-That’s a loaded question and it’s almost 1am.
+That's a loaded question and it's almost 1am.
 
 <<SetSpeaker DialogueManager Daniella>>
 Yeah, sorry. Forget it. 

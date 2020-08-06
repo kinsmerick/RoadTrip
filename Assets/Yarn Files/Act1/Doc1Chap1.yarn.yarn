@@ -10,7 +10,7 @@ position: -340,262
 <<SetExpression Daniella Neutral>>
 <<SetExpression Mish Neutral>>
 [[Thanks for getting up so early.|TUTINTROA]]
-[[I’m excited to get on the road.|TUTINTROB]]
+[[I'm excited to get on the road.|TUTINTROB]]
 ===
 title: TUTINTROA
 tags: 
@@ -27,7 +27,7 @@ colorID: 0
 position: -77,406
 ---
 <<SetBubbleStyle DialogueManager Standard>>
- I’m excited to get on the road. Thank you for coming with me.
+ I'm excited to get on the road. Thank you for coming with me.
 [[MAINBRANCH1]]
 ===
 title: MAINBRANCH1
@@ -46,7 +46,7 @@ Yeah.
 
 <<SetSpeaker DialogueManager Daniella>>
 [[Thank you again…|BRANCH1A]] 
-[[I’m surprised you woke up on time.|BRANCH1B]]
+[[I'm surprised you woke up on time.|BRANCH1B]]
 ===
 title: BRANCH1A
 tags: 
@@ -64,12 +64,12 @@ Arms and a car?
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
 You know what I mean! 
-You didn’t have to help me.
+You didn't have to help me.
 
 <<SetSpeaker DialogueManager Mish>>
 And what, 
 have you spend thousands to ship everything home? 
-You hate flying. It’s really no problem.
+You hate flying. It's really no problem.
 
 [[MAINBRANCH2]]
 ===
@@ -79,17 +79,17 @@ colorID: 0
 position: 465,415
 ---
 <<set $forgiveness to $forgiveness - 1>>
-I’m surprised you woke up on time. 
+I'm surprised you woke up on time. 
 
 <<SetSpeaker DialogueManager Mish>>
-What’s that supposed to mean?
+What's that supposed to mean?
 
 <<SetSpeaker DialogueManager Daniella>>
 I always had to drag you out of bed in the morning for work!
 
 <<SetSpeaker DialogueManager Mish>>
-Hah, I think you’re exaggerating a bit there, 
-but I guess I’ve turned into a morning person since then.
+Hah, I think you're exaggerating a bit there, 
+but I guess I've turned into a morning person since then.
 
 [[MAINBRANCH2]]
 ===
@@ -105,14 +105,14 @@ I was really shocked to hear that you were moving.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-You couldn’t have expected me to stay in Old York forever, could you? 
-There’s nothing here for me.
+You couldn't have expected me to stay in Old York forever, could you? 
+There's nothing here for me.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Embarrassed>>
 Yeah. 
 I guess I was the one who dragged you here. 
-Well, I’m glad you’re making plans!
+Well, I'm glad you're making plans!
 
 <<SetSpeaker DialogueManager Daniella>>
 If you consider me moving back in with my parents “plans,”
@@ -120,7 +120,7 @@ If you consider me moving back in with my parents “plans,”
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
-What I wouldn’t give to hang out with your parents 24/7.
+What I wouldn't give to hang out with your parents 24/7.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
@@ -134,7 +134,7 @@ Did you tell them about…
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-[[Us? Yeah. It’s chill.|BRANCH2A]]
+[[Us? Yeah. It's chill.|BRANCH2A]]
 [[Umm|BRANCH2B]]
 ===
 title: BRANCH2A
@@ -146,7 +146,7 @@ position: 990,84
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-Us? Yeah. It’s chill.
+Us? Yeah. It's chill.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -154,18 +154,18 @@ Oh! Cool.
 
 <<SetSpeaker DialogueManager Daniella>>
 We broke up 7 months ago, 
-you think I wouldn’t tell my parents?
+you think I wouldn't tell my parents?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Embarrassed>>
 I mean, yeah, but I am helping you move. 
 Do they still like me? 
-Do you think they’ll beat me up when they see me again?
+Do you think they'll beat me up when they see me again?
 
 <<SetSpeaker DialogueManager Daniella>>
-Nah. If you didn’t help me… 
+Nah. If you didn't help me… 
 then, maybe they would kick your ass. 
-They know I don’t have a car. 
+They know I don't have a car. 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -175,7 +175,7 @@ Do you mind if we pull over?
 
 <<SetSpeaker DialogueManager Daniella>>
 Yeah no, 
-let’s keep going until we’re stranded on the side of the road. 
+let's keep going until we're stranded on the side of the road. 
 Sorry, yeah we can.
 ===
 title: BRANCH2B
@@ -204,11 +204,11 @@ I went over to your house...
 Met your parents... 
 Your mom made me special menudo!
 <<SetExpression Mish Angry>> 
-She called it Mish’s Menudo!
-That’s a “shindig” to you?
+She called it Mish's Menudo!
+That's a “shindig” to you?
 
 <<SetSpeaker DialogueManager Daniella>>
-Mish, it’s a joke!
+Mish, it's a joke!
 <<SetExpression Mish Neutral>> 
 Yes, I told them about us breaking up. 
 I told them you were helping me drive back home, too. 
@@ -221,5 +221,5 @@ so we need to fill up before we get too far.
 Can we make a stop?
 
 <<SetSpeaker DialogueManager Daniella>>
-Yeah, I don’t care.
+Yeah, I don't care.
 ===

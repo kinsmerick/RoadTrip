@@ -34,14 +34,14 @@ Oh my god. Martha still works there?
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Neutral>>
 Wait how do you- 
-Oh, wow. We’re already in your hometown? 
+Oh, wow. We're already in your hometown? 
 That means we only have like one stretch left. 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Mish Neutral>>
-Yeah! Wow, I can’t believe they put her on the night shift. Was the playground still there?
+Yeah! Wow, I can't believe they put her on the night shift. Was the playground still there?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
@@ -76,13 +76,13 @@ but she still gave me a lollipop.
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Neutral>>
-Damn. So I’m not special for getting one?
+Damn. So I'm not special for getting one?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Mish Happy>>
-Haha she may have gotten hard over the years, but she just wanted to make us laugh and feel special. I’m so jealous you got to see Martha.
+Haha she may have gotten hard over the years, but she just wanted to make us laugh and feel special. I'm so jealous you got to see Martha.
 
 [[MAINBRANCH13]]
 ===
@@ -99,7 +99,7 @@ position: 259,348
 <<SetExpression Daniella Neutral>>
 Not really, but it kind of had this spooky aesthetic. 
 The poles were cut and there was this horse all alone. 
-You’d like it, but I was scared out of my mind.
+You'd like it, but I was scared out of my mind.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -113,15 +113,15 @@ That was the only playground around.
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Neutral>>
-Yeah, but I’m sure that kids are amused by anything. 
-They don’t really need a gas station playground right?
- I can’t imagine the fumes being healthy.
+Yeah, but I'm sure that kids are amused by anything. 
+They don't really need a gas station playground right?
+ I can't imagine the fumes being healthy.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Mish Neutral>>
-No, you’re right I guess. It’s better that it’s gone.
+No, you're right I guess. It's better that it's gone.
 
 [[MAINBRANCH13]]
 ===
@@ -134,11 +134,11 @@ position: 601,219
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Neutral>>
-Yeah. It’s getting late. Did you plan on stopping here?
+Yeah. It's getting late. Did you plan on stopping here?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Mish Neutral>>
-Yeah let’s pull in for the night. I wanted to get a little farther, but that’s alright.
+Yeah let's pull in for the night. I wanted to get a little farther, but that's alright.
 ===

@@ -40,7 +40,7 @@ O…kay…
 
 <<SetSpeaker DialogueManager Martha>>
 <<SetBubbleStyle DialogueManager Standard>>
-What’s black...and white… and RED all over?
+What's black...and white… and RED all over?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -64,7 +64,7 @@ Thank you. So can I have a canister for gas?
 
 <<SetSpeaker DialogueManager Martha>>
 <<SetBubbleStyle DialogueManager Standard>> 
-My oh my, we haven’t had gas here in YEARS.
+My oh my, we haven't had gas here in YEARS.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -98,11 +98,11 @@ Sorry.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
-That’s alright. Turns out we didn’t actually need gas. The car just got a little overheated, but it’ll be fine. Let’s head out.
+That's alright. Turns out we didn't actually need gas. The car just got a little overheated, but it'll be fine. Let's head out.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-Yeah, let’s hit the road.
+Yeah, let's hit the road.
 ===
 title: PLAYGROUND
 tags: 

@@ -9,13 +9,13 @@ position: -58,353
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Tired>>
 <<SetExpression Mish Neutral>>
-God, I’m so tired. 
-I’ve been driving for hours and it’s so dark…
-Can you talk to me so I don’t fall asleep?
+God, I'm so tired. 
+I've been driving for hours and it's so dark…
+Can you talk to me so I don't fall asleep?
 Maybe iSpy? Or 20 questions?
 
 <<SetSpeaker DialogueManager Mish>>
-Uhh… You start the questions or the spying and I’ll follow.
+Uhh… You start the questions or the spying and I'll follow.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
@@ -28,7 +28,7 @@ That tree.
 Which tree?
 
 <<SetSpeaker DialogueManager Mish>>
-Hmm. That one near the billboard that says “Aimee’s Adult Store next exit.”
+Hmm. That one near the billboard that says "Aimee's Adult Store next exit."
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
@@ -47,7 +47,7 @@ Okay. 20 questions. Number one: What… have you been up to?
 Really?
 
 <<SetSpeaker DialogueManager Daniella>>
-It’s a question!
+It's a question!
 
 <<SetSpeaker DialogueManager Mish>>
 Well, much of the same really. Same job. Same hours. I got a raise a few weeks ago! 
@@ -75,7 +75,7 @@ Oh, um, also I kind of stopped letting people call me Meeshy.
 Oh! Umm. That makes sense.
 
 <<SetSpeaker DialogueManager Mish>>
-Yeah, you started it and so… my coworkers calling me that didn’t sit right anymore.
+Yeah, you started it and so… my coworkers calling me that didn't sit right anymore.
 
 [[MAINBRANCH4]]
 ===
@@ -107,14 +107,14 @@ Heh, my turn! What have you been up to?
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
 I, uh, got a frog, as you can see in the back.
- His name is Frog, and he’s very nice.
+ His name is Frog, and he's very nice.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-Nice! I know you’ve always wanted a frog.
+Nice! I know you've always wanted a frog.
 
 <<SetSpeaker DialogueManager Daniella>>
-Yeah! Umm, and then this move I guess is what I’ve been up to. 
+Yeah! Umm, and then this move I guess is what I've been up to. 
 Packing 
 and such.
 
@@ -128,22 +128,22 @@ Yeah, uh-
 Wait, what was that?
 
 <<SetSpeaker DialogueManager Mish>>
-Ah, don’t worry about him, he’s all good. 
+Ah, don't worry about him, he's all good. 
 I just did a checkup before we left.
 
 <<SetSpeaker DialogueManager Daniella>>
-Oh, I didn’t know you were this car’s doctor. 
-What’s the diagnosis?
+Oh, I didn't know you were this car's doctor. 
+What's the diagnosis?
 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
-He’s healthy! 
-I know you think he’s old but he’s a very practical car.
+He's healthy! 
+I know you think he's old but he's a very practical car.
 
 <<SetSpeaker DialogueManager Daniella>>
 [[At least the headlights work now.|BRANCH4A]]
-[[Hahaha, he’s a piece of prehistoric junk,|BRANCH4B]]
+[[Hahaha, he's a piece of prehistoric junk,|BRANCH4B]]
 ===
 title: BRANCH4A
 tags: 
@@ -155,11 +155,11 @@ position: 842,96
 <<SetExpression Daniella Neutral>>
 At least the headlights work now. 
 Remember a couple of years ago 
-when we got lost on our way to my mom’s birthday party?
+when we got lost on our way to my mom's birthday party?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-Yeah. That wasn’t good.
+Yeah. That wasn't good.
  
 <<SetSpeaker DialogueManager Daniella>>
 WE ALMOST CRASHED!
@@ -178,17 +178,17 @@ position: 848,478
 <<set $forgiveness to $forgiveness - 1>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-Hahaha, he’s a piece of prehistoric junk,
- don’t you think? 
+Hahaha, he's a piece of prehistoric junk,
+ don't you think? 
 You should trade him in honestly. 
 Get a nice, clean new baby.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Embarrassed>>
-Hey, you may not like him, but we’ve gone through too much to just let him go. 
+Hey, you may not like him, but we've gone through too much to just let him go. 
 
 <<SetSpeaker DialogueManager Daniella>>
-Haven’t we almost crashed driving this car? Like multiple times?
+Haven't we almost crashed driving this car? Like multiple times?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Angry>>
@@ -203,11 +203,11 @@ position: 1129,303
 ---
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Tired>>
-I can’t discuss technicalities right now, I’m too tired.
+I can't discuss technicalities right now, I'm too tired.
  
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Tired>>
-Me, too. We’re close enough to the motel I picked when I mapped this out. Do you need me to finish this stretch?
+Me, too. We're close enough to the motel I picked when I mapped this out. Do you need me to finish this stretch?
 
 <<SetSpeaker DialogueManager Daniella>>
 *YAWN* No, I can make it.

@@ -6,10 +6,10 @@ position: 75,255
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubblePosition DialogueManager Night3>>
 <<SetBubbleStyle DialogueManager Standard>>
-I’m sorry you have to make that long drive back yourself.
+I'm sorry you have to make that long drive back yourself.
 
 <<SetSpeaker DialogueManager Mish>>
-Don’t sweat it. 
+Don't sweat it. 
 
 <<SetSpeaker DialogueManager Daniella>>
 Are you excited to get back to work?
@@ -18,14 +18,14 @@ Are you excited to get back to work?
 
 <<SetSpeaker DialogueManager Mish>>
 Not really, haha.
-It’s going to be weird not having you in the same city.
+It's going to be weird not having you in the same city.
 
 <<SetSpeaker DialogueManager Daniella>>
 Not to sound rude, but why? You never reached out at all.
 
 <<SetSpeaker DialogueManager Mish>>
 I know, I just thought at some point I would. 
-I thought I would ask you out to coffee and we’d catch up. 
+I thought I would ask you out to coffee and we'd catch up. 
 
 <<SetSpeaker DialogueManager Daniella>>
 I wish you did earlier. 
@@ -34,15 +34,15 @@ I wish you did earlier.
 Would you have stayed?
 
 <<SetSpeaker DialogueManager Daniella>>
-No, but I would’ve enjoyed having a friend. 
+No, but I would've enjoyed having a friend. 
 
 <<SetSpeaker DialogueManager Mish>>
-I’m glad you reached out. 
+I'm glad you reached out. 
 Even if it was just for help moving… 
 I missed you.
 
 <<SetSpeaker DialogueManager Daniella>>
-Don’t say that. 
+Don't say that. 
 
 <<SetSpeaker DialogueManager Mish>>
 We dated for three years. You were my best friend. 
@@ -52,19 +52,19 @@ You were mine, too.
 
 <<SetSpeaker DialogueManager Mish>>
 So, yeah. I enjoyed spending time with you during this trip. 
-And, I’ll miss you. 
+And, I'll miss you. 
 
 <<SetSpeaker DialogueManager Daniella>>
-I guess I’ll miss you, too. 
+I guess I'll miss you, too. 
 Okay, shut up, we can text each other.
  We can grab virtual coffee if you want. 
 
 <<SetSpeaker DialogueManager Mish>>
-Yeah, haha. I think I’d really like that.  
+Yeah, haha. I think I'd really like that.  
 
 <<SetSpeaker DialogueManager Daniella>>
 You have to get up early tomorrow. 
-Try to wake me up but if I don’t, text me when you get home, okay?
+Try to wake me up but if I don't, text me when you get home, okay?
 
 <<SetSpeaker DialogueManager Mish>>
 Sounds good to me. Goodnight Dani.
@@ -89,16 +89,16 @@ I think I miss Old York already haha.
 I think it misses you! The city suits you.
 
 <<SetSpeaker DialogueManager Mish>>
-Thanks. I’m sure your family is excited to have you back.
+Thanks. I'm sure your family is excited to have you back.
 
 <<SetSpeaker DialogueManager Daniella>>
 Yeah my mom was pretty emotional while you were getting stuff from the car.
 
 <<SetSpeaker DialogueManager Mish>>
-That’s awesome! It’ll be good.
+That's awesome! It'll be good.
 
 <<SetSpeaker DialogueManager Daniella>>
-Yeah. I’m happy to be home. 
+Yeah. I'm happy to be home. 
 
 <<SetSpeaker DialogueManager Mish>>
 So, I guess this is it.
@@ -116,10 +116,10 @@ Yeah! Of course. We should get to sleep.
 Agreed.
 
 <<SetSpeaker DialogueManager Daniella>>
-Well, I probably won’t wake up tomorrow. So, good luck with everything! 
+Well, I probably won't wake up tomorrow. So, good luck with everything! 
 
 <<SetSpeaker DialogueManager Mish>>
-Thanks, you too. I hope you find what you’re looking for.
+Thanks, you too. I hope you find what you're looking for.
 
 <<SetSpeaker DialogueManager Daniella>>
 ...Okay. Thanks.
