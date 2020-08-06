@@ -1,0 +1,120 @@
+title: CARL
+tags:
+colorID: 0
+position: -13,85
+---
+<<if $visited_carl is false>>
+<<set $visited_carl to true>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+That’s such a cute dog!
+
+<<SetSpeaker DialogueManager Carl>>
+<<SetBubbleStyle DialogueManager Standard>>
+Eh, she’s whiney sometimes,
+and she pees on the floor,
+but she loves people a whole lot.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+She’s very fluffy. I bet she gets a lot of pats.
+
+<<SetSpeaker DialogueManager Carl>>
+<<SetBubbleStyle DialogueManager Standard>>
+You’d be surprised at how many people come here to see Lucy.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+They come… to the gas station?
+
+<<SetSpeaker DialogueManager Carl>>
+<<SetBubbleStyle DialogueManager Standard>>
+You bet your sweet bippy they do. I come here every day, and people line up for miles to get a glimpse of Lucy.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+I’m sure they do…
+
+<<SetSpeaker DialogueManager Carl>>
+<<SetBubbleStyle DialogueManager Standard>>
+Here, take this. I think you’ll like it.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Wow! Thank you.
+
+<<else>>
+
+<<SetSpeaker DialogueManager Carl>>
+<<SetBubbleStyle DialogueManager Standard>>
+My sweet baby Lucy…
+
+<<endif>>
+===
+title: RETURNTOCAR
+tags:
+colorID: 0
+position: 265,-20
+---
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+Ready to go?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+[[Yeah|CONTINUEGAME]]
+[[Not yet|NOTYET]]
+===
+title: CONTINUEGAME
+tags:
+---
+<<ReturnToMenu Examineables AlphaMenu>>
+===
+title: NOTYET
+tags:
+---
+<<SetSpeaker DialogueManager Daniella>>
+I want to look around some more.
+===
+title: ROCK
+tags:
+colorID: 0
+position: 255,291
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+This one doesn't have a home, so it's mine now.
+===
+title: DOORTOFOODMART
+tags:
+colorID: 0
+position: 528,-20
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+I don't need anything from here.
+===
+title: ROCKSIGN
+tags:
+colorID: 0
+position: 520,290
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+Welcome to the oldest rock museum in town!
+Rocks of all shapes and sizes!
+Read the stories! Live the experience!
+PLEASE DO NOT TOUCH THE ROCKS.
+THEY DO NOT LIKE IT.
+===
+title: POSTER
+tags:
+colorID: 0
+position: 779,120
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+Wow, two bags of chips for five dollars? Wait...
+isn't that a rip off?
+===

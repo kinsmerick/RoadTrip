@@ -1,0 +1,48 @@
+fileFormatVersion: 2
+guid: eae24ff3aacb5454ab7a6cc5248472f2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc7Chap3-MARTHA-0
+  - Doc7Chap3-MARTHA-1
+  - Doc7Chap3-MARTHA-2
+  - Doc7Chap3-MARTHA-3
+  - Doc7Chap3-MARTHA-4
+  - Doc7Chap3-MARTHA-5
+  - Doc7Chap3-MARTHA-6
+  - Doc7Chap3-MARTHA-7
+  - Doc7Chap3-MARTHA-8
+  - Doc7Chap3-MARTHA-9
+  - Doc7Chap3-MARTHA-10
+  - Doc7Chap3-MARTHA-11
+  - Doc7Chap3-MARTHA-12
+  - Doc7Chap3-MARTHA-13
+  - Doc7Chap3-MARTHA-14
+  - Doc7Chap3-MARTHA-15
+  - Doc7Chap3-MARTHA-16
+  - Doc7Chap3-MARTHA-17
+  - Doc7Chap3-MARTHA-18
+  - Doc7Chap3-MARTHA-19
+  - Doc7Chap3-MARTHA-20
+  - Doc7Chap3-MARTHA-21
+  - Doc7Chap3-MARTHA-22
+  - Doc7Chap3-RETURNTOCAR-23
+  - Doc7Chap3-RETURNTOCAR-24
+  - Doc7Chap3-RETURNTOCAR-25
+  - Doc7Chap3-RETURNTOCAR-26
+  - Doc7Chap3-RETURNTOCAR-27
+  - Doc7Chap3-RETURNTOCAR-28
+  - Doc7Chap3-RETURNTOCAR-29
+  - Doc7Chap3-PLAYGROUND-30
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

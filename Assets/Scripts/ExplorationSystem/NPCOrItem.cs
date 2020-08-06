@@ -32,17 +32,25 @@ public class NPCOrItem : MonoBehaviour
 
   private DialogueRunner dialogueRunner;
 
+  private Animator characterAnim;
+
     // Start is called before the first frame update
     void Start()
     {
       playerControl = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
       dialogueRunner = FindObjectOfType<DialogueRunner>();
+      characterAnim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-      if(canInteract && !interacting && (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump")) ){
+      if(canInteract && playerControl.canInteract && !interacting && (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump")) ){
+        if(characterAnim != null){
+          characterAnim.SetTrigger("talk");
+        }
+
+
         interacting = true;
         playerControl.canWalk = false;
         if(!itemPickedUp){
@@ -52,6 +60,10 @@ public class NPCOrItem : MonoBehaviour
         dialogueRunner.StartDialogue(nodeName);
       }
       else if(interacting && !dialogueRunner.IsDialogueRunning ){
+        if(characterAnim != null){
+          characterAnim.SetTrigger("stoptalk");
+        }
+
         interacting = false;
         playerControl.canWalk = true;
         if(destroyOnExamination){

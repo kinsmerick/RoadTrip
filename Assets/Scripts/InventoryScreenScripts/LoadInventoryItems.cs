@@ -11,7 +11,7 @@ public class LoadInventoryItems : MonoBehaviour
 //the prefab this is attached to will have to be updated as well to connect the items
 //unless later
 
-  private ItemCollection itemCollection;
+  public ItemCollection itemCollection;
 
 
 
@@ -45,6 +45,22 @@ public class LoadInventoryItems : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+      //LoadInventory();
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    void OnEnable(){
+      LoadInventory();
+    }
+
+    public void LoadInventory(){
       if(File.Exists(Application.persistentDataPath + "/items.sav")) {
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Open(Application.persistentDataPath + "/items.sav", FileMode.Open);
@@ -94,13 +110,6 @@ public class LoadInventoryItems : MonoBehaviour
 
 
 
-
-
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

@@ -8,6 +8,7 @@ public class CharacterController : MonoBehaviour
   public float walkSpeed = 2f;
   public GameObject examineBox;
   public bool canWalk = true;
+  public bool canInteract = true;
 
   [Header("Directions")]
   public GameObject up;
@@ -47,7 +48,7 @@ public class CharacterController : MonoBehaviour
       hf = movement.x > 0.01f ? movement.x : movement.x < -0.01f ? 1 : 0;
       vf = movement.y > 0.01f ? movement.y : movement.y < -0.01f ? 1 : 0;
 
-      if(Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical")){
+      if( (Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical")) && canWalk){
         daniAnimation.SetTrigger("walk");
       }
       else if( ( Input.GetButtonUp("Horizontal") || Input.GetButtonUp("Vertical") ) && !(Input.GetButton("Horizontal") || Input.GetButton("Vertical")) ){

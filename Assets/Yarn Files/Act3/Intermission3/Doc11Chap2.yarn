@@ -1,0 +1,151 @@
+title: HONEYJAM
+tags: 
+colorID: 0
+position: 60,250
+---
+<<if $visited_honeyjam is false>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Hi! This is a really cool selection of things!
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>>
+Oh, hi! Thank you so much! I’m Jam and this is Honey.
+
+<<SetSpeaker DialogueManager Honey>>
+<<SetBubbleStyle DialogueManager Standard>>
+Hello! We’re moving soon because-
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>>
+I’m pregnant!
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Wow! Congrats
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>>
+Thank you so much! They’re our little bun in the oven.
+
+<<SetSpeaker DialogueManager Honey>>
+<<SetBubbleStyle DialogueManager Standard>>
+Our sourdough bread!
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>>
+Good one, Honey!
+
+<<SetSpeaker DialogueManager Honey>>
+<<SetBubbleStyle DialogueManager Standard>>
+Thank you, Jam. May I say, you two look like a great couple.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Oh no we-
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>> 
+We love couples. Why don’t you just take whatever you like! It’s on us. 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Wait, really?
+
+<<SetSpeaker DialogueManager Honey>>
+<<SetBubbleStyle DialogueManager Standard>>
+You two deserve to furnish your home with love like we have!
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>> 
+I actually have something I think you both would love.
+
+<<SetSpeaker DialogueManager Honey>>
+<<SetBubbleStyle DialogueManager Standard>>
+Oh, you’d love this.
+
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Wow! This is… so cute!
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>> 
+See, I knew she’d love it. 
+I loved it so much! It’s so unique. 
+If you put batteries in, it sings you a love song!
+
+<<SetSpeaker DialogueManager Honey>>
+<<SetBubbleStyle DialogueManager Standard>>
+You have such good taste.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+I’m going to go look around now.
+
+// I want honey and jam to talk at the same time but idk if that’s possible
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>>
+Enjoy!
+
+<<else>>
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>>
+I love you. 
+
+<<SetSpeaker DialogueManager Honey>>
+<<SetBubbleStyle DialogueManager Standard>>
+No, I love you! 
+
+<<SetSpeaker DialogueManager Jam>>
+<<SetBubbleStyle DialogueManager Standard>>
+You’re so cute…
+
+<<endif>>
+===
+title: MISH
+tags: 
+colorID: 0
+position: 334,167
+---
+<<if $forgiveness >= -1>>
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+Hey! I found this! I thought you’d like it.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Oh. My. God. Thank you so much!
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+No problem. I’m ready to go whenever you are.
+
+<<else>>
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+I’m ready to go whenever you are.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+[[I’m ready]]
+[[Give me a second.]]
+===
+title: BOXES
+tags: 
+colorID: 0
+position: 334,432
+---
+Empty Text
+===
+title: YARDSALESIGN
+tags: 
+colorID: 0
+position: 610,213
+---
+Empty Text
+===

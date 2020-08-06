@@ -1,0 +1,113 @@
+title: MARTHA
+tags: 
+colorID: 0
+position: -85,289
+---
+<<if $visited_martha is false>>
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Uhh. Excuse me, miss?
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>>
+Ah, welcome… 
+What can I do for you? 
+Better yet, what can you do for me?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+What?
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>>
+What is it you seek, my dear?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Can I have a canister for gas?
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>>
+Ahhh you wish to fill a canister with gas, 
+but first, to obtain my answer you must pass…
+this test I give to all who seek, 
+undying truths and passions bleak.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+O…kay…
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>>
+What’s black...and white… and RED all over?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Oh yes I know this one! A newspaper?
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>> 
+Are you sure?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+I think so? Yes?
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>> 
+Congratulations my dear… 
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Thank you. So can I have a canister for gas?
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>> 
+My oh my, we haven’t had gas here in YEARS.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Oh. Thanks anyway?
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+No gas? What kind of place is this? 
+I guess I should go tell Mish.
+
+<<else>>
+
+<<SetSpeaker DialogueManager Martha>>
+<<SetBubbleStyle DialogueManager Standard>> 
+Enjoy your lollipop!
+
+<<endif>>
+===
+title: RETURNTOCAR
+tags: 
+colorID: 0
+position: 216,93
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Umm
+Hey
+So
+There was no gas. 
+Sorry.
+
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+That’s alright. Turns out we didn’t actually need gas. The car just got a little overheated, but it’ll be fine. Let’s head out.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Yeah, let’s hit the road.
+===
+title: PLAYGROUND
+tags: 
+colorID: 0
+position: 220,405
+---
+Empty Text
+===
