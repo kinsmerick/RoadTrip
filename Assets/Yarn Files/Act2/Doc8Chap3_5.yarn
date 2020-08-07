@@ -41,7 +41,8 @@ That means we only have like one stretch left.
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Mish Neutral>>
-Yeah! Wow, I can't believe they put her on the night shift. Was the playground still there?
+Yeah! Wow, I can't believe they put her on the night shift. 
+Was the playground still there?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
@@ -69,7 +70,8 @@ No, it was all cut up and torn apart… She looked so lonely sitting by herself.
 <<SetExpression Mish Sad>>
 Man, I remember as a kid, 
 I would love going to that playground because of Martha. 
-I got those riddles wrong almost every time, 
+I got those riddles wrong almost every time,
+<<SetExpression Mish Smile>> 
 but she still gave me a lollipop.
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -82,7 +84,9 @@ Damn. So I'm not special for getting one?
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Mish Happy>>
-Haha she may have gotten hard over the years, but she just wanted to make us laugh and feel special. I'm so jealous you got to see Martha.
+Haha she may have gotten hard over the years, 
+but she just wanted to make us laugh and feel special. 
+I'm so jealous you got to see Martha.
 
 [[MAINBRANCH13]]
 ===
@@ -140,5 +144,6 @@ Yeah. It's getting late. Did you plan on stopping here?
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Mish Neutral>>
-Yeah let's pull in for the night. I wanted to get a little farther, but that's alright.
+Yeah let's pull in for the night. 
+I wanted to get a little farther, but that's alright.
 ===

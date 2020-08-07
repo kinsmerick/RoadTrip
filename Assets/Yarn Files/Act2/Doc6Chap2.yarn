@@ -28,7 +28,8 @@ but I know in Old York, you stopped wanting to go out.
 I stopped wanting to go out because I didn't feel like I was with good people. 
 
 <<SetSpeaker DialogueManager Mish>>
-Hey, I'm not saying that- but wait, why did you think my coworkers weren't good people?
+Hey, I'm not saying that- 
+but wait, why did you think my coworkers weren't good people?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>> 
@@ -47,17 +48,24 @@ Did you forget that your coworkers were very rude to me when I tried going out?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-That's not fair to them. They joke around. They didn't mean to offend you. You're the one who walked off.
+That's not fair to them. 
+They joke around. They didn't mean to offend you. 
+You're the one who walked off.
 
 <<SetSpeaker DialogueManager Daniella>>
-I'm sorry that I believe I deserve to be in a space where others respect me. And I'm sorry I felt like I didn't have to sit there while they made fun of me because I was being quiet.
+I'm sorry that I believe I deserve to be in a space where others respect me. 
+And I'm sorry I felt like I didn't have to sit there 
+while they made fun of me because I was being quiet.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Angry>>
-You know, you could've just told me that, and I would've defended you. But it's like you developed this problem with telling me things. 
+You know, you could've just told me that, 
+and I would've defended you. 
+But it's like you developed this problem with telling me things. 
 
 <<SetSpeaker DialogueManager Daniella>>
-Oh, so what happened was my fault for not staying and telling you I was offended? Me walking off wasn't a clue?
+Oh, so what happened was my fault for not staying and telling you I was offended? 
+Me walking off wasn't a clue?
 
 [[MAINBRANCH10]]
 ===
@@ -73,7 +81,8 @@ You don't remember when they made me so upset I had to leave?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-I know they upset you, but they didn't mean it. You know that they can be a little bit much.
+I know they upset you, but they didn't mean it. 
+You know that they can be a little bit much.
 
 <<SetSpeaker DialogueManager Daniella>>
 You still could have stood up for me. 
@@ -88,7 +97,7 @@ You just walked off when you could've talked about it like an adult.
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Angry>>
 You know it's hard for me to open up to strangers! 
-I thought you knew me well enough to understand and read my body language. 
+I thought you knew me well enough to understand my body language. 
 I was UNCOMFORTABLE!
 
 [[MAINBRANCH10]]
@@ -166,6 +175,7 @@ position: 1099,253
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
+<<SetExpression Daniella Angry>>
 Oh please no! 
 No no no no no.
 
