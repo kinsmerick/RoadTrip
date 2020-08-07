@@ -8,21 +8,21 @@ position: -13,85
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-That’s such a cute dog!
+That's such a cute dog!
 
 <<SetSpeaker DialogueManager Carl>>
 <<SetBubbleStyle DialogueManager Standard>>
-Eh, she’s whiney sometimes,
+Eh, she's whiney sometimes,
 and she pees on the floor,
 but she loves people a whole lot.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-She’s very fluffy. I bet she gets a lot of pats.
+She's very fluffy. I bet she gets a lot of pats.
 
 <<SetSpeaker DialogueManager Carl>>
 <<SetBubbleStyle DialogueManager Standard>>
-You’d be surprised at how many people come here to see Lucy.
+You'd be surprised at how many people come here to see Lucy.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -34,11 +34,11 @@ You bet your sweet bippy they do. I come here every day, and people line up for 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-I’m sure they do…
+I'm sure they do…
 
 <<SetSpeaker DialogueManager Carl>>
 <<SetBubbleStyle DialogueManager Standard>>
-Here, take this. I think you’ll like it.
+Here, take this. I think you'll like it.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
