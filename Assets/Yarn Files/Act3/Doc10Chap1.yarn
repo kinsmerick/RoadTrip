@@ -103,15 +103,10 @@ I can't see! Mish, I can't do this.
 Breathe! Dani, please just listen to my voice. Just breathe. 
 
 <<SetSpeaker DialogueManager Daniella>> 
-.
-<<wait 1>>
-.
-<<wait 1>>
-.
+...
 
 <<SetSpeaker DialogueManager Mish>>
 Breathe deeper.
-
 
 <<SetSpeaker DialogueManager Daniella>>
 [[I'm BREATHING, MISH.|BRANCH15A]]
@@ -135,12 +130,7 @@ I want to hear the biggest, deepest breath in the world.
 
 <<SetSpeaker DialogueManager Daniella>>
 Okay… 
-<<wait 2>>
-.
-<<wait 2>>
-.
-<<wait 2>>
-.
+...
 
 [[MAINBRANCH16]]
 ===
@@ -195,7 +185,6 @@ Yeah… Yeah! I'm the exception!
 
 <<SetSpeaker DialogueManager Mish>>
 Maybe we should exit!
-
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Nervous>>

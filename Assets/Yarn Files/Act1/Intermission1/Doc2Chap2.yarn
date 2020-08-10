@@ -118,3 +118,38 @@ position: 779,120
 Wow, two drinks for five dollars? Wait...
 isn't that a rip off?
 ===
+title: TEXASROCK
+tags:
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+I would sing a certain song right now but it’s copyrighted...
+Something about Texas.
+===
+title: SPONGEBOBROCK
+tags:
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+Is this who I think it is? 
+How did you get all the way out here?
+===
+title: PATRICKROCK
+tags:
+---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+Why are you out of water?
+===
+title: SKULLROCK
+tags:
+---
+Is that... real? No....right?
+===
+title: BIRDROCK
+tags:
+---
+Chirp chirp!
+===
+
+
