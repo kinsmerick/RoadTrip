@@ -28,6 +28,7 @@ That tree.
 Which tree?
 
 <<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Smile>>
 Hmm. That one near the billboard that says "Aimee's Adult Store next exit."
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -50,7 +51,9 @@ Really?
 It's a question!
 
 <<SetSpeaker DialogueManager Mish>>
-Well, much of the same really. Same job. Same hours. I got a raise a few weeks ago! 
+Well, much of the same really. 
+Same job. Same hours. 
+I got a raise a few weeks ago! 
 
 <<SetSpeaker DialogueManager Daniella>>
 [[Aww, little Meeshy got a raise!|BRANCH3A]]
@@ -76,6 +79,8 @@ Oh! Umm. That makes sense.
 
 <<SetSpeaker DialogueManager Mish>>
 Yeah, you started it and so… my coworkers calling me that didn't sit right anymore.
+
+<<wait 2>>
 
 [[MAINBRANCH4]]
 ===
@@ -110,7 +115,7 @@ I, uh, got a frog, as you can see in the back.
  His name is Frog, and he's very nice.
 
 <<SetSpeaker DialogueManager Mish>>
-<<SetExpression Mish Neutral>>
+<<SetExpression Mish Smile>>
 Nice! I know you've always wanted a frog.
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -119,6 +124,7 @@ Packing
 and such.
 
 <<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Neutral>>
 Oh, yeah, duh. Of course.
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -128,10 +134,12 @@ Yeah, uh-
 Wait, what was that?
 
 <<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Smile>>
 Ah, don't worry about him, he's all good. 
 I just did a checkup before we left.
 
 <<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Happy>>
 Oh, I didn't know you were this car's doctor. 
 What's the diagnosis?
 
@@ -162,6 +170,7 @@ when we got lost on our way to my mom's birthday party?
 Yeah. That wasn't good.
  
 <<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Smile>>
 WE ALMOST CRASHED!
 
 <<SetSpeaker DialogueManager Mish>>
@@ -180,6 +189,7 @@ position: 848,478
 <<SetExpression Daniella Neutral>>
 Hahaha, he's a piece of prehistoric junk,
  don't you think? 
+<<SetExpression Mish Embarrassed>>
 You should trade him in honestly. 
 Get a nice, clean new baby.
 
@@ -203,11 +213,14 @@ position: 1129,303
 ---
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Tired>>
+<<SetExpression Mish Neutral>>
 I can't discuss technicalities right now, I'm too tired.
  
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Tired>>
-Me, too. We're close enough to the motel I picked when I mapped this out. Do you need me to finish this stretch?
+Me, too. 
+We're close enough to the motel I picked when I mapped this out. 
+Do you need me to finish this stretch?
 
 <<SetSpeaker DialogueManager Daniella>>
 *YAWN* No, I can make it.

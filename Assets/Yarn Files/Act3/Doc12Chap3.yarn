@@ -47,7 +47,9 @@ then probably take a shower and sleep for days.
 Sure, but what about after that?
 
 <<SetSpeaker DialogueManager Daniella>>
-I don't really know. I didn't really think too far ahead. I just couldn't be alone anymore.
+I don't really know. 
+I didn't really think too far ahead. 
+I just couldn't be alone anymore.
 
 [[MAINBRANCH18]]
 ===
@@ -67,7 +69,10 @@ I really didn't put much thought into it.
 So, do you think leaving was an impulse?
 
 <<SetSpeaker DialogueManager Daniella>>
-I… No. It was very intentional. I really hated being there. I hated being so close to… I just needed to be with people I loved.
+I… No. 
+It was very intentional. I really hated being there. 
+I hated being so close to… 
+I just needed to be with people I loved.
 
 [[MAINBRANCH18]]
 ===
@@ -82,7 +87,8 @@ Yeah.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Sad>> 
-It's a reset. I really need a do-over of my life. Maybe pursue a passion?
+It's a reset. I really need a do-over of my life.
+Maybe pursue a passion?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -90,7 +96,9 @@ Like art? You're really good at that.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-Haha thanks… Maybe. It'll be nice to be creative for myself and not for design projects and clients. Or, maybe I can just sit in my room for the rest of my life. 
+Haha thanks… Maybe. 
+It'll be nice to be creative for myself and not for clients. 
+Or, maybe I can just sit in my room for the rest of my life. 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -114,10 +122,12 @@ At least better than I was.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-I don't know if you care to hear this, but I'm proud of you for doing this. It's a big change.
+I don't know if you care to hear this, but I'm proud of you for doing this. 
+It's a big change.
 
 <<SetSpeaker DialogueManager Daniella>>
-I like to think if I could move across the country for someone else, I can also do it for myself. 
+I like to think if I could move across the country for someone else, 
+I can also do it for myself. 
 
 [[MAINBRANCH19]]
 ===
@@ -140,7 +150,7 @@ What are you referring to?
 <<SetSpeaker DialogueManager Daniella>>
 I don't know… Everything? 
 It took awhile for me to actually get back to a normal life,
- but when I realized that wasn't happening as smoothly as I wanted, I started packing.
+but when I realized that wasn't happening, I started packing.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -161,29 +171,36 @@ position: 1039,279
 ---
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-It's getting pretty late. Were you planning on starting the trip back tonight?
+It's getting pretty late. Were you planning on heading back tonight?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Embarrassed>>
 Well, I was, yeah, because I didn't want to impose on your family. 
 
 <<SetSpeaker DialogueManager Daniella>>
-Family, shmamily. You're not going to start your drive back at midnight. No, you're going to stay with us for the night and head out early in the morning.  
+Family, shmamily. You're not going to start your drive back at midnight. 
+<<SetExpression Daniella Smile>>
+No, you're going to stay with us and head out early in the morning.  
 
 <<SetSpeaker DialogueManager Mish>>
 Are you sure?
 
 <<SetSpeaker DialogueManager Daniella>>
+<<SetExpression Daniella Smile>>
 Oh my god, you're so annoying, 
 YES. It'll be fine. 
-My mom will welcome you with no questions. I'll text her.
+I texted my mom and she said, and I quote, 
+“Tell them I've made their favorite foods to fuel them up for the trip back.
+:)”
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-Thanks, Daniella. 
+<<SetExpression Daniella Neutral>>
+Thanks, Daniella. And tell your mom I said thank you, too.
 
 <<SetSpeaker DialogueManager Daniella>>
 Of course. Now, come on. 
 Let's focus up and finish this stretch of road. 
+<<SetExpression Daniella Smile>>
 I can smell my mom's arroz con gandules from here.
 ===

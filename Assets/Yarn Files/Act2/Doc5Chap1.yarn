@@ -16,7 +16,8 @@ What are you talking about?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
-Did you not see that sign back there? HELL IS REAL
+Did you not see that sign back there? 
+HELL IS REAL
 
 <<SetSpeaker DialogueManager Daniella>>
 [[Oh my god, hell is real?|BRANCH6A]]
@@ -64,7 +65,8 @@ just waiting for us to die so they can choose favorites?
 Like team captains in dodgeball.
 
 <<SetSpeaker DialogueManager Daniella>>
-Are you insinuating that someone is bound to be the last person on earth? 
+Are you insinuating 
+that someone is bound to be the last person on earth? 
 Because no one wants them?
 
 <<SetSpeaker DialogueManager Mish>>
@@ -99,7 +101,7 @@ I wonder how many more signs we'll see about-
 Oh, there's another one. “Gays are going to hell.” 
 
 <<SetSpeaker DialogueManager Mish>>
-<<SetExpression Mish Neutral>>
+<<SetExpression Mish Happy>>
 Wow that one was handmade. 
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -107,12 +109,14 @@ Wow that one was handmade.
 If my friends and I were truly hell bound, 
 I think we'd have a pretty good time. 
 I think Satan would look at me and say, 
+<<SetExpression Daniella Happy>>
 “Who is she? I want to know her.”
 Do you think Satan is gay? 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
-I think Satan is gay and would throw a party for all of us. I think I'd be friends with him. 
+I think Satan is gay and would throw a party for all of us. 
+I think I'd be friends with him. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
@@ -142,7 +146,9 @@ Remember when you dove into the pool fully clothed?
 And I made you drive me home. Yes I remember that. 
 
 <<SetSpeaker DialogueManager Daniella>>
-Come on, it wasn't that bad. At least you sat on a towel so your car wouldn't get wet. I tucked you into bed.
+Come on, it wasn't that bad. 
+At least you sat on a towel so your car wouldn't get wet. 
+I tucked you into bed.
 
 [[MAINBRANCH8]]
 ===
@@ -151,7 +157,7 @@ tags:
 colorID: 0
 position: 777,390
 ---
-<< set $forgiveness to $forgiveness - 1>> 
+<<set $forgiveness to $forgiveness - 1>> 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
 That night was such a disaster. 
@@ -160,7 +166,9 @@ and then you jumped into a pool.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
-Okay, I don't think it was that dramatic, and at least I knew how to swim. You wouldn't even go in!
+Okay, I don't think it was that dramatic, 
+and at least I knew how to swim. 
+You wouldn't even go in!
 
 <<SetSpeaker DialogueManager Daniella>>
 It was like 60 degrees at night! Just admit that it was a terrible night.
@@ -185,7 +193,9 @@ otherwise I know we wouldn't have left until 2am.
 Yeah, I'm pretty useful.
 
 <<SetSpeaker DialogueManager Mish>>
+<<SetExpression Mish Smile>>
 Thanks for going out then. 
+<<SetExpression Daniella Neutral>>
 I know you didn't like being social with me all the time, 
 but I really appreciated it. 
 

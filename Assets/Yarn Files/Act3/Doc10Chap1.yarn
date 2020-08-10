@@ -24,7 +24,8 @@ Yup, no problem.
 Wow, it's coming down really hard.
 
 <<SetSpeaker DialogueManager Mish>>
-Yeah. It'll be fine. Rain is pretty calming. I could sleep in this.
+Yeah. It'll be fine. 
+Rain is pretty calming. I could sleep in this.
 
 <<SetSpeaker DialogueManager Daniella>>
 [[I'm scared. I can't see anything, Mish.|BRANCH14A]]
@@ -69,13 +70,21 @@ Yeah haha... Super relaxing when you're not the one driving.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Angry>>
-I'm sorry. I didn't know it was going to rain this hard, but it's just rain, Dani. 
+I'm sorry. I didn't know it was going to rain this hard, 
+but it's just rain, Dani. 
 
 <<SetSpeaker DialogueManager Daniella>>
-It's not just rain, Mish! It's everyone on the road driving faster than me, and your car's wipers aren't doing anything. 
+<<SetExpression Mish Neutral>>
+It's not just rain, Mish! 
+It's everyone on the road driving faster than me, 
+and your car's wipers aren't doing anything. 
 
 <<SetSpeaker DialogueManager Mish>>
- No car wipers could make this any better. Just go slow! Stop being so nervous! It'll just make things worse.
+No car wipers could make this any better. 
+Just go slow! 
+<<SetExpression Mish Angry>>
+Stop being so nervous! 
+It'll just make things worse.
 
 [[MAINBRANCH15]]
 ===
@@ -86,15 +95,19 @@ position: 313,282
 ---
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Nervous>>
+<<SetExpression Mish Neutral>>
 I can't see! Mish, I can't do this. 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Nervous>>
 Breathe! Dani, please just listen to my voice. Just breathe. 
 
-<<SetSpeaker DialogueManager Daniella>>
-*breathes in* *breathes out* 
-...
+<<SetSpeaker DialogueManager Daniella>> 
+.
+<<wait 1>>
+.
+<<wait 1>>
+.
 
 <<SetSpeaker DialogueManager Mish>>
 Breathe deeper.
@@ -116,12 +129,18 @@ position: 584,130
 I'm BREATHING, MISH. 
 
 <<SetSpeaker DialogueManager Mish>>
-<<SetExpression Mish Nervous>>
+<<SetExpression Mish Neutral>>
 I know, but just breathe deeper.
 I want to hear the biggest, deepest breath in the world.
 
 <<SetSpeaker DialogueManager Daniella>>
-Okay… *breathes in* - - - - - - - - - - *breathes out*
+Okay… 
+<<wait 2>>
+.
+<<wait 2>>
+.
+<<wait 2>>
+.
 
 [[MAINBRANCH16]]
 ===
@@ -155,7 +174,7 @@ position: 870,287
 ---
 <<ChangeShot DialogueManager Front>>
 <<SetSpeaker DialogueManager Mish>>
-<<SetExpression Mish Nervous>>
+<<SetExpression Mish Neutral>>
 Now, just keep driving straight. 
 You're doing fine. 
 If there's a turn, you'll see it. I'm on the lookout, too.
@@ -165,7 +184,8 @@ If there's a turn, you'll see it. I'm on the lookout, too.
 I'm fine. We're okay. 
 
 <<SetSpeaker DialogueManager Mish>>
-You're a pro driver. You've got this. If gays can't drive, you're the exception. 
+You're a pro driver. You've got this. 
+If gays can't drive, you're the exception. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Happy>>
@@ -182,7 +202,7 @@ Maybe we should exit!
 Just point the way. 
 
 <<SetSpeaker DialogueManager Mish>>
-Okay, exit here on the left. Put your emergency lights on and go slow. 
+Okay, exit here on the left. Put your hazards on and go slow. 
 
 <<SetSpeaker DialogueManager Daniella>>
 I know! I've got this.
@@ -222,6 +242,5 @@ And it's stopped raining almost completely.
 If that's not a sign to go in, I don't know what is.
 
 <<SetSpeaker DialogueManager Mish>>
-Let's go check it out!
 Let's go check it out!
 ===
