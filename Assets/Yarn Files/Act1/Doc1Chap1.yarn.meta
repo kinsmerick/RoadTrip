@@ -1,0 +1,89 @@
+fileFormatVersion: 2
+guid: c87f659e1c224dd469a626bbf9474a07
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc1Chap1-INTRO-0
+  - Doc1Chap1-INTRO-1
+  - Doc1Chap1-TUTINTROA-2
+  - Doc1Chap1-TUTINTROB-3
+  - Doc1Chap1-MAINBRANCH1-4
+  - Doc1Chap1-MAINBRANCH1-5
+  - Doc1Chap1-MAINBRANCH1-6
+  - Doc1Chap1-MAINBRANCH1-7
+  - Doc1Chap1-MAINBRANCH1-8
+  - Doc1Chap1-BRANCH1A-9
+  - Doc1Chap1-BRANCH1A-10
+  - Doc1Chap1-BRANCH1A-11
+  - Doc1Chap1-BRANCH1A-12
+  - Doc1Chap1-BRANCH1A-13
+  - Doc1Chap1-BRANCH1A-14
+  - Doc1Chap1-BRANCH1A-15
+  - Doc1Chap1-BRANCH1A-16
+  - Doc1Chap1-BRANCH1B-17
+  - Doc1Chap1-BRANCH1B-18
+  - Doc1Chap1-BRANCH1B-19
+  - Doc1Chap1-BRANCH1B-20
+  - Doc1Chap1-BRANCH1B-21
+  - Doc1Chap1-MAINBRANCH2-22
+  - Doc1Chap1-MAINBRANCH2-23
+  - Doc1Chap1-MAINBRANCH2-24
+  - Doc1Chap1-MAINBRANCH2-25
+  - Doc1Chap1-MAINBRANCH2-26
+  - Doc1Chap1-MAINBRANCH2-27
+  - Doc1Chap1-MAINBRANCH2-28
+  - Doc1Chap1-MAINBRANCH2-29
+  - Doc1Chap1-MAINBRANCH2-30
+  - Doc1Chap1-MAINBRANCH2-31
+  - Doc1Chap1-MAINBRANCH2-32
+  - Doc1Chap1-MAINBRANCH2-33
+  - Doc1Chap1-MAINBRANCH2-34
+  - Doc1Chap1-MAINBRANCH2-35
+  - Doc1Chap1-MAINBRANCH2-36
+  - Doc1Chap1-BRANCH2A-37
+  - Doc1Chap1-BRANCH2A-38
+  - Doc1Chap1-BRANCH2A-39
+  - Doc1Chap1-BRANCH2A-40
+  - Doc1Chap1-BRANCH2A-41
+  - Doc1Chap1-BRANCH2A-42
+  - Doc1Chap1-BRANCH2A-43
+  - Doc1Chap1-BRANCH2A-44
+  - Doc1Chap1-BRANCH2A-45
+  - Doc1Chap1-BRANCH2A-46
+  - Doc1Chap1-BRANCH2A-47
+  - Doc1Chap1-BRANCH2A-48
+  - Doc1Chap1-BRANCH2A-49
+  - Doc1Chap1-BRANCH2A-50
+  - Doc1Chap1-BRANCH2A-51
+  - Doc1Chap1-BRANCH2A-52
+  - Doc1Chap1-BRANCH2B-53
+  - Doc1Chap1-BRANCH2B-54
+  - Doc1Chap1-BRANCH2B-55
+  - Doc1Chap1-BRANCH2B-56
+  - Doc1Chap1-BRANCH2B-57
+  - Doc1Chap1-BRANCH2B-58
+  - Doc1Chap1-BRANCH2B-59
+  - Doc1Chap1-BRANCH2B-60
+  - Doc1Chap1-BRANCH2B-61
+  - Doc1Chap1-BRANCH2B-62
+  - Doc1Chap1-BRANCH2B-63
+  - Doc1Chap1-BRANCH2B-64
+  - Doc1Chap1-BRANCH2B-65
+  - Doc1Chap1-BRANCH2B-66
+  - Doc1Chap1-BRANCH2B-67
+  - Doc1Chap1-BRANCH2B-68
+  - Doc1Chap1-BRANCH2B-69
+  - Doc1Chap1-BRANCH2B-70
+  - Doc1Chap1-BRANCH2B-71
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

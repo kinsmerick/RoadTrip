@@ -1,0 +1,47 @@
+fileFormatVersion: 2
+guid: b59abc2af3c85bf42b44729514dc8c52
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc4Chap4-NIGHT1-0
+  - Doc4Chap4-NIGHT1-1
+  - Doc4Chap4-NIGHT1-2
+  - Doc4Chap4-NIGHT1-3
+  - Doc4Chap4-NIGHT1-4
+  - Doc4Chap4-NIGHT1-5
+  - Doc4Chap4-NIGHT1-6
+  - Doc4Chap4-NIGHT1-7
+  - Doc4Chap4-NIGHT1-8
+  - Doc4Chap4-NIGHT1-9
+  - Doc4Chap4-NIGHT1-10
+  - Doc4Chap4-NIGHT1-11
+  - Doc4Chap4-NIGHT1-12
+  - Doc4Chap4-NIGHT1-13
+  - Doc4Chap4-NIGHT1-14
+  - Doc4Chap4-NIGHT1-15
+  - Doc4Chap4-NIGHT1-16
+  - Doc4Chap4-NIGHT1-17
+  - Doc4Chap4-NIGHT1-18
+  - Doc4Chap4-NIGHT1-19
+  - Doc4Chap4-NIGHT1-20
+  - Doc4Chap4-NIGHT1-21
+  - Doc4Chap4-NIGHT1-22
+  - Doc4Chap4-NIGHT1-23
+  - Doc4Chap4-NIGHT1-24
+  - Doc4Chap4-NIGHT1-25
+  - Doc4Chap4-NIGHT1-26
+  - Doc4Chap4-NIGHT1-27
+  - Doc4Chap4-NIGHT1-28
+  - Doc4Chap4-NIGHT1-29
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
