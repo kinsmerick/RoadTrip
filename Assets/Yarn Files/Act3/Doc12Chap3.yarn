@@ -189,12 +189,14 @@ Are you sure?
 <<SetExpression Daniella Smile>>
 Oh my god, you're so annoying, 
 YES. It'll be fine. 
-My mom will welcome you with no questions. I'll text her.
+I texted my mom and she said, and I quote, 
+“Tell them I've made their favorite foods to fuel them up for the trip back.
+:)”
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
 <<SetExpression Daniella Neutral>>
-Thanks, Daniella. 
+Thanks, Daniella. And tell your mom I said thank you, too.
 
 <<SetSpeaker DialogueManager Daniella>>
 Of course. Now, come on. 
