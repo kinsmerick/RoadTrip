@@ -45,7 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueColor: {r: 0.5921569, g: 0.80784315, b: 0.9098039, a: 1}
   Expressions: []
-  CharacterSounds: []
+  CharacterSounds:
+  - {fileID: 11400000, guid: c70ac8f2983a98b4dbd7e494f53c3d9c, type: 2}
   BubblesPositions:
   - posName: Night1
     textPos: {x: 394, y: 87, z: 0}
