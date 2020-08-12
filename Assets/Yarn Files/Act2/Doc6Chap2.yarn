@@ -223,4 +223,6 @@ Fine. Whatever.
 <<SetBubbleStyle DialogueManager Thought>>
 This is fine. The moon will guide me. 
 She is my girlfriend, my protector..
+
+<<LoadNextScene DialogueManager>>
 ===
