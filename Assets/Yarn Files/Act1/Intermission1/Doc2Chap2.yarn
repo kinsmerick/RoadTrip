@@ -69,7 +69,7 @@ Ready to go?
 title: CONTINUEGAME
 tags:
 ---
-<<ReturnToMenu Examineables AlphaMenu>>
+<<LoadNextScene DialogueManager>>
 ===
 title: NOTYET
 tags:
@@ -131,7 +131,7 @@ tags:
 ---
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-Is this who I think it is? 
+Is this who I think it is?
 How did you get all the way out here?
 ===
 title: PATRICKROCK
