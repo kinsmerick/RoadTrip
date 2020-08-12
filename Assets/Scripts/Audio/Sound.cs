@@ -34,6 +34,8 @@ public class Sound : ScriptableObject
     public bool loop;
     public bool playOnAwake;
 
+    public AudioType audioType;
+
     //A constructor that sets a given AudioSource (instantiated in
     //AudioManager's Start()) to the values set in the inspector.
 
@@ -68,3 +70,11 @@ public class Sound : ScriptableObject
     }//end Stop method
 
 }//end Sound scriptable object
+
+[System.Serializable]
+public enum AudioType
+{
+    Music,
+    Character,
+    Sfx
+}

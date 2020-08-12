@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f9930695bda74c41a8bebfcd57a533f, type: 3}
-  m_Name: Engine_Dying
+  m_Name: Daniella_Speech
   m_EditorClassIdentifier: 
-  clipName: Engine_Dying
-  clip: {fileID: 0}
+  clipName: Daniella_Speech
+  clip: {fileID: 8300000, guid: 90be72ec8f118de4ebc265b9ade385ac, type: 3}
   volume: 1
   loop: 0
   playOnAwake: 0
+  audioType: 1

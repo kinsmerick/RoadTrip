@@ -45,7 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueColor: {r: 0.9098039, g: 0.5921569, b: 0.7607843, a: 1}
   Expressions: []
-  CharacterSounds: []
+  CharacterSounds:
+  - {fileID: 11400000, guid: 6057b2049a1928841b7b073071ceffea, type: 2}
+  - {fileID: 11400000, guid: 48cf6a39fd54f1e489289b50cd651ccb, type: 2}
   BubblesPositions:
   - posName: Night1
     textPos: {x: -453.44, y: 24, z: 0}
@@ -59,4 +61,4 @@ MonoBehaviour:
     textPos: {x: 0, y: 0, z: 0}
     option1Pos: {x: 0, y: 0, z: 0}
     option2Pos: {x: 0, y: 0, z: 0}
-  isDaniella: 0
+  isDaniella: 1

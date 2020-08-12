@@ -98,7 +98,7 @@ public class AudioManager : MonoBehaviour
             }//end if
         }//end for loop
 
-        Debug.LogError(name + " audio clip doesn't exist in the Sound"
+        Debug.LogWarning(name + " audio clip doesn't exist in the Sound"
                                 + "Array. Was there a typo?");
         return -1;
 
