@@ -109,6 +109,8 @@ let's head out.
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
 Yeah, let's hit the road.
+
+<<LoadNextScene DialogueManager>>
 ===
 title: PLAYGROUND
 tags: 

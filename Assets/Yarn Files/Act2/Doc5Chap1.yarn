@@ -202,4 +202,6 @@ but I really appreciated it.
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
 No problem.
+
+<<LoadNextScene DialogueManager>>
 ===
