@@ -203,4 +203,6 @@ Of course. Now, come on.
 Let's focus up and finish this stretch of road. 
 <<SetExpression Daniella Smile>>
 I can smell my mom's arroz con gandules from here.
+
+<<LoadNextScene DialogueManager>>
 ===

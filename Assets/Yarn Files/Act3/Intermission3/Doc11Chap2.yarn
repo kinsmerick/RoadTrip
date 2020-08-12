@@ -131,8 +131,8 @@ I'm ready to go whenever you are.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-[[I'm ready]]
-[[Give me a second.]]
+[[I'm ready|READY]]
+[[Give me a second.|NOTYET]]
 ===
 title: NOFMISH
 tags:
@@ -144,19 +144,17 @@ I'm ready to go whenever you are.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-[[Ready|CONTINUEGAME]]
+[[I'm ready|READY]]
 [[Give me a second.|NOTYET]]
-<<endif>>
 ===
-title: CONTINUEGAME
+title: READY
 tags:
 ---
-<<ReturnToMenu Examineables AlphaMenu>>
+<<LoadNextScene DialogueManager>>
 ===
 title: NOTYET
 tags:
 ---
-<<SetSpeaker DialogueManager Daniella>>
 I want to look around some more.
 ===
 title: BOXES
