@@ -79,6 +79,7 @@ Ready to go?
 title: CONTINUEGAME
 tags:
 ---
+//<<ReturnToMenu Examineables AlphaMenu>>
 <<LoadNextScene DialogueManager>>
 ===
 title: NOTYET
