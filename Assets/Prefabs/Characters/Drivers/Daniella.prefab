@@ -198,6 +198,7 @@ MonoBehaviour:
     expression: {fileID: 21300000, guid: b5c0eac8cf99dc14299c6d54ac80732c, type: 3}
   CharacterSounds:
   - {fileID: 11400000, guid: 6057b2049a1928841b7b073071ceffea, type: 2}
+  - {fileID: 11400000, guid: 48cf6a39fd54f1e489289b50cd651ccb, type: 2}
   BubblesPositions:
   - posName: OutCar
     textPos: {x: 448, y: 167, z: 0}

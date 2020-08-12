@@ -558,6 +558,21 @@ PrefabInstance:
       propertyPath: onOptionsEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1443318107}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: playCharacterSound
+      objectReference: {fileID: 0}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5734685049993204567, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: m_Name
@@ -1094,6 +1109,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eaa11b4a1086714aad42eee477d2213, type: 3}
+--- !u!114 &1443318107 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+    type: 3}
+  m_PrefabInstance: {fileID: 1443318106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf69e8fbc5327c40bd3636839ddc350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1557714476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1150,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a2286a84247348a8bde7834af7a1493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoadAfterDialogue: BetaMenu
+  loadingScreen: {fileID: 0}
+  text: {fileID: 0}
+  wheel: {fileID: 0}
+  SceneToLoad: 
+  MinLoadTime: 4.5
+  ShouldEngineSoundPlay: 0
 --- !u!4 &1557714478
 Transform:
   m_ObjectHideFlags: 0

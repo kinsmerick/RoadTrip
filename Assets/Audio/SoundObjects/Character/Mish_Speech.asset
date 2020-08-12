@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f9930695bda74c41a8bebfcd57a533f, type: 3}
-  m_Name: Daniella_Speech
+  m_Name: Mish_Speech
   m_EditorClassIdentifier: 
-  clipName: Daniella_Speech
-  clip: {fileID: 8300000, guid: d5fa326daaa8c0143b7c0614bc260ba7, type: 3}
+  clipName: Mish_Speech
+  clip: {fileID: 8300000, guid: fdb24908a52ebe149b704ae079768935, type: 3}
   volume: 1
   loop: 0
   playOnAwake: 0
+  audioType: 1
