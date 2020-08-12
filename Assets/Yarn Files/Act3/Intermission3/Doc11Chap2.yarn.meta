@@ -8,10 +8,54 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
+  baseLanguageID: en-US
+  stringIDs:
+  - Doc11Chap2-HONEYJAM-0
+  - Doc11Chap2-HONEYJAM-1
+  - Doc11Chap2-HONEYJAM-2
+  - Doc11Chap2-HONEYJAM-3
+  - Doc11Chap2-HONEYJAM-4
+  - Doc11Chap2-HONEYJAM-5
+  - Doc11Chap2-HONEYJAM-6
+  - Doc11Chap2-HONEYJAM-7
+  - Doc11Chap2-HONEYJAM-8
+  - Doc11Chap2-HONEYJAM-9
+  - Doc11Chap2-HONEYJAM-10
+  - Doc11Chap2-HONEYJAM-11
+  - Doc11Chap2-HONEYJAM-12
+  - Doc11Chap2-HONEYJAM-13
+  - Doc11Chap2-HONEYJAM-14
+  - Doc11Chap2-HONEYJAM-15
+  - Doc11Chap2-HONEYJAM-16
+  - Doc11Chap2-HONEYJAM-17
+  - Doc11Chap2-HONEYJAM-18
+  - Doc11Chap2-HONEYJAM-19
+  - Doc11Chap2-HONEYJAM-20
+  - Doc11Chap2-HONEYJAM-21
+  - Doc11Chap2-HONEYJAM-22
+  - Doc11Chap2-HONEYJAM-23
+  - Doc11Chap2-HONEYJAM-24
+  - Doc11Chap2-MISH-25
+  - Doc11Chap2-MISH-26
+  - Doc11Chap2-MISH-27
+  - Doc11Chap2-MISH-28
+  - Doc11Chap2-MISH-29
+  - Doc11Chap2-MISH-30
+  - Doc11Chap2-NOTYET-31
+  - Doc11Chap2-BOXES-32
+  - Doc11Chap2-BOXES-33
+  - Doc11Chap2-YARDSALESIGN-34
+  - Doc11Chap2-YARDSALESIGN-35
+  - Doc11Chap2-TV-36
+  - Doc11Chap2-GAMES-37
+  - Doc11Chap2-GAMES-38
+  - Doc11Chap2-GAMES-39
+  - Doc11Chap2-GAMES-40
+  - Doc11Chap2-GAMES-41
+  - Doc11Chap2-SOCKS-42
+  - Doc11Chap2-STAIN-43
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
   compilationErrorMessage: 'Error on line 137 at position 1:
 
     mismatched input
@@ -20,5 +64,6 @@ ScriptedImporter:
     ===
 
     ^^^'
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: dd9fad992c7324308bbc24eaaea26176,
+    type: 3}
   localizations: []

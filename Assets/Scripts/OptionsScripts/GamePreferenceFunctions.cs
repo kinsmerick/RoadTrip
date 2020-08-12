@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
+using System.IO;
 
 public class GamePreferenceFunctions : MonoBehaviour
 {
@@ -26,6 +27,12 @@ public class GamePreferenceFunctions : MonoBehaviour
         dialogueObjectToEdit.textSpeed = speed;
       }
 
+    }
+
+
+    public void DeleteSaveData(){
+      File.Delete(Application.persistentDataPath + "/items.sav");
+      File.Delete(Application.persistentDataPath + "/gameCompletion.sav");
     }
 
 }

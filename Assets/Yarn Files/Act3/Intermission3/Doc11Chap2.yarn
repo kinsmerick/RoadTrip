@@ -1,5 +1,5 @@
 title: HONEYJAM
-tags: 
+tags:
 colorID: 0
 position: 60,250
 ---
@@ -46,8 +46,8 @@ Thank you, Jam. May I say, you two look like a great couple.
 Oh no we-
 
 <<SetSpeaker DialogueManager Jam>>
-<<SetBubbleStyle DialogueManager Standard>> 
-We love couples. Why don't you just take whatever you like! It's on us. 
+<<SetBubbleStyle DialogueManager Standard>>
+We love couples. Why don't you just take whatever you like! It's on us.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -58,7 +58,7 @@ Wait, really?
 You two deserve to furnish your home with love like we have!
 
 <<SetSpeaker DialogueManager Jam>>
-<<SetBubbleStyle DialogueManager Standard>> 
+<<SetBubbleStyle DialogueManager Standard>>
 I actually have something I think you both would love.
 
 <<SetSpeaker DialogueManager Honey>>
@@ -71,9 +71,9 @@ Oh, you'd love this.
 Wow! This is… so cute!
 
 <<SetSpeaker DialogueManager Jam>>
-<<SetBubbleStyle DialogueManager Standard>> 
-See, I knew she'd love it. 
-I loved it so much! It's so unique. 
+<<SetBubbleStyle DialogueManager Standard>>
+See, I knew she'd love it.
+I loved it so much! It's so unique.
 If you put batteries in, it sings you a love song!
 
 <<SetSpeaker DialogueManager Honey>>
@@ -93,11 +93,11 @@ Enjoy!
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
-I love you. 
+I love you.
 
 <<SetSpeaker DialogueManager Honey>>
 <<SetBubbleStyle DialogueManager Standard>>
-No, I love you! 
+No, I love you!
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -106,7 +106,7 @@ You're so cute…
 <<endif>>
 ===
 title: MISH
-tags: 
+tags:
 colorID: 0
 position: 334,167
 ---
@@ -132,38 +132,36 @@ I'm ready to go whenever you are.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-[[I'm ready]]
-[[Give me a second.]]
+[[Ready|CONTINUEGAME]]
+[[Give me a second.|NOTYET]]
+<<endif>>
+===
+title: CONTINUEGAME
+tags:
+---
+<<ReturnToMenu Examineables AlphaMenu>>
+===
+title: NOTYET
+tags:
+---
+<<SetSpeaker DialogueManager Daniella>>
+I want to look around some more.
 ===
 title: BOXES
-tags: 
+tags:
 colorID: 0
 position: 334,432
 ---
-Hmm… I wonder if I can look inside these… 
+Hmm… I wonder if I can look inside these…
 I probably shouldn't.
 ===
 title: YARDSALESIGN
-tags: 
+tags:
 colorID: 0
 position: 610,213
 ---
-They spelled yard sale wrong, 
+They spelled yard sale wrong,
 but the sparkles really make up for it.
-===
-title: I'm ready
-tags: 
-colorID: 0
-position: 454,-53
----
-Empty Text
-===
-title: Give me a second.
-tags: 
-colorID: 0
-position: 674,-53
----
-Empty Text
 ===
 title: TV
 tags:
@@ -173,10 +171,10 @@ A smol T.V.
 title: GAMES
 tags:
 ---
-Look at all these GAMES for real GAMERS. Let’s see… 
-A dungeon crawler game, 
-a rat themed card game, 
-and a vampire fighter game? 
+Look at all these GAMES for real GAMERS. Let’s see…
+A dungeon crawler game,
+a rat themed card game,
+and a vampire fighter game?
 These are all too cool for me!!
 ===
 title: SOCKS
