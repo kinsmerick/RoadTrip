@@ -1,0 +1,87 @@
+fileFormatVersion: 2
+guid: 3a3faaca4c76039498aaf8e0732d000f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc6Chap2-MAINBRANCH9-0
+  - Doc6Chap2-MAINBRANCH9-1
+  - Doc6Chap2-MAINBRANCH9-2
+  - Doc6Chap2-MAINBRANCH9-3
+  - Doc6Chap2-MAINBRANCH9-4
+  - Doc6Chap2-MAINBRANCH9-5
+  - Doc6Chap2-MAINBRANCH9-6
+  - Doc6Chap2-MAINBRANCH9-7
+  - Doc6Chap2-MAINBRANCH9-8
+  - Doc6Chap2-MAINBRANCH9-9
+  - Doc6Chap2-MAINBRANCH9-10
+  - Doc6Chap2-MAINBRANCH9-11
+  - Doc6Chap2-BRANCH9A-12
+  - Doc6Chap2-BRANCH9A-13
+  - Doc6Chap2-BRANCH9A-14
+  - Doc6Chap2-BRANCH9A-15
+  - Doc6Chap2-BRANCH9A-16
+  - Doc6Chap2-BRANCH9A-17
+  - Doc6Chap2-BRANCH9A-18
+  - Doc6Chap2-BRANCH9A-19
+  - Doc6Chap2-BRANCH9A-20
+  - Doc6Chap2-BRANCH9A-21
+  - Doc6Chap2-BRANCH9A-22
+  - Doc6Chap2-BRANCH9A-23
+  - Doc6Chap2-BRANCH9B-24
+  - Doc6Chap2-BRANCH9B-25
+  - Doc6Chap2-BRANCH9B-26
+  - Doc6Chap2-BRANCH9B-27
+  - Doc6Chap2-BRANCH9B-28
+  - Doc6Chap2-BRANCH9B-29
+  - Doc6Chap2-BRANCH9B-30
+  - Doc6Chap2-BRANCH9B-31
+  - Doc6Chap2-BRANCH9B-32
+  - Doc6Chap2-BRANCH9B-33
+  - Doc6Chap2-BRANCH9B-34
+  - Doc6Chap2-MAINBRANCH10-35
+  - Doc6Chap2-MAINBRANCH10-36
+  - Doc6Chap2-MAINBRANCH10-37
+  - Doc6Chap2-MAINBRANCH10-38
+  - Doc6Chap2-MAINBRANCH10-39
+  - Doc6Chap2-MAINBRANCH10-40
+  - Doc6Chap2-MAINBRANCH10-41
+  - Doc6Chap2-MAINBRANCH10-42
+  - Doc6Chap2-MAINBRANCH10-43
+  - Doc6Chap2-MAINBRANCH10-44
+  - Doc6Chap2-MAINBRANCH10-45
+  - Doc6Chap2-MAINBRANCH10-46
+  - Doc6Chap2-MAINBRANCH10-47
+  - Doc6Chap2-BRANCH10A-48
+  - Doc6Chap2-BRANCH10A-49
+  - Doc6Chap2-BRANCH10B-50
+  - Doc6Chap2-BRANCH10B-51
+  - Doc6Chap2-MAINBRANCH11-52
+  - Doc6Chap2-MAINBRANCH11-53
+  - Doc6Chap2-MAINBRANCH11-54
+  - Doc6Chap2-MAINBRANCH11-55
+  - Doc6Chap2-MAINBRANCH11-56
+  - Doc6Chap2-MAINBRANCH11-57
+  - Doc6Chap2-MAINBRANCH11-58
+  - Doc6Chap2-MAINBRANCH11-59
+  - Doc6Chap2-MAINBRANCH11-60
+  - Doc6Chap2-MAINBRANCH11-61
+  - Doc6Chap2-MAINBRANCH11-62
+  - Doc6Chap2-MAINBRANCH11-63
+  - Doc6Chap2-MAINBRANCH11-64
+  - Doc6Chap2-MAINBRANCH11-65
+  - Doc6Chap2-MAINBRANCH11-66
+  - Doc6Chap2-MAINBRANCH11-67
+  - Doc6Chap2-MAINBRANCH11-68
+  - Doc6Chap2-MAINBRANCH11-69
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

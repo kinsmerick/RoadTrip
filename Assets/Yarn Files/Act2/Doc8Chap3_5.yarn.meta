@@ -1,0 +1,51 @@
+fileFormatVersion: 2
+guid: 1cf915e0f9bee0e4c92fd268e361a588
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc8Chap3_5-MAINBRANCH12-0
+  - Doc8Chap3_5-MAINBRANCH12-1
+  - Doc8Chap3_5-MAINBRANCH12-2
+  - Doc8Chap3_5-MAINBRANCH12-3
+  - Doc8Chap3_5-MAINBRANCH12-4
+  - Doc8Chap3_5-MAINBRANCH12-5
+  - Doc8Chap3_5-MAINBRANCH12-6
+  - Doc8Chap3_5-MAINBRANCH12-7
+  - Doc8Chap3_5-MAINBRANCH12-8
+  - Doc8Chap3_5-MAINBRANCH12-9
+  - Doc8Chap3_5-MAINBRANCH12-10
+  - Doc8Chap3_5-MAINBRANCH12-11
+  - Doc8Chap3_5-BRANCH12A-12
+  - Doc8Chap3_5-BRANCH12A-13
+  - Doc8Chap3_5-BRANCH12A-14
+  - Doc8Chap3_5-BRANCH12A-15
+  - Doc8Chap3_5-BRANCH12A-16
+  - Doc8Chap3_5-BRANCH12A-17
+  - Doc8Chap3_5-BRANCH12A-18
+  - Doc8Chap3_5-BRANCH12A-19
+  - Doc8Chap3_5-BRANCH12A-20
+  - Doc8Chap3_5-BRANCH12B-21
+  - Doc8Chap3_5-BRANCH12B-22
+  - Doc8Chap3_5-BRANCH12B-23
+  - Doc8Chap3_5-BRANCH12B-24
+  - Doc8Chap3_5-BRANCH12B-25
+  - Doc8Chap3_5-BRANCH12B-26
+  - Doc8Chap3_5-BRANCH12B-27
+  - Doc8Chap3_5-BRANCH12B-28
+  - Doc8Chap3_5-BRANCH12B-29
+  - Doc8Chap3_5-BRANCH12B-30
+  - Doc8Chap3_5-MAINBRANCH13-31
+  - Doc8Chap3_5-MAINBRANCH13-32
+  - Doc8Chap3_5-MAINBRANCH13-33
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

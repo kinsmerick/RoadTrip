@@ -1,0 +1,44 @@
+fileFormatVersion: 2
+guid: 6ae0a60d1e81dae45b227a20af38610c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc9Chap4-NIGHT2-0
+  - Doc9Chap4-NIGHT2-1
+  - Doc9Chap4-NIGHT2-2
+  - Doc9Chap4-NIGHT2-3
+  - Doc9Chap4-NIGHT2-4
+  - Doc9Chap4-NIGHT2-5
+  - Doc9Chap4-NIGHT2-6
+  - Doc9Chap4-NIGHT2-7
+  - Doc9Chap4-NIGHT2-8
+  - Doc9Chap4-NIGHT2-9
+  - Doc9Chap4-NIGHT2-10
+  - Doc9Chap4-NIGHT2-11
+  - Doc9Chap4-NIGHT2-12
+  - Doc9Chap4-NIGHT2-13
+  - Doc9Chap4-NIGHT2-14
+  - Doc9Chap4-NIGHT2-15
+  - Doc9Chap4-NIGHT2-16
+  - Doc9Chap4-NIGHT2-17
+  - Doc9Chap4-NIGHT2-18
+  - Doc9Chap4-NIGHT2-19
+  - Doc9Chap4-NIGHT2-20
+  - Doc9Chap4-NIGHT2-21
+  - Doc9Chap4-NIGHT2-22
+  - Doc9Chap4-NIGHT2-23
+  - Doc9Chap4-NIGHT2-24
+  - Doc9Chap4-NIGHT2-25
+  - Doc9Chap4-NIGHT2-26
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

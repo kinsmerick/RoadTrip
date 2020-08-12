@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: f0e595b74f9301c4a8d013a728a0f292
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc5Chap1-MAINBRANCH6-0
+  - Doc5Chap1-MAINBRANCH6-1
+  - Doc5Chap1-MAINBRANCH6-2
+  - Doc5Chap1-MAINBRANCH6-3
+  - Doc5Chap1-MAINBRANCH6-4
+  - Doc5Chap1-MAINBRANCH6-5
+  - Doc5Chap1-BRANCH6A-6
+  - Doc5Chap1-BRANCH6A-7
+  - Doc5Chap1-BRANCH6A-8
+  - Doc5Chap1-BRANCH6A-9
+  - Doc5Chap1-BRANCH6B-10
+  - Doc5Chap1-BRANCH6B-11
+  - Doc5Chap1-BRANCH6B-12
+  - Doc5Chap1-BRANCH6B-13
+  - Doc5Chap1-BRANCH6B-14
+  - Doc5Chap1-BRANCH6B-15
+  - Doc5Chap1-BRANCH6B-16
+  - Doc5Chap1-BRANCH6B-17
+  - Doc5Chap1-BRANCH6B-18
+  - Doc5Chap1-BRANCH6B-19
+  - Doc5Chap1-BRANCH6B-20
+  - Doc5Chap1-BRANCH6B-21
+  - Doc5Chap1-BRANCH6B-22
+  - Doc5Chap1-BRANCH6B-23
+  - Doc5Chap1-BRANCH6B-24
+  - Doc5Chap1-BRANCH6B-25
+  - Doc5Chap1-MAINBRANCH7-26
+  - Doc5Chap1-MAINBRANCH7-27
+  - Doc5Chap1-MAINBRANCH7-28
+  - Doc5Chap1-MAINBRANCH7-29
+  - Doc5Chap1-MAINBRANCH7-30
+  - Doc5Chap1-MAINBRANCH7-31
+  - Doc5Chap1-MAINBRANCH7-32
+  - Doc5Chap1-MAINBRANCH7-33
+  - Doc5Chap1-MAINBRANCH7-34
+  - Doc5Chap1-MAINBRANCH7-35
+  - Doc5Chap1-MAINBRANCH7-36
+  - Doc5Chap1-MAINBRANCH7-37
+  - Doc5Chap1-MAINBRANCH7-38
+  - Doc5Chap1-MAINBRANCH7-39
+  - Doc5Chap1-MAINBRANCH7-40
+  - Doc5Chap1-BRANCH7A-41
+  - Doc5Chap1-BRANCH7A-42
+  - Doc5Chap1-BRANCH7A-43
+  - Doc5Chap1-BRANCH7A-44
+  - Doc5Chap1-BRANCH7A-45
+  - Doc5Chap1-BRANCH7B-46
+  - Doc5Chap1-BRANCH7B-47
+  - Doc5Chap1-BRANCH7B-48
+  - Doc5Chap1-BRANCH7B-49
+  - Doc5Chap1-BRANCH7B-50
+  - Doc5Chap1-BRANCH7B-51
+  - Doc5Chap1-BRANCH7B-52
+  - Doc5Chap1-BRANCH7B-53
+  - Doc5Chap1-MAINBRANCH8-54
+  - Doc5Chap1-MAINBRANCH8-55
+  - Doc5Chap1-MAINBRANCH8-56
+  - Doc5Chap1-MAINBRANCH8-57
+  - Doc5Chap1-MAINBRANCH8-58
+  - Doc5Chap1-MAINBRANCH8-59
+  - Doc5Chap1-MAINBRANCH8-60
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

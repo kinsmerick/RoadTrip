@@ -1,0 +1,76 @@
+fileFormatVersion: 2
+guid: 823e83542d2f9554dadda9706fb90cb3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Doc12Chap3-MAINBRANCH17-0
+  - Doc12Chap3-MAINBRANCH17-1
+  - Doc12Chap3-MAINBRANCH17-2
+  - Doc12Chap3-MAINBRANCH17-3
+  - Doc12Chap3-MAINBRANCH17-4
+  - Doc12Chap3-MAINBRANCH17-5
+  - Doc12Chap3-MAINBRANCH17-6
+  - Doc12Chap3-MAINBRANCH17-7
+  - Doc12Chap3-BRANCH17A-8
+  - Doc12Chap3-BRANCH17A-9
+  - Doc12Chap3-BRANCH17A-10
+  - Doc12Chap3-BRANCH17A-11
+  - Doc12Chap3-BRANCH17A-12
+  - Doc12Chap3-BRANCH17A-13
+  - Doc12Chap3-BRANCH17B-14
+  - Doc12Chap3-BRANCH17B-15
+  - Doc12Chap3-BRANCH17B-16
+  - Doc12Chap3-BRANCH17B-17
+  - Doc12Chap3-BRANCH17B-18
+  - Doc12Chap3-BRANCH17B-19
+  - Doc12Chap3-MAINBRANCH18-20
+  - Doc12Chap3-MAINBRANCH18-21
+  - Doc12Chap3-MAINBRANCH18-22
+  - Doc12Chap3-MAINBRANCH18-23
+  - Doc12Chap3-MAINBRANCH18-24
+  - Doc12Chap3-MAINBRANCH18-25
+  - Doc12Chap3-MAINBRANCH18-26
+  - Doc12Chap3-MAINBRANCH18-27
+  - Doc12Chap3-MAINBRANCH18-28
+  - Doc12Chap3-MAINBRANCH18-29
+  - Doc12Chap3-BRANCH18A-30
+  - Doc12Chap3-BRANCH18A-31
+  - Doc12Chap3-BRANCH18A-32
+  - Doc12Chap3-BRANCH18A-33
+  - Doc12Chap3-BRANCH18A-34
+  - Doc12Chap3-BRANCH18A-35
+  - Doc12Chap3-BRANCH18B-36
+  - Doc12Chap3-BRANCH18B-37
+  - Doc12Chap3-BRANCH18B-38
+  - Doc12Chap3-BRANCH18B-39
+  - Doc12Chap3-BRANCH18B-40
+  - Doc12Chap3-BRANCH18B-41
+  - Doc12Chap3-BRANCH18B-42
+  - Doc12Chap3-BRANCH18B-43
+  - Doc12Chap3-BRANCH18B-44
+  - Doc12Chap3-MAINBRANCH19-45
+  - Doc12Chap3-MAINBRANCH19-46
+  - Doc12Chap3-MAINBRANCH19-47
+  - Doc12Chap3-MAINBRANCH19-48
+  - Doc12Chap3-MAINBRANCH19-49
+  - Doc12Chap3-MAINBRANCH19-50
+  - Doc12Chap3-MAINBRANCH19-51
+  - Doc12Chap3-MAINBRANCH19-52
+  - Doc12Chap3-MAINBRANCH19-53
+  - Doc12Chap3-MAINBRANCH19-54
+  - Doc12Chap3-MAINBRANCH19-55
+  - Doc12Chap3-MAINBRANCH19-56
+  - Doc12Chap3-MAINBRANCH19-57
+  - Doc12Chap3-MAINBRANCH19-58
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
