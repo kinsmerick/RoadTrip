@@ -14,7 +14,13 @@ public class MarkActAsComplete : MonoBehaviour
 
   private GameCompletionRecord actDataToSave;
 
-  public void CompleteAct(){
+
+    public void Start()
+    {
+        CompleteAct();
+    }
+
+    public void CompleteAct(){
 
     if(File.Exists(Application.persistentDataPath + "/gameCompletion.sav")) {
       BinaryFormatter bf = new BinaryFormatter();
