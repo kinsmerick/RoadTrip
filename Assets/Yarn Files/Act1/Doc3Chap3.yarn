@@ -226,4 +226,6 @@ Do you need me to finish this stretch?
 
 <<SetSpeaker DialogueManager Daniella>>
 *YAWN* No, I can make it.
+
+<<LoadNextScene DialogueManager>>
 ===

@@ -95,4 +95,6 @@ We should get some rest for an early start tomorrow.
 Yeah, goodnight. 
 
 <<endif>>
+
+<<LoadNextScene DialogueManager>>
 ===

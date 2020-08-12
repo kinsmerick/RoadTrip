@@ -79,7 +79,8 @@ Ready to go?
 title: CONTINUEGAME
 tags:
 ---
-<<ReturnToMenu Examineables AlphaMenu>>
+//<<ReturnToMenu Examineables AlphaMenu>>
+<<LoadNextScene DialogueManager>>
 ===
 title: NOTYET
 tags:

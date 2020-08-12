@@ -223,4 +223,5 @@ Can we make a stop?
 
 <<SetSpeaker DialogueManager Daniella>>
 Yeah, I don't care.
+<<LoadNextScene DialogueManager>>
 ===
