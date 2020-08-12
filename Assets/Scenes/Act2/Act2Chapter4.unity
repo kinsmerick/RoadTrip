@@ -221,6 +221,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eaa11b4a1086714aad42eee477d2213, type: 3}
+--- !u!114 &290807301 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+    type: 3}
+  m_PrefabInstance: {fileID: 290807300}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf69e8fbc5327c40bd3636839ddc350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &585628705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1023,6 +1035,21 @@ PrefabInstance:
     - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: onLineUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 290807301}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: playCharacterSound
+      objectReference: {fileID: 0}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3337124747492698505, guid: 71e5a8ddc5316f34e856b291afb41c00,

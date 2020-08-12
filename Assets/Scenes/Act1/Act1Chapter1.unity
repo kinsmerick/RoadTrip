@@ -340,7 +340,18 @@ MonoBehaviour:
         m_CallState: 2
   onLineStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1483509596}
+        m_MethodName: playCharacterSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onLineFinishDisplaying:
     m_PersistentCalls:
       m_Calls: []
@@ -658,6 +669,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundArray:
   - {fileID: 11400000, guid: 48cf6a39fd54f1e489289b50cd651ccb, type: 2}
+  - {fileID: 11400000, guid: 6057b2049a1928841b7b073071ceffea, type: 2}
+  - {fileID: 11400000, guid: c70ac8f2983a98b4dbd7e494f53c3d9c, type: 2}
 --- !u!4 &1483509597
 Transform:
   m_ObjectHideFlags: 0

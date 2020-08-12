@@ -4218,7 +4218,7 @@ GameObject:
   - component: {fileID: 412928280}
   - component: {fileID: 412928282}
   m_Layer: 0
-  m_Name: Panel
+  m_Name: TooltipPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10310,6 +10310,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8416138673704611033, guid: 5d45608c38b2c7744addfb22a8ed543e,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1590401737}
     - target: {fileID: 8416138673704611034, guid: 5d45608c38b2c7744addfb22a8ed543e,
         type: 3}
       propertyPath: m_Name
@@ -13536,7 +13541,7 @@ MonoBehaviour:
   wheel: {fileID: 1483791150}
   SceneToLoad: Act1Chapter1
   MinLoadTime: 4.5
-  ShouldEngineSoundPlay: 0
+  ShouldEngineSoundPlay: 1
 --- !u!114 &1853033968
 MonoBehaviour:
   m_ObjectHideFlags: 0
