@@ -131,8 +131,8 @@ I'm ready to go whenever you are.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-[[I'm ready]]
-[[Give me a second.]]
+[[I'm ready|READY]]
+[[Give me a second.|NOTYET]]
 ===
 title: NOFMISH
 tags:
@@ -144,8 +144,18 @@ I'm ready to go whenever you are.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-[[I'm ready]]
-[[Give me a second.]]
+[[I'm ready|READY]]
+[[Give me a second.|NOTYET]]
+===
+title: READY
+tags:
+---
+<<LoadNextScene DialogueManager>>
+===
+title: NOTYET
+tags:
+---
+I want to look around some more.
 ===
 title: BOXES
 tags: 
@@ -162,20 +172,6 @@ position: 610,213
 ---
 They spelled yard sale wrong, 
 but the sparkles really make up for it.
-===
-title: I'm ready
-tags: 
-colorID: 0
-position: 454,-53
----
-Empty Text
-===
-title: Give me a second.
-tags: 
-colorID: 0
-position: 674,-53
----
-Empty Text
 ===
 title: TV
 tags:
