@@ -9,21 +9,24 @@ public class SpawnCertainItemBasedOnValue : MonoBehaviour
   public GameObject activeIfAboveValue;
   public GameObject activeIfBelowOrEqual;
 
-  private ForgiveValueRecorder forgiveObject;
+
+  private float savedForgivenessValue;
 
     // Start is called before the first frame update
     void Start()
     {
-      forgiveObject = FindObjectOfType<ForgiveValueRecorder>();
-      if(forgiveObject != null){
-        if(forgiveObject.forgivenessValue > valueToCompareTo){
+
+      savedForgivenessValue = PlayerPrefs.GetFloat("Forgiveness", 0);
+
+      if(activeIfAboveValue != null && activeIfBelowOrEqual != null){
+        if(savedForgivenessValue > valueToCompareTo){
           activeIfAboveValue.SetActive(true);
         }
         else{
           activeIfBelowOrEqual.SetActive(true);
         }
-        Destroy(forgiveObject.gameObject);
       }
+
     }
 
     // Update is called once per frame
