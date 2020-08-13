@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 //Scriptable object that instantiates an AudioSource with the settings defined by
 //the user in the inspector. It contains methods to start and stop the AudioSource's playing.
@@ -41,6 +42,8 @@ public class Sound : ScriptableObject
 
     public void setSource(AudioSource source)
     {
+        setVolumeToPrefs();
+
         _audioSource = source;
         _audioSource.clip = clip;
         _audioSource.volume = volume;
@@ -68,6 +71,27 @@ public class Sound : ScriptableObject
         }//end if
 
     }//end Stop method
+
+    public void setVolumeToPrefs()
+    {
+        switch (audioType)
+        {
+            case AudioType.Music:
+                volume = PlayerPrefs.GetFloat("Music Volume", 1);
+                break;
+
+            case AudioType.Sfx:
+                volume = PlayerPrefs.GetFloat("Sfx Volume", 1);
+                break;
+
+            case AudioType.Character:
+                volume = PlayerPrefs.GetFloat("Chara Volume", 1);
+                break;
+
+            default:
+                break;
+        }
+    }
 
 }//end Sound scriptable object
 
