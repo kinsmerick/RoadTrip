@@ -16,7 +16,7 @@ public class SpawnCertainItemBasedOnValue : MonoBehaviour
     void Start()
     {
 
-      savedForgivenessValue = PlayerPrefs.GetFloat("Forgiveness", 0);
+      savedForgivenessValue = PlayerPrefs.GetFloat("forgiveness", 0);
 
       if(activeIfAboveValue != null && activeIfBelowOrEqual != null){
         if(savedForgivenessValue > valueToCompareTo){

@@ -4216,7 +4216,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
-  m_Sprite: {fileID: 21300000, guid: 644fa03d26cf544aeb8929584713e97a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7fad5deda562a4cffb3d133371dccf4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5330,7 +5330,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: BetaMenu
+          m_StringArgument: TitleMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1380613641
