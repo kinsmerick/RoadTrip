@@ -47,6 +47,8 @@ public class AudioSliderOnChange : MonoBehaviour
             default:
                 break;
         }
+
+        _vol = _slider.value;
     }
 
 }

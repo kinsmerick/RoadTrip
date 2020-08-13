@@ -22,13 +22,15 @@ public class GamePreferenceFunctions : MonoBehaviour
 
     //public TMP_Dropdown resolution;
 
+    private AudioManager _audManager;
+
 //if the scene has the dialogue ui, attach it to this so that the saved speed will save to it
 
   private string currentTextSpeed;
 
     private void Awake()
     {
-
+        _audManager = FindObjectOfType<AudioManager>();
     }
 
     public void Start(){
@@ -43,16 +45,19 @@ public class GamePreferenceFunctions : MonoBehaviour
     public void ChangeMusicVol(float vol)
     {
         PlayerPrefs.SetFloat("Music Volume", vol);
+        _audManager.updateVolumes(AudioType.Music);
     }
 
     public void ChangeSfxVol(float vol)
     {
         PlayerPrefs.SetFloat("Sfx Volume", vol);
+        _audManager.updateVolumes(AudioType.Sfx);
     }
 
     public void ChangeCharaVol(float vol)
     {
         PlayerPrefs.SetFloat("Chara Volume", vol);
+        _audManager.updateVolumes(AudioType.Character);
     }
 
     public void ChangeAutoAdv(bool state)
@@ -90,9 +95,9 @@ public class GamePreferenceFunctions : MonoBehaviour
 
     public void setStartingPrefs()
     {
-        musSlider.value = PlayerPrefs.GetFloat("Music Volume", 1);
-        sfxSlider.value = PlayerPrefs.GetFloat("Sfx Volume", 1);
-        charaSlider.value = PlayerPrefs.GetFloat("Chara Volume", 1);
+        musSlider.value = PlayerPrefs.GetFloat("Music Volume", 0.5f);
+        sfxSlider.value = PlayerPrefs.GetFloat("Sfx Volume", 0.5f);
+        charaSlider.value = PlayerPrefs.GetFloat("Chara Volume", 0.5f);
 
         switch(PlayerPrefs.GetString("TextSpeed", "Medium"))
         {

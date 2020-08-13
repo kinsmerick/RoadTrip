@@ -77,15 +77,15 @@ public class Sound : ScriptableObject
         switch (audioType)
         {
             case AudioType.Music:
-                volume = PlayerPrefs.GetFloat("Music Volume", 1);
+                volume = PlayerPrefs.GetFloat("Music Volume", 0.5f);
                 break;
 
             case AudioType.Sfx:
-                volume = PlayerPrefs.GetFloat("Sfx Volume", 1);
+                volume = PlayerPrefs.GetFloat("Sfx Volume", 0.5f);
                 break;
 
             case AudioType.Character:
-                volume = PlayerPrefs.GetFloat("Chara Volume", 1);
+                volume = PlayerPrefs.GetFloat("Chara Volume", 0.5f);
                 break;
 
             default:
