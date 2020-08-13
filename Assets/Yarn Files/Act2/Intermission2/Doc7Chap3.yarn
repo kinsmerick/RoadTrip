@@ -1,5 +1,5 @@
 title: MARTHA
-tags: 
+tags:
 colorID: 0
 position: -85,289
 ---
@@ -11,8 +11,8 @@ Uhh. Excuse me, miss?
 
 <<SetSpeaker DialogueManager Martha>>
 <<SetBubbleStyle DialogueManager Standard>>
-Ah, welcome… 
-What can I do for you? 
+Ah, welcome…
+What can I do for you?
 Better yet, what can you do for me?
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -26,17 +26,17 @@ Are you all alone?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-Uhh, no I have someone- 
+Uhh, no I have someone-
 Well I don't HAVE someone but
 there's someone down the road who-
-Forget it. Do you have any snacks? 
+Forget it. Do you have any snacks?
 The doors to the store are locked.
 
 <<SetSpeaker DialogueManager Martha>>
 <<SetBubbleStyle DialogueManager Standard>>
-Ahhh you wish to fill your stomach with a treat, 
+Ahhh you wish to fill your stomach with a treat,
 but first, to obtain my answer you must defeat…
-this test I give to all who seek, 
+this test I give to all who seek,
 undying truths and passions bleak.
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -52,7 +52,7 @@ What's black...and white… and RED all over?
 Oh yes I know this one! A newspaper?
 
 <<SetSpeaker DialogueManager Martha>>
-<<SetBubbleStyle DialogueManager Standard>> 
+<<SetBubbleStyle DialogueManager Standard>>
 Are you sure?
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -60,15 +60,15 @@ Are you sure?
 I think so? Yes?
 
 <<SetSpeaker DialogueManager Martha>>
-<<SetBubbleStyle DialogueManager Standard>> 
-Congratulations my dear… 
+<<SetBubbleStyle DialogueManager Standard>>
+Congratulations my dear…
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
 Thank you. So can I have some snacks?
 
 <<SetSpeaker DialogueManager Martha>>
-<<SetBubbleStyle DialogueManager Standard>> 
+<<SetBubbleStyle DialogueManager Standard>>
 My oh my, we haven't had snacks here in YEARS.
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -77,19 +77,19 @@ Oh. Thanks anyway?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-No gas? What kind of place is this? 
+No gas? What kind of place is this?
 I guess I should go tell Mish.
 
 <<else>>
 
 <<SetSpeaker DialogueManager Martha>>
-<<SetBubbleStyle DialogueManager Standard>> 
+<<SetBubbleStyle DialogueManager Standard>>
 Enjoy your lollipop!
 
 <<endif>>
 ===
 title: RETURNTOCAR
-tags: 
+tags:
 colorID: 0
 position: 216,93
 ---
@@ -98,7 +98,7 @@ position: 216,93
 Umm
 Hey
 So
-There were no snacks. 
+There were no snacks.
 Sorry.
 
 <<SetSpeaker DialogueManager Mish>>
@@ -113,16 +113,16 @@ Yeah, let's hit the road.
 <<LoadNextScene DialogueManager>>
 ===
 title: PLAYGROUND
-tags: 
+tags:
 colorID: 0
 position: 220,405
 ---
-Woah, this playground has gone through a lot. 
+Woah, this playground has gone through a lot.
 ===
 title: HORSEY
 tags:
 ---
-Horsey! 
+Horsey!
 My my, you've seen better days.
 ===
 title: GASPUMP
@@ -135,4 +135,9 @@ tags:
 ---
 So close but so far...
 I can't see anything inside.
+===
+title: OWLITEM
+tags:
+---
+Oh! Small baby! Who left you on the side of the road? I will take care of you. Do not worry.
 ===
