@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
     public Sound[] soundArray;
     
     private DialogueManager _dialogueManager;
+    private GameObject[] _audioSourceObjs;
 
     //Gets the scene's Dialogue Manager.
     //Instantiates the SoundArray specified in the inspector as children game object
@@ -25,12 +26,14 @@ public class AudioManager : MonoBehaviour
     private void Awake()
     {
         _dialogueManager = FindObjectOfType<DialogueManager>();
+        _audioSourceObjs = new GameObject[soundArray.Length];
 
         for (int i = 0; i < soundArray.Length; i++)
         {
             GameObject sound = new GameObject(soundArray[i].clipName + "AudioSource");
             sound.transform.SetParent(transform);
             soundArray[i].setSource(sound.AddComponent<AudioSource>());
+            _audioSourceObjs[i] = sound;
 
             if (soundArray[i].playOnAwake)
             {
@@ -75,11 +78,13 @@ public class AudioManager : MonoBehaviour
 
     //playCharacterSound is called by the Yarn Dialogue UI component each time a line starts.
     //It gets the character manager of the current speaker from the dialogue manager and
-    //plays that character manager's active sound.
+    //plays that character manager's active sound. It also makes sure that, if the sound
+    //was still playing, it is stopped before being played again.
 
     public void playCharacterSound()
     {
         CharacterManager cm = _dialogueManager.getCurrentSpeaker();
+        cm.getActiveSound().stop();
         cm.getActiveSound().play();
 
     }//end playCharacterSound method
@@ -103,5 +108,43 @@ public class AudioManager : MonoBehaviour
         return -1;
 
     }//end doesSoundExist method
+
+    public void updateVolumes(AudioType audType)
+    {
+        bool cuePlayed = false;
+
+        for (int i = 0; i < soundArray.Length; i++)
+        {
+            if(audType == soundArray[i].audioType)
+            {
+                switch (audType)
+                {
+                    case AudioType.Music:
+                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("Music Volume", 0.5f);
+                        break;
+
+                    case AudioType.Sfx:
+                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("Sfx Volume", 0.5f);
+                        if (!cuePlayed)
+                        {
+                            stopSound("Start_Menu_Button_Succeed");
+                            playSound("Start_Menu_Button_Succeed");
+                            cuePlayed = true;
+                        }
+                        break;
+
+                    case AudioType.Character:
+                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("Chara Volume", 0.5f);
+                        if (!cuePlayed)
+                        {
+                            stopSound("Daniella_Speech");
+                            playSound("Daniella_Speech");
+                            cuePlayed = true;
+                        }
+                        break;
+                }
+            }
+        }
+    }
 
 }//end AudioManager class

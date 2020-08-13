@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 639145077}
   - component: {fileID: 639145082}
   - component: {fileID: 639145083}
+  - component: {fileID: 639145084}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -453,6 +454,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 639145084}
+        m_MethodName: saveForgiveness
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &639145081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,6 +522,18 @@ MonoBehaviour:
   SceneToLoad: Intermission1
   MinLoadTime: 4.5
   ShouldEngineSoundPlay: 0
+--- !u!114 &639145084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639145075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7e73ed23d7b024dad8a663e0bd8734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &737597465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8336066189756013366, guid: e8e538f0cb0c3544b837a1e0f8d9194e,

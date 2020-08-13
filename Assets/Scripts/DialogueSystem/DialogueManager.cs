@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Yarn.Unity;
+using System.IO;
 
 /*The DialogueManager creates Yarn Commands SetSpeaker and SetBubblePosition. SetSpeaker changes the current speaker,
  adjusts the speech bubble's color according to that current speaker, and moves the speech bubble accordingly. If in
@@ -38,10 +39,18 @@ public class DialogueManager : MonoBehaviour
     private CharacterManager _currentSpeaker;
     private string _currentBubblePosName;
     private GameObject _currentShot;
+    private DialogueUI _dialogueUI;
+
+    private const float SLOW = 0.07f;
+    private const float MED = 0.03f;
+    private const float FAST = 0.01f;
+    private const float MAX = 0f;
 
     private void Awake()
     {
         _bubbleImage = speechBubble.GetComponent<Image>();
+        _dialogueUI = this.GetComponent<DialogueUI>();
+        SetSpeedToPrefs();
     }
     // Start is called before the first frame update
     void Start()
@@ -53,6 +62,34 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
 
+    }
+
+    private void SetSpeedToPrefs()
+    {
+        string textSpeedPref = PlayerPrefs.GetString("TextSpeed", "Medium");
+
+        switch (textSpeedPref)
+        {
+            case "Slow":
+                _dialogueUI.textSpeed = SLOW;
+                break;
+
+            case "Medium":
+                _dialogueUI.textSpeed = MED;
+                break;
+
+            case "Fast":
+                _dialogueUI.textSpeed = FAST;
+                break;
+
+            case "Max":
+                _dialogueUI.textSpeed = MAX;
+                break;
+
+            default:
+                _dialogueUI.textSpeed = MED;
+                break;
+        }
     }
 
     /*SetSpeaker is called in Yarn command <<SetSpeaker>>. It takes in the name of the desired speaker, iterates through the list

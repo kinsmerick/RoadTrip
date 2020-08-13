@@ -18,7 +18,11 @@ public class ToggleOptionText : MonoBehaviour
     {
         _tmp = GetComponentInChildren<TextMeshProUGUI>();
         _toggle = GetComponent<Toggle>();
-        toggleText();
+        if (!_toggle.Equals(null))
+        {
+            toggleText();
+        }
+
     }
 
     //when called, changes the text in the toggle's child TMP to reflect
