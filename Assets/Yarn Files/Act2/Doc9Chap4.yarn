@@ -81,4 +81,6 @@ Yeah, okay.
 Night.
 
 <<endif>>
+
+<<LoadNextScene DialogueManager>>
 ===

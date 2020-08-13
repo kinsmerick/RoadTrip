@@ -146,4 +146,6 @@ Yeah. It's getting late. Did you plan on stopping here?
 <<SetExpression Mish Neutral>>
 Yeah let's pull in for the night. 
 I wanted to get a little farther, but that's alright.
+
+<<LoadNextScene DialogueManager>>
 ===

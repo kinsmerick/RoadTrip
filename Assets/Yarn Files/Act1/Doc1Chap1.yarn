@@ -69,7 +69,8 @@ You didn't have to help me.
 <<SetSpeaker DialogueManager Mish>>
 And what, 
 have you spend thousands to ship everything home? 
-You hate flying. It's really no problem.
+And then you'd have to get on a plane, and I know you hate flying. 
+It's really no problem.
 
 [[MAINBRANCH2]]
 ===
@@ -222,4 +223,5 @@ Can we make a stop?
 
 <<SetSpeaker DialogueManager Daniella>>
 Yeah, I don't care.
+<<LoadNextScene DialogueManager>>
 ===
