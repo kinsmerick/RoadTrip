@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2453eeb08d181429e929b147181893b2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: "Error on line 68 at position 20:\nno viable alternative
+    at input '<<set $forgivenessti'\n<<set $forgiveness ti $forgiveness-1>>\n                  
+    ^^"
+  baseLanguage: {instanceID: 0}
+  localizations: []
