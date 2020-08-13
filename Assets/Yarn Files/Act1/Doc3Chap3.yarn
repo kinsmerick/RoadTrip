@@ -41,7 +41,9 @@ I know my iSpy.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
-Okay. 20 questions. Number one: What… have you been up to?
+Okay. I'm bored of iSpy now.
+Let's do 20 questions. Number one: What… 
+have you been up to?
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
@@ -224,4 +226,6 @@ Do you need me to finish this stretch?
 
 <<SetSpeaker DialogueManager Daniella>>
 *YAWN* No, I can make it.
+
+<<LoadNextScene DialogueManager>>
 ===

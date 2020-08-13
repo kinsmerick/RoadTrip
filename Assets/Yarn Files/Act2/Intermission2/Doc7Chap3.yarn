@@ -22,15 +22,20 @@ What?
 <<SetSpeaker DialogueManager Martha>>
 <<SetBubbleStyle DialogueManager Standard>>
 What is it you seek, my dear?
+Are you all alone?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-Can I have a canister for gas?
+Uhh, no I have someone- 
+Well I don't HAVE someone but
+there's someone down the road who-
+Forget it. Do you have any snacks? 
+The doors to the store are locked.
 
 <<SetSpeaker DialogueManager Martha>>
 <<SetBubbleStyle DialogueManager Standard>>
-Ahhh you wish to fill a canister with gas, 
-but first, to obtain my answer you must pass…
+Ahhh you wish to fill your stomach with a treat, 
+but first, to obtain my answer you must defeat…
 this test I give to all who seek, 
 undying truths and passions bleak.
 
@@ -60,11 +65,11 @@ Congratulations my dear…
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-Thank you. So can I have a canister for gas?
+Thank you. So can I have some snacks?
 
 <<SetSpeaker DialogueManager Martha>>
 <<SetBubbleStyle DialogueManager Standard>> 
-My oh my, we haven't had gas here in YEARS.
+My oh my, we haven't had snacks here in YEARS.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -93,16 +98,19 @@ position: 216,93
 Umm
 Hey
 So
-There was no gas. 
+There were no snacks. 
 Sorry.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
-That's alright. Turns out we didn't actually need gas. The car just got a little overheated, but it'll be fine. Let's head out.
+That's alright. The car is a lot better now so,
+let's head out.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
 Yeah, let's hit the road.
+
+<<LoadNextScene DialogueManager>>
 ===
 title: PLAYGROUND
 tags: 
@@ -110,4 +118,21 @@ colorID: 0
 position: 220,405
 ---
 Woah, this playground has gone through a lot. 
+===
+title: HORSEY
+tags:
+---
+Horsey! 
+My my, you've seen better days.
+===
+title: GASPUMP
+tags:
+---
+Good thing we didn't need any gas.
+===
+title: DOORTOFOOD
+tags:
+---
+So close but so far...
+I can't see anything inside.
 ===

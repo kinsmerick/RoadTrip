@@ -38,17 +38,27 @@ I'm sure they do…
 
 <<SetSpeaker DialogueManager Carl>>
 <<SetBubbleStyle DialogueManager Standard>>
+It's the key to happiness, really. Doing something because someone else loves it.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
+Well, you want to make sure you're doing what's best for you, too.
+
+<<SetSpeaker DialogueManager Carl>>
+<<SetBubbleStyle DialogueManager Standard>>
+I don't know. Every time I look at Lucy, I'm reminded of why I stand here every day. 
+She wasn't the same after my wife passed, but this really makes her smile.
 Here, take this. I think you'll like it.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-Wow! Thank you.
+Wow! Thank you so much. 
 
 <<else>>
 
 <<SetSpeaker DialogueManager Carl>>
 <<SetBubbleStyle DialogueManager Standard>>
-My sweet baby Lucy…
+I hope to see you again some day!
 
 <<endif>>
 ===

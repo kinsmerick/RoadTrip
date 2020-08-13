@@ -51,6 +51,7 @@ Did you forget that your coworkers were very rude to me when I tried going out?
 That's not fair to them. 
 They joke around. They didn't mean to offend you. 
 You're the one who walked off.
+You're the one who can't take a joke.
 
 <<SetSpeaker DialogueManager Daniella>>
 I'm sorry that I believe I deserve to be in a space where others respect me. 
@@ -83,6 +84,7 @@ You don't remember when they made me so upset I had to leave?
 <<SetExpression Mish Neutral>>
 I know they upset you, but they didn't mean it. 
 You know that they can be a little bit much.
+Sometimes, you can be too sensitive about things. 
 
 <<SetSpeaker DialogueManager Daniella>>
 You still could have stood up for me. 
@@ -190,7 +192,7 @@ Ah beans…
 What?
 
 <<SetSpeaker DialogueManager Mish>>
-I don't know. I have to go look. 
+I think the engine overheated. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Nervous>>
@@ -198,7 +200,8 @@ Well what am I supposed to do?
 
 <<SetSpeaker DialogueManager Mish>>
 I think there's a gas station close by. 
-Can you go see if you can get a canister of gas?
+Can you go see if you can grab some snacks for us
+or something?
 
 <<SetSpeaker DialogueManager Daniella>>
 YOU WANT ME TO WALK BY MYSELF?
@@ -210,7 +213,7 @@ You have the moon. It's fine.
 God. Seriously, Mish?
 
 <<SetSpeaker DialogueManager Mish>>
-I'm the one with a car to fix! 
+I'm the one with a car to take care of! 
 Look, the moon is bright enough! Just go... 
 please. 
 
@@ -220,4 +223,6 @@ Fine. Whatever.
 <<SetBubbleStyle DialogueManager Thought>>
 This is fine. The moon will guide me. 
 She is my girlfriend, my protector..
+
+<<LoadNextScene DialogueManager>>
 ===

@@ -1,0 +1,124 @@
+title: ACT2
+tags: 
+colorID: 0
+position: -542,32
+---
+<<set $forgiveness to 0>> 
+Mish and Daniella are on the road, headed across the country to Dani's parents' house. Mish brings up the awkward and dreaded question about their relationship ending: Did Dani tell her parents? Do they hate Mish? How does Dani respond?
+[[ a. Dani tries to act casual and even jokes that their relationship wasn't a big deal.  |CHOICEA]] 
+[[ b. Dani is straightforward about the situation. She told her parents and it's chill.  |CHOICEB]]
+===
+title: CHOICEA
+tags: 
+colorID: 0
+position: -138,-123
+---
+<<set $forgiveness to $forgiveness-1>>
+While on the road, Mish's car makes a concerning sound. Daniella is a bit concerned, but Mish assures her that the car is very healthy. Dani starts to remember all the times the car was not very healthy. How does she bring it up?
+[[ a. Daniella starts with a memory she knows they know very well: a trip to Daniella's mom's birthday. The headlights were busted and there was a sharp turn, you can finish the rest. |CHOICE1]]
+[[ b. Daniella starts with a joke, calling their car a piece of junk! They've had the car forever, and they desperately need an upgrade, they just never listen. |CHOICE2]]
+===
+title: CHOICEB
+tags: 
+colorID: 0
+position: -137,139
+---
+<<set $forgiveness to $forgiveness+1>>
+While on the road, Mish's car makes a concerning sound. Daniella is a bit concerned, but Mish assures her that the car is very healthy. Dani starts to remember all the times the car was not very healthy. How does she bring it up?
+[[ a. Daniella starts with a memory she knows they know very well: a trip to Daniella's mom's birthday. The headlights were busted and there was a sharp turn, you can finish the rest. |CHOICE1]]
+[[ b. Daniella starts with a joke, calling their car a piece of junk! They've had the car forever, and they desperately need an upgrade, they just never listen. |CHOICE2]]
+===
+title: CHOICE1
+tags: 
+colorID: 0
+position: 331,-130
+---
+<<set $forgiveness to $forgiveness+1>>
+<<if $forgiveness >= 0>>
+Dani and Mish had a good night of open conversation. 
+<<else>> 
+Dani and Mish had an awkward night, and Mish was quick to shut down any start of a meaningful conversation. 
+<<endif>>
+===
+title: CHOICE2
+tags: 
+colorID: 0
+position: 323,140
+---
+<<set $forgiveness to $forgiveness-1>>
+<<if $forgiveness >= 0>>
+Dani and Mish had a good night of open conversation. 
+<<else>> 
+Dani and Mish had an awkward night, and Mish was quick to shut down any start of a meaningful conversation. 
+<<endif>>
+===
+title: ACT3
+tags:
+---
+<<set $forgiveness to 0>> 
+Mish and Daniella are on the road, headed across the country to Dani's parents' house. Mish brings up the awkward and dreaded question about their relationship ending: Did Dani tell her parents? Do they hate Mish? How does Dani respond?
+[[ a. Dani tries to act casual and even jokes that their relationship wasn't a big deal.  |CHOICEC]] 
+[[ b. Dani is straightforward about the situation. She told her parents and it's chill.  |CHOICED]]
+===
+title: CHOICEC
+tags: 
+colorID: 0
+position: -409,502
+---
+<<set $forgiveness ti $forgiveness-1>>
+Daniella and Mish get into an inevitable fight about their relationship when Mish brings up Daniella's antisocial behaviors. How does she initially respond?
+[[ a. She's angry, as she should be! They ignored her when she was uncomfortable and didn't say anything when their coworkers insulted her! |CHOICEE]]
+[[ b. She's sad about it. She opens up about how she felt like she was being ignored by Mish when their coworkers were being harsh towards her. It wasn't Mish's fault, but they could have done better. |CHOICEF]]
+===
+title: CHOICED
+tags: 
+---
+<<set $forgiveness ti $forgiveness+1>>
+Daniella and Mish get into an inevitable fight about their relationship when Mish brings up Daniella's antisocial behaviors. How does she initially respond?
+[[ a. She's angry, as she should be! They ignored her when she was uncomfortable and didn't say anything when their coworkers insulted her! |CHOICEE]]
+[[ b. She's sad about it. She opens up about how she felt like she was being ignored by Mish when their coworkers were being harsh towards her. It wasn't Mish's fault, but they could have done better. |CHOICEF]]
+===
+title: CHOICEE
+tags: 
+colorID: 0
+position: -122,401
+---
+<<set $forgiveness to $forgiveness-1>>
+Their fight leads to some choice words from Daniella. How does she finish off the fight?
+[[ a. She uses choice words. F- you! |CHOICE3]]
+[[ b. She tells them they're the worst person she's ever met. Why did they have to be the only person with a car? |CHOICE4]]
+===
+title: CHOICEF
+tags: 
+colorID: 0
+position: -126,657
+---
+<<set $forgiveness to $forgiveness+1>>
+Their fight leads to some choice words from Daniella. How does she finish off the fight?
+[[ a. She uses choice words. F- you! |CHOICE3]]
+[[ b. She tells them they're the worst person she's ever met. Why did they have to be the only person with a car? |CHOICE4]]
+===
+title: CHOICE3
+tags: 
+colorID: 0
+position: 312,397
+---
+<<set $forgiveness to $forgiveness+1>>
+<<if $forgiveness >= 0>>
+Dani opens up about why they failed as a couple. Mish agrees that they aren't fit for each other and switches the focus on getting Dani home with family.
+<<else>> 
+Mish and Dani were both still bitter about the fight and bickered until Dani shut the conversation down. 
+<<endif>>
+===
+title: CHOICE4
+tags: 
+colorID: 0
+position: 315,653
+---
+<<set $forgiveness to $forgiveness-1>>
+<<if $forgiveness >= 0>>
+Dani opens up about why they failed as a couple. Mish agrees that they aren't fit for each other and switches the focus on getting Dani home with family.
+<<else>> 
+Mish and Dani were both still bitter about the fight and bickered until Dani shut the conversation down. 
+<<endif>>
+===

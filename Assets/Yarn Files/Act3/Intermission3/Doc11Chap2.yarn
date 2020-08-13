@@ -46,29 +46,35 @@ Thank you, Jam. May I say, you two look like a great couple.
 Oh no we-
 
 <<SetSpeaker DialogueManager Jam>>
-<<SetBubbleStyle DialogueManager Standard>>
-We love couples. Why don't you just take whatever you like! It's on us.
+<<SetBubbleStyle DialogueManager Standard>> 
+We love couples. I don't know where I'd be without this one.
+She knows exactly what to say to make me feel special.
+I bet it's the same for you two. 
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-Wait, really?
+That's really sweet. 
+Mish does do a great job of talking me through things,
+but we're not-
 
 <<SetSpeaker DialogueManager Honey>>
 <<SetBubbleStyle DialogueManager Standard>>
+I loved making all these memories with Jam.
+And now we'll make more with our new baby.
+Please look around!
 You two deserve to furnish your home with love like we have!
 
 <<SetSpeaker DialogueManager Jam>>
-<<SetBubbleStyle DialogueManager Standard>>
-I actually have something I think you both would love.
+<<SetBubbleStyle DialogueManager Standard>> 
+I actually have something I think you both would adore.
 
 <<SetSpeaker DialogueManager Honey>>
 <<SetBubbleStyle DialogueManager Standard>>
 Oh, you'd love this.
 
-
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-Wow! This is… so cute!
+Wow! This is… so cute! Thank you so much.
 
 <<SetSpeaker DialogueManager Jam>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -105,13 +111,11 @@ You're so cute…
 
 <<endif>>
 ===
-title: MISH
-tags:
+title: FROGMISH
+tags: 
 colorID: 0
 position: 334,167
 ---
-<<if $forgiveness >= -1>>
-
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
 Hey! I found this! I thought you'd like it.
@@ -122,29 +126,35 @@ Oh. My. God. Thank you so much!
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
-No problem. I'm ready to go whenever you are.
-
-<<else>>
-
-<<SetSpeaker DialogueManager Mish>>
-<<SetBubbleStyle DialogueManager Standard>>
+No problem. We should head out soon.
 I'm ready to go whenever you are.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-[[Ready|CONTINUEGAME]]
+[[I'm ready|READY]]
 [[Give me a second.|NOTYET]]
-<<endif>>
 ===
-title: CONTINUEGAME
+title: NOFMISH
 tags:
 ---
-<<ReturnToMenu Examineables AlphaMenu>>
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+We should head out soon.
+I'm ready to go whenever you are.
+
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Thought>>
+[[I'm ready|READY]]
+[[Give me a second.|NOTYET]]
+===
+title: READY
+tags:
+---
+<<LoadNextScene DialogueManager>>
 ===
 title: NOTYET
 tags:
 ---
-<<SetSpeaker DialogueManager Daniella>>
 I want to look around some more.
 ===
 title: BOXES

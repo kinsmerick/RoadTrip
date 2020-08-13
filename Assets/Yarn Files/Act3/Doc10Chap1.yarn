@@ -232,4 +232,6 @@ If that's not a sign to go in, I don't know what is.
 
 <<SetSpeaker DialogueManager Mish>>
 Let's go check it out!
+
+<<LoadNextScene DialogueManager>>
 ===
