@@ -21,7 +21,7 @@ HELL IS REAL
 
 <<SetSpeaker DialogueManager Daniella>>
 [[Oh my god, hell is real?|BRANCH6A]]
-[[Isn’t it an insane thought that…|BRANCH6B]]
+[[Isn't it an insane thought that…|BRANCH6B]]
 ===
 title: BRANCH6A
 tags: 
