@@ -771,6 +771,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8595011742031820494, guid: 5d45608c38b2c7744addfb22a8ed543e,
+        type: 3}
+      propertyPath: m_text
+      value: The next day...
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d45608c38b2c7744addfb22a8ed543e, type: 3}
 --- !u!1 &894302179 stripped
@@ -1152,7 +1157,7 @@ PrefabInstance:
     - target: {fileID: 3337124747492698505, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: SceneToLoad
-      value: Act3Chapter1
+      value: TitleMenu
       objectReference: {fileID: 0}
     - target: {fileID: 5734685049993204567, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}

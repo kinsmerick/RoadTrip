@@ -57,7 +57,7 @@ MonoBehaviour:
     option1Pos: {x: 0, y: 0, z: 0}
     option2Pos: {x: 0, y: 0, z: 0}
   - posName: Night3
-    textPos: {x: 0, y: 0, z: 0}
+    textPos: {x: 384, y: 212, z: 0}
     option1Pos: {x: 0, y: 0, z: 0}
     option2Pos: {x: 0, y: 0, z: 0}
   isDaniella: 0

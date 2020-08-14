@@ -1225,7 +1225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueColor: {r: 0.5921569, g: 0.80784315, b: 0.9098039, a: 1}
   Expressions: []
-  CharacterSounds: []
+  CharacterSounds:
+  - {fileID: 11400000, guid: c70ac8f2983a98b4dbd7e494f53c3d9c, type: 2}
   BubblesPositions: []
   isDaniella: 0
 --- !u!114 &230865751
@@ -4615,7 +4616,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueColor: {r: 0.9098039, g: 0.5921569, b: 0.7607843, a: 1}
   Expressions: []
-  CharacterSounds: []
+  CharacterSounds:
+  - {fileID: 11400000, guid: 6057b2049a1928841b7b073071ceffea, type: 2}
+  - {fileID: 11400000, guid: 48cf6a39fd54f1e489289b50cd651ccb, type: 2}
   BubblesPositions: []
   isDaniella: 1
 --- !u!1 &1194462662
@@ -4960,7 +4963,18 @@ MonoBehaviour:
         m_CallState: 2
   onLineStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1534577212}
+        m_MethodName: playCharacterSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onLineFinishDisplaying:
     m_PersistentCalls:
       m_Calls: []
@@ -5139,7 +5153,7 @@ MonoBehaviour:
   wheel: {fileID: 1874897753}
   SceneToLoad: Act1Chapter3
   MinLoadTime: 4.5
-  ShouldEngineSoundPlay: 0
+  ShouldEngineSoundPlay: 1
 --- !u!1 &1342411382
 GameObject:
   m_ObjectHideFlags: 0
@@ -6007,6 +6021,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: c7ceeb4eae6de644ca161514300eebc2,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 117611008ed4d284584b12ad36230b9a,
+        type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: m_Name
@@ -6014,6 +6045,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eaa11b4a1086714aad42eee477d2213, type: 3}
+--- !u!114 &1534577212 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+    type: 3}
+  m_PrefabInstance: {fileID: 1534577211}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf69e8fbc5327c40bd3636839ddc350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1553864286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6701,9 +6744,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 528cec03a101c3c4ab6800eab531e3b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueColor: {r: 0.09189212, g: 0.5566038, b: 0.40924692, a: 1}
+  DialogueColor: {r: 0.7803922, g: 0.4156863, b: 0.3372549, a: 1}
   Expressions: []
-  CharacterSounds: []
+  CharacterSounds:
+  - {fileID: 11400000, guid: 117611008ed4d284584b12ad36230b9a, type: 2}
   BubblesPositions: []
   isDaniella: 0
 --- !u!95 &1787377362
@@ -6990,6 +7034,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2990749873488563648, guid: 5d45608c38b2c7744addfb22a8ed543e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8416138673704611034, guid: 5d45608c38b2c7744addfb22a8ed543e,
         type: 3}
       propertyPath: m_Name
@@ -7104,6 +7153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8595011742031820494, guid: 5d45608c38b2c7744addfb22a8ed543e,
+        type: 3}
+      propertyPath: m_text
+      value: Some time later...
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d45608c38b2c7744addfb22a8ed543e, type: 3}

@@ -117,27 +117,37 @@ tags:
 colorID: 0
 position: 220,405
 ---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
 Woah, this playground has gone through a lot.
 ===
 title: HORSEY
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
 Horsey!
 My my, you've seen better days.
 ===
 title: GASPUMP
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
 Good thing we didn't need any gas.
 ===
 title: DOORTOFOOD
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
 So close but so far...
 I can't see anything inside.
 ===
 title: OWLITEM
 tags:
 ---
+<<SetSpeaker DialogueManager Daniella>>
+<<SetBubbleStyle DialogueManager Standard>>
 Oh! Small baby! Who left you on the side of the road? I will take care of you. Do not worry.
 ===

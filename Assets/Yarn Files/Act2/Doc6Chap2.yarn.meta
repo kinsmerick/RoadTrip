@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
   - Doc6Chap2-MAINBRANCH9-0
   - Doc6Chap2-MAINBRANCH9-1
@@ -34,7 +34,7 @@ ScriptedImporter:
   - Doc6Chap2-BRANCH9A-21
   - Doc6Chap2-BRANCH9A-22
   - Doc6Chap2-BRANCH9A-23
-  - Doc6Chap2-BRANCH9B-24
+  - Doc6Chap2-BRANCH9A-24
   - Doc6Chap2-BRANCH9B-25
   - Doc6Chap2-BRANCH9B-26
   - Doc6Chap2-BRANCH9B-27
@@ -45,8 +45,8 @@ ScriptedImporter:
   - Doc6Chap2-BRANCH9B-32
   - Doc6Chap2-BRANCH9B-33
   - Doc6Chap2-BRANCH9B-34
-  - Doc6Chap2-MAINBRANCH10-35
-  - Doc6Chap2-MAINBRANCH10-36
+  - Doc6Chap2-BRANCH9B-35
+  - Doc6Chap2-BRANCH9B-36
   - Doc6Chap2-MAINBRANCH10-37
   - Doc6Chap2-MAINBRANCH10-38
   - Doc6Chap2-MAINBRANCH10-39
@@ -58,12 +58,12 @@ ScriptedImporter:
   - Doc6Chap2-MAINBRANCH10-45
   - Doc6Chap2-MAINBRANCH10-46
   - Doc6Chap2-MAINBRANCH10-47
-  - Doc6Chap2-BRANCH10A-48
-  - Doc6Chap2-BRANCH10A-49
-  - Doc6Chap2-BRANCH10B-50
-  - Doc6Chap2-BRANCH10B-51
-  - Doc6Chap2-MAINBRANCH11-52
-  - Doc6Chap2-MAINBRANCH11-53
+  - Doc6Chap2-MAINBRANCH10-48
+  - Doc6Chap2-MAINBRANCH10-49
+  - Doc6Chap2-BRANCH10A-50
+  - Doc6Chap2-BRANCH10A-51
+  - Doc6Chap2-BRANCH10B-52
+  - Doc6Chap2-BRANCH10B-53
   - Doc6Chap2-MAINBRANCH11-54
   - Doc6Chap2-MAINBRANCH11-55
   - Doc6Chap2-MAINBRANCH11-56
@@ -80,8 +80,12 @@ ScriptedImporter:
   - Doc6Chap2-MAINBRANCH11-67
   - Doc6Chap2-MAINBRANCH11-68
   - Doc6Chap2-MAINBRANCH11-69
+  - Doc6Chap2-MAINBRANCH11-70
+  - Doc6Chap2-MAINBRANCH11-71
+  - Doc6Chap2-MAINBRANCH11-72
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 3a3faaca4c76039498aaf8e0732d000f,
+    type: 3}
   localizations: []

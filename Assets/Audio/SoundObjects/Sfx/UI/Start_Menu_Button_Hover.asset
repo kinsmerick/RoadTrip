@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Start_Menu_Button_Hover
   m_EditorClassIdentifier: 
   clipName: Start_Menu_Button_Hover
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: d5fa326daaa8c0143b7c0614bc260ba7, type: 3}
   volume: 1
   loop: 0
   playOnAwake: 0
