@@ -17,6 +17,7 @@ Thanks.
 <<SetSpeaker DialogueManager Mish>>
 Yup, no problem.
 
+<<StopSound AudioManager Rain_Light>>
 <<PlaySound AudioManager Rain_Heavy>>
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -227,6 +228,8 @@ YADE SALE! We're close. I can feel it.
 
 <<SetSpeaker DialogueManager Daniella>>
 Hey, there it is with the garage open! 
+<<StopSound AudioManager Rain_Heavy>>
+<<PlaySound AudioManager Rain_Light>>
 And it's stopped raining almost completely. 
 If that's not a sign to go in, I don't know what is.
 

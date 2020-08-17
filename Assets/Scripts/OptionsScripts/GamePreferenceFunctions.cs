@@ -135,7 +135,7 @@ public class GamePreferenceFunctions : MonoBehaviour
             autoadv = false;
         }
 
-        if (PlayerPrefs.GetString("Fullscreen", "Off").Equals("On"))
+        if (PlayerPrefs.GetString("Fullscreen", "On").Equals("On"))
         {
             fs = true;
         }

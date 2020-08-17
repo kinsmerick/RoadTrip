@@ -11,7 +11,7 @@ using TMPro;
  * readability when the images change color. The color, for now, can be set in the Editor to be Daniella's character
  * color for testing purposes, but when that color is decided, it will be made a constant within this class.*/
 
-public class OptionsHandler : MonoBehaviour, IPointerEnterHandler, ISelectHandler, IDeselectHandler
+public class OptionsHandler : MonoBehaviour, IPointerEnterHandler, ISelectHandler, IDeselectHandler, IPointerExitHandler
 {    
     [Tooltip("Set this to the desired hover text character color.")]
     public Color hoverTextColor;
@@ -94,6 +94,12 @@ public class OptionsHandler : MonoBehaviour, IPointerEnterHandler, ISelectHandle
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
         _eventSystem.SetSelectedGameObject(this.gameObject);
+    }
+
+    //make this game object the selected object when the pointer enters
+    public void OnPointerExit(PointerEventData pointerEventData)
+    {
+        _eventSystem.SetSelectedGameObject(null);
     }
 
     //when an object is selected, change its color to selected
