@@ -4,7 +4,7 @@ colorID: 0
 position: -85,289
 ---
 <<if $visited_martha is false>>
-
+<<set $visited_martha to true>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
 Uhh. Excuse me, miss?
@@ -115,9 +115,10 @@ let's head out.
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
 Yeah, let's hit the road.
+<<LoadNextScene DialogueManager>>
 <<endif>>
 
-<<LoadNextScene DialogueManager>>
+
 ===
 title: PLAYGROUND
 tags:
