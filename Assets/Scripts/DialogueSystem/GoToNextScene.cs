@@ -70,4 +70,9 @@ public class GoToNextScene : MonoBehaviour
             yield return null;
         }
     }
+
+    public void ChangeNextScene(string nextScene)
+    {
+        SceneToLoad = nextScene;
+    }
 }
