@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Rain_Heavy
   m_EditorClassIdentifier: 
   clipName: Rain_Heavy
-  clip: {fileID: 0}
-  volume: 1
+  clip: {fileID: 8300000, guid: 55125f1217d5d454ea5abbceed60d0db, type: 3}
+  volume: 0.5
   loop: 1
   playOnAwake: 0
   audioType: 2

@@ -35,9 +35,9 @@ position: 331,-130
 ---
 <<set $forgiveness to $forgiveness+1>>
 <<if $forgiveness >= 0>>
-Dani and Mish had a good night of open conversation.
+Because of your choices, Dani and Mish had a good night of open conversation. Now, onto Act 2...
 <<else>>
-Dani and Mish had an awkward night, and Mish was quick to shut down any start of a meaningful conversation.
+Because of your choices, Dani and Mish had an awkward night, and Mish was quick to shut down any start of a meaningful conversation. Now, onto Act 2...
 <<endif>>
 ===
 title: CHOICE2
@@ -47,9 +47,9 @@ position: 323,140
 ---
 <<set $forgiveness to $forgiveness-1>>
 <<if $forgiveness >= 0>>
-Dani and Mish had a good night of open conversation.
+Because of your choices, Dani and Mish had a good night of open conversation. Now, onto Act 2...
 <<else>>
-Dani and Mish had an awkward night, and Mish was quick to shut down any start of a meaningful conversation.
+Because of your choices, Dani and Mish had an awkward night, and Mish was quick to shut down any start of a meaningful conversation. Now, onto Act 2...
 <<endif>>
 ===
 title: ACT3
@@ -105,9 +105,9 @@ position: 312,397
 ---
 <<set $forgiveness to $forgiveness+1>>
 <<if $forgiveness >= 0>>
-Dani opens up about why they failed as a couple. Mish agrees that they aren't fit for each other and switches the focus on getting Dani home with family.
+Because of your choices, Dani opens up about why they failed as a couple. Mish agrees that they aren't fit for each other and switches the focus on getting Dani home with family.  Now, onto Act 3...
 <<else>>
-Mish and Dani were both still bitter about the fight and bickered until Dani shut the conversation down.
+Because of your choices, Mish and Dani were both still bitter about the fight and bickered until Dani shut the conversation down. Now, onto Act 3...
 <<endif>>
 ===
 title: CHOICE4
@@ -117,8 +117,8 @@ position: 315,653
 ---
 <<set $forgiveness to $forgiveness-1>>
 <<if $forgiveness >= 0>>
-Dani opens up about why they failed as a couple. Mish agrees that they aren't fit for each other and switches the focus on getting Dani home with family.
+Because of your choices, Dani opens up about why they failed as a couple. Mish agrees that they aren't fit for each other and switches the focus on getting Dani home with family. Now, onto Act 3...
 <<else>>
-Mish and Dani were both still bitter about the fight and bickered until Dani shut the conversation down.
+Because of your choices, Mish and Dani were both still bitter about the fight and bickered until Dani shut the conversation down. Now, onto Act 3...
 <<endif>>
 ===
