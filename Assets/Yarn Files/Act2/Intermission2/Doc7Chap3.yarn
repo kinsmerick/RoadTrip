@@ -93,6 +93,12 @@ tags:
 colorID: 0
 position: 216,93
 ---
+<<if #visited_martha is false>>
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+Can you please go?
+
+<<else>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
 Umm
@@ -109,6 +115,7 @@ let's head out.
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
 Yeah, let's hit the road.
+<<endif>>
 
 <<LoadNextScene DialogueManager>>
 ===
