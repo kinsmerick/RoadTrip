@@ -124,9 +124,10 @@ Like your dad.
 Why didn't you tell me about your dad?
 
 <<SetSpeaker DialogueManager Daniella>>
-Don't bring my father into this.
-Maybe I would've opened up to you more if you came home
-instead of leaving all the time to go hang out with your friends.
+When was I going to tell you about my dad being in the hospital?
+You were never around.
+You chose your friends over me
+every single time.
 
 <<SetSpeaker DialogueManager Mish>>
 Wow, Dani. You know, I realize that maybe I should've been home more, 
