@@ -3,10 +3,10 @@ tags:
 colorID: 0
 position: 1,268
 ---
-<<ChangeShot DialogueManager Front>>
+<<ChangeShot DialogueManager Side>>
+<<SetBubblePosition DialogueManager Far>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-<<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Neutral>>
 <<SetExpression Mish Neutral>>
 You know I don't have a problem being social right? 
@@ -27,6 +27,8 @@ but I know in Old York, you stopped wanting to go out.
 <<SetExpression Daniella Angry>>
 I stopped wanting to go out because I didn't feel like I was with good people. 
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Mish>>
 Hey, I'm not saying that- 
 but wait, why did you think my coworkers weren't good people?
