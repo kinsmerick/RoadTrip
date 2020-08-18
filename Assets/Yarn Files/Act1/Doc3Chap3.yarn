@@ -39,6 +39,8 @@ Ahh, you know me too well.
 <<SetExpression Mish Happy>>
 I know my iSpy. 
 
+<<ChangeShot DialogueManager Side>>
+<<SetBubblePosition DialogueManager Far>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
 Okay. I'm bored of iSpy now.
@@ -107,6 +109,8 @@ tags:
 colorID: 0
 position: 540,313
 ---
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
 Heh, my turn! What have you been up to?

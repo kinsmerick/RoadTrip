@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6435221826538007586}
   - component: {fileID: 6626167295714128162}
   - component: {fileID: 4324098801548981198}
+  - component: {fileID: 8722365807249323320}
   m_Layer: 0
   m_Name: Daniella
   m_TagString: Untagged
@@ -127,7 +128,26 @@ MonoBehaviour:
     option1Pos: {x: -480, y: 217, z: 0}
     option2Pos: {x: -198, y: 138, z: 0}
   - posName: Close
-    textPos: {x: -324, y: -26, z: 0}
+    textPos: {x: -324, y: -47, z: 0}
     option1Pos: {x: -411, y: -149, z: 0}
     option2Pos: {x: -114, y: 177, z: 0}
   isDaniella: 1
+--- !u!95 &8722365807249323320
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215318244595772782}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9946348b29f26974086635875cf21744, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

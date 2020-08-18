@@ -68,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1420766805
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1fbe5cfbed1e8b643b9e484fd0a5efe2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 1573155291282523165}
   - component: {fileID: 4252179180320940610}
   - component: {fileID: 6110878950873934752}
+  - component: {fileID: 6866569395727342471}
   m_Layer: 0
   m_Name: Mish
   m_TagString: Untagged
@@ -210,3 +211,22 @@ MonoBehaviour:
     option1Pos: {x: 0, y: 0, z: 0}
     option2Pos: {x: 0, y: 0, z: 0}
   isDaniella: 0
+--- !u!95 &6866569395727342471
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5962563905369169660}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d85d6a819efada743b6648278ec32419, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

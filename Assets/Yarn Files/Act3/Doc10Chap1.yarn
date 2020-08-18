@@ -94,6 +94,8 @@ tags:
 colorID: 0
 position: 313,282
 ---
+<<ChangeShot DialogueManager Side>>
+<<SetBubblePosition DialogueManager Far>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Nervous>>
 <<SetExpression Mish Neutral>>
@@ -109,6 +111,8 @@ Breathe! Dani, please just listen to my voice. Just breathe.
 <<SetSpeaker DialogueManager Mish>>
 Breathe deeper.
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Daniella>>
 [[I'm BREATHING, MISH.|BRANCH15A]]
 [[STOP. I really hate when you do this.|BRANCH15B]]

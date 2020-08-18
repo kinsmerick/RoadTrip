@@ -3,10 +3,10 @@ tags:
 colorID: 0
 position: 1,268
 ---
-<<ChangeShot DialogueManager Front>>
+<<ChangeShot DialogueManager Side>>
 <<SetSpeaker DialogueManager Daniella>>
+<<SetBubblePosition DialogueManager Far>>
 <<SetBubbleStyle DialogueManager Standard>>
-<<SetBubblePosition DialogueManager OutCar>>
 <<SetExpression Daniella Neutral>>
 <<SetExpression Mish Neutral>>
 You know I don't have a problem being social right? 
@@ -27,6 +27,8 @@ but I know in Old York, you stopped wanting to go out.
 <<SetExpression Daniella Angry>>
 I stopped wanting to go out because I didn't feel like I was with good people. 
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Mish>>
 Hey, I'm not saying that- 
 but wait, why did you think my coworkers weren't good people?
@@ -124,9 +126,10 @@ Like your dad.
 Why didn't you tell me about your dad?
 
 <<SetSpeaker DialogueManager Daniella>>
-Don't bring my father into this.
-Maybe I would've opened up to you more if you came home
-instead of leaving all the time to go hang out with your friends.
+When was I going to tell you about my dad being in the hospital?
+You were never around.
+You chose your friends over me
+every single time.
 
 <<SetSpeaker DialogueManager Mish>>
 Wow, Dani. You know, I realize that maybe I should've been home more, 
