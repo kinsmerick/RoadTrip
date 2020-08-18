@@ -14,6 +14,8 @@ Everything is becoming so familiar now!
 <<SetSpeaker DialogueManager Mish>>
 Yeah, we're only a little bit out.
 
+<<ChangeShot DialogueManager Side>>
+<<SetBubblePosition DialogueManager Far>>
 <<SetSpeaker DialogueManager Daniella>>
 Wow… God, I'm really going home.
 
@@ -46,6 +48,8 @@ then probably take a shower and sleep for days.
 <<SetExpression Mish Neutral>>
 Sure, but what about after that?
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Daniella>>
 I don't really know. 
 I didn't really think too far ahead. 
@@ -68,6 +72,8 @@ I really didn't put much thought into it.
 <<SetExpression Mish Neutral>>
 So, do you think leaving was an impulse?
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Daniella>>
 I… No. 
 It was very intentional. I really hated being there. 

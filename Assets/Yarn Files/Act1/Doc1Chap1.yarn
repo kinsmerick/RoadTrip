@@ -38,6 +38,8 @@ position: 196,257
 <<SetSpeaker DialogueManager Mish>>
 No problem.
 
+<<ChangeShot DialogueManager Side>>
+<<SetBubblePosition DialogueManager Far>>
 <<SetSpeaker DialogueManager Daniella>>
 The roads are pretty empty right now.
 
@@ -56,6 +58,8 @@ position: 462,92
 <<set $forgiveness to $forgiveness + 0>>
 Thank you again…For lending me your car and your arms for three days.
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
 Is that all I am to you?
@@ -82,6 +86,8 @@ position: 465,415
 <<set $forgiveness to $forgiveness - 1>>
 I'm surprised you woke up on time.
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Mish>>
 What's that supposed to mean?
 
@@ -99,6 +105,8 @@ tags:
 colorID: 0
 position: 730,260
 ---
+<<ChangeShot DialogueManager Side>>
+<<SetBubblePosition DialogueManager Close>>
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
 When you called to ask,
@@ -109,6 +117,8 @@ I was really shocked to hear that you were moving.
 You couldn't have expected me to stay in Old York forever, could you?
 There's nothing here for me.
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Embarrassed>>
 Yeah.
@@ -117,7 +127,7 @@ Well, I'm glad you're making plans!
 
 <<SetSpeaker DialogueManager Daniella>>
 If you consider me moving back in with my parents “plans,”
- then, yeah. I have hella plans.
+then, yeah. I have hella plans.
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>

@@ -104,6 +104,8 @@ Oh, there's another one. “Gays are going to hell.”
 <<SetExpression Mish Happy>>
 Wow that one was handmade. 
 
+<<ChangeShot DialogueManager Side>>
+<<SetBubblePosition DialogueManager Close>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella Neutral>>
 If my friends and I were truly hell bound, 
@@ -113,6 +115,8 @@ I think Satan would look at me and say,
 “Who is she? I want to know her.”
 Do you think Satan is gay? 
 
+<<ChangeShot DialogueManager Front>>
+<<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Happy>>
 I think Satan is gay and would throw a party for all of us. 
