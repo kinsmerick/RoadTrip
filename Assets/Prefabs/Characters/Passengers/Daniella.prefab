@@ -128,7 +128,7 @@ MonoBehaviour:
     option1Pos: {x: -480, y: 217, z: 0}
     option2Pos: {x: -198, y: 138, z: 0}
   - posName: Close
-    textPos: {x: -324, y: -26, z: 0}
+    textPos: {x: -324, y: -47, z: 0}
     option1Pos: {x: -411, y: -149, z: 0}
     option2Pos: {x: -114, y: 177, z: 0}
   isDaniella: 1

@@ -6,11 +6,14 @@ public class CarBumpAnimation : MonoBehaviour
 {
     public GameObject Mish;
     public GameObject Dani;
+    public GameObject FrontCar;
+    public GameObject SideCar;
     public float randomFloat = 0f;
 
     private Animator _carAnim;
     private Animator _mishAnim;
     private Animator _daniAnim;
+    private Animator _sideCarAnim;
 
     private const float _THRESHOLD = 98f;
     public float _timeElapsed = 0f;
@@ -21,9 +24,10 @@ public class CarBumpAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _carAnim = this.GetComponent<Animator>();
+        _carAnim = FrontCar.GetComponent<Animator>();
         _mishAnim = Mish.GetComponent<Animator>();
         _daniAnim = Dani.GetComponent<Animator>();
+        _sideCarAnim = SideCar.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -38,6 +42,7 @@ public class CarBumpAnimation : MonoBehaviour
                 _carAnim.SetBool("PlayBump", true);
                 _mishAnim.SetBool("PlayBump", true);
                 _daniAnim.SetBool("PlayBump", true);
+                _sideCarAnim.SetBool("PlayBump", true);
 
                 _timeElapsed = 0f;
                 randomFloat = 0f;
@@ -51,6 +56,7 @@ public class CarBumpAnimation : MonoBehaviour
                 _carAnim.SetBool("PlayBump", false);
                 _mishAnim.SetBool("PlayBump", false);
                 _daniAnim.SetBool("PlayBump", false);
+                _sideCarAnim.SetBool("PlayBump", false);
 
                 _setToFalse = true;
             }
