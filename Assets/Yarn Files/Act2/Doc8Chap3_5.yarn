@@ -4,8 +4,8 @@ colorID: 0
 position: -73,254
 ---
 <<ChangeShot DialogueManager Side>>
-<<SetBubblePosition DialogueManager Close>>
 <<SetSpeaker DialogueManager Daniella>>
+<<SetBubblePosition DialogueManager Close>>
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetExpression Daniella Neutral>>
 So there was this really weird woman at the gas station.

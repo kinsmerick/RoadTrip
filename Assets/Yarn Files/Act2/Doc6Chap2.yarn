@@ -4,8 +4,8 @@ colorID: 0
 position: 1,268
 ---
 <<ChangeShot DialogueManager Side>>
-<<SetBubblePosition DialogueManager Far>>
 <<SetSpeaker DialogueManager Daniella>>
+<<SetBubblePosition DialogueManager Far>>
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetExpression Daniella Neutral>>
 <<SetExpression Mish Neutral>>

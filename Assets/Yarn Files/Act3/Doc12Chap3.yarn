@@ -196,8 +196,8 @@ Are you sure?
 Oh my god, you're so annoying, 
 YES. It'll be fine. 
 I texted my mom and she said, and I quote, 
-“Tell them I've made their favorite foods to fuel them up for the trip back.
-:)”
+"Tell them I've made their favorite foods to fuel them up for the trip back.
+:)"
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>

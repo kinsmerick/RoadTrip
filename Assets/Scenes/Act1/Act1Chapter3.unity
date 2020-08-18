@@ -402,13 +402,18 @@ PrefabInstance:
     - target: {fileID: 4061619985568256111, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: shots.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4061619985568256111, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: shots.Array.data[0]
       value: 
       objectReference: {fileID: 1891848068}
+    - target: {fileID: 4061619985568256111, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: shots.Array.data[1]
+      value: 
+      objectReference: {fileID: 1049594693}
     - target: {fileID: 5734685049993204567, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: m_Name
@@ -758,6 +763,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7590049592220441709, guid: 951c11218ea4fbb4f9fcf07efff1dfe5,
     type: 3}
   m_PrefabInstance: {fileID: 1010682884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1049594693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6340340040874965672, guid: 144b25815bd2b344b961b74602d9a877,
+    type: 3}
+  m_PrefabInstance: {fileID: 2060624364}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1084767241
 GameObject:
@@ -1776,6 +1787,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8595011742031820494, guid: 5d45608c38b2c7744addfb22a8ed543e,
+        type: 3}
+      propertyPath: m_text
+      value: ' '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d45608c38b2c7744addfb22a8ed543e, type: 3}
