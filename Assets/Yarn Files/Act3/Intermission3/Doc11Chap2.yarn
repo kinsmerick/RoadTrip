@@ -4,6 +4,7 @@ colorID: 0
 position: 60,250
 ---
 <<if $visited_honeyjam is false>>
+<<set $visited_honeyjam to true>>
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -46,14 +47,14 @@ Thank you, Jam. May I say, you two look like a great couple.
 Oh no we-
 
 <<SetSpeaker DialogueManager Jam>>
-<<SetBubbleStyle DialogueManager Standard>> 
+<<SetBubbleStyle DialogueManager Standard>>
 We love couples. I don't know where I'd be without this one.
 She knows exactly what to say to make me feel special.
-I bet it's the same for you two. 
+I bet it's the same for you two.
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Standard>>
-That's really sweet. 
+That's really sweet.
 Mish does do a great job of talking me through things,
 but we're not-
 
@@ -65,7 +66,7 @@ Please look around!
 You two deserve to furnish your home with love like we have!
 
 <<SetSpeaker DialogueManager Jam>>
-<<SetBubbleStyle DialogueManager Standard>> 
+<<SetBubbleStyle DialogueManager Standard>>
 I actually have something I think you both would adore.
 
 <<SetSpeaker DialogueManager Honey>>
@@ -112,7 +113,7 @@ You're so cute…
 <<endif>>
 ===
 title: FROGMISH
-tags: 
+tags:
 colorID: 0
 position: 334,167
 ---
