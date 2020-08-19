@@ -155,6 +155,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 48cf6a39fd54f1e489289b50cd651ccb, type: 2}
   - {fileID: 11400000, guid: 6057b2049a1928841b7b073071ceffea, type: 2}
   - {fileID: 11400000, guid: c70ac8f2983a98b4dbd7e494f53c3d9c, type: 2}
+  - {fileID: 11400000, guid: 01fda8d49cfa78a488b7c8aab0b2622c, type: 2}
 --- !u!4 &285481795
 Transform:
   m_ObjectHideFlags: 0
@@ -526,6 +527,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 735471061}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735471067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &735471070 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 378748665381603921, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
+    type: 3}
+  m_PrefabInstance: {fileID: 735471061}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -1121,6 +1134,11 @@ PrefabInstance:
       propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: secretText
+      value: 
+      objectReference: {fileID: 735471070}
     - target: {fileID: 3337124747492698505, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: MinLoadTime
@@ -1144,7 +1162,7 @@ PrefabInstance:
     - target: {fileID: 3337124747492698505, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: SceneToLoad
-      value: TitleMenu
+      value: Act2Chapter1
       objectReference: {fileID: 0}
     - target: {fileID: 3337124747492698505, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}

@@ -374,6 +374,11 @@ PrefabInstance:
       propertyPath: onLineStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: -746623448520407095, guid: 71e5a8ddc5316f34e856b291afb41c00,
+        type: 3}
+      propertyPath: secretText
+      value: 
+      objectReference: {fileID: 1979014397}
     - target: {fileID: 3337124747492698505, guid: 71e5a8ddc5316f34e856b291afb41c00,
         type: 3}
       propertyPath: text
@@ -781,6 +786,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5794769730968730008, guid: 5bf95f35cf5d0054bb3c6fb4f346ee2f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7079209314413794091, guid: 5bf95f35cf5d0054bb3c6fb4f346ee2f,
         type: 3}
       propertyPath: m_IsActive
@@ -823,6 +833,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7808780029617213751, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8336066189756013365, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -833,10 +848,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8336066189869286455, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336066189869286456, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8336066189869286458, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 157.01001
       objectReference: {fileID: 0}
     - target: {fileID: 8336066189869286458, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
@@ -1032,22 +1057,22 @@ PrefabInstance:
     - target: {fileID: 8336066190879664112, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 160
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8336066190879664112, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 280
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8336066190879664112, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -78.505005
       objectReference: {fileID: 0}
     - target: {fileID: 8336066190879664112, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 127.01
       objectReference: {fileID: 0}
     - target: {fileID: 8336066190903559265, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
         type: 3}
@@ -1826,6 +1851,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: f4bfcf585af37214da28e404a324a3cc,
+        type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: m_Name
@@ -1999,3 +2035,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801049100}
   m_CullTransparentMesh: 0
+--- !u!114 &1979014397 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 378748665381603921, guid: e8e538f0cb0c3544b837a1e0f8d9194e,
+    type: 3}
+  m_PrefabInstance: {fileID: 496719205}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
