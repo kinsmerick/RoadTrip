@@ -3863,7 +3863,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31683c8c829d14cbe89d9895bdbabcb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6817,7 +6817,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3550687176764936401, guid: 5e03f4c6298964751982f955fb52ef93,
+  m_Sprite: {fileID: 4543699004711004041, guid: cec49b7e47e75485bb0f5cb11154b30a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6863,7 +6863,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.7156107, y: 8.919999}
+    oldSize: {x: 5.634286, y: 10.24}
     newSize: {x: 0.33, y: 0.77}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6905,7 +6905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4debc58170ea40308162200df380db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 7
+  walkSpeed: 9
   examineBox: {fileID: 1613902714}
   canWalk: 1
   canInteract: 1
@@ -6913,6 +6913,13 @@ MonoBehaviour:
   down: {fileID: 1988832896}
   left: {fileID: 1221891135}
   right: {fileID: 1697323086}
+  playSteps: 1
+  stepNames:
+  - GrassStep1
+  - GrassStep2
+  - GrassStep3
+  - GrassStep4
+  timeTillNextStep: 0.4
 --- !u!95 &1187029133
 Animator:
   serializedVersion: 3
@@ -9857,7 +9864,7 @@ PrefabInstance:
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: soundArray.Array.size
-      value: 6
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
@@ -9876,6 +9883,36 @@ PrefabInstance:
       propertyPath: soundArray.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 712b99d19035e2b40a0662b97f77f3c9,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ae7daed55ae00c468edd9ccf5bc2b3a,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: a3164262bcfd0462ebbcc3936fd7adac,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5c64b2d6028c44fb5a6691ee78171b76,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: f82457ff650944648b27e17db721af6c,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 141206eb039e844e1866b3afca0fb30c,
         type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
@@ -13145,7 +13182,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074578993}
-  m_LocalRotation: {x: 0, y: 0, z: 0.01745245, w: 0.99984777}
+  m_LocalRotation: {x: 0, y: 0, z: 0.008726558, w: 0.999962}
   m_LocalPosition: {x: 0, y: 0.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -13153,7 +13190,7 @@ Transform:
   - {fileID: 759871130}
   m_Father: {fileID: 1187029129}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1}
 --- !u!1 &2077063005
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,14 @@ public class CharacterController : MonoBehaviour
   public GameObject left;
   public GameObject right;
 
+  [Header("Footstep Noises")]
+  public bool playSteps = false;
+  public string [] stepNames;
+  public float timeTillNextStep = 0.5f;
+  private float stepTimer;
+  private AudioManager _audManager;
+
+
   private Vector2 movement;
 
 
@@ -32,6 +40,8 @@ public class CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      _audManager = FindObjectOfType<AudioManager>();
+      stepTimer = Time.time;
       rb = GetComponent<Rigidbody2D>();
       daniAnimation = GetComponent<Animator>();
 
@@ -59,6 +69,7 @@ public class CharacterController : MonoBehaviour
 
       //determines what direction you are facing (put animation triggers below)
       if(Input.GetButton("Horizontal") && canWalk){
+        PlayFootstep();
         if (movement.x < -0.01f){
           //looking left
             examineBox.transform.position = left.transform.position;
@@ -76,6 +87,7 @@ public class CharacterController : MonoBehaviour
         }
       }
       if(Input.GetButton("Vertical") && canWalk){
+        PlayFootstep();
         if (movement.y < -0.01f){
           //looking down
             examineBox.transform.position = down.transform.position;
@@ -106,5 +118,14 @@ public class CharacterController : MonoBehaviour
         rb.MovePosition(rb.position + movement * walkSpeed * Time.fixedDeltaTime);
       }
     }
+
+    void PlayFootstep(){
+      if(playSteps && stepNames.Length > 0 && Time.time - stepTimer > timeTillNextStep){
+        _audManager.playSound(stepNames[Random.Range(0, stepNames.Length)]);
+        stepTimer = Time.time;
+      }
+
+    }
+
 
 }
