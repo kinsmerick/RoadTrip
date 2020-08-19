@@ -19,7 +19,8 @@ Yeah? What happened?
 <<SetBubbleStyle DialogueManager Standard>>
 <<SetExpression Daniella Neutral>>
 So, she made me answer this riddle 
-and then gave me a lollipop all before telling me there was no gas. 
+and then gave me a lollipop all before telling me there were no snacks.
+But I got a lollipop, so... 
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
