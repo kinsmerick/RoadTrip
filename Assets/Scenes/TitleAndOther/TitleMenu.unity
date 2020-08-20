@@ -19548,6 +19548,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CreditsPopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 1355552510532803062, guid: bfc11795bd1961946b2089d9cadcdb6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1355552510532803063, guid: bfc11795bd1961946b2089d9cadcdb6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19652,6 +19657,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355552510994323045, guid: bfc11795bd1961946b2089d9cadcdb6c,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1355552511274872049, guid: bfc11795bd1961946b2089d9cadcdb6c,
         type: 3}
