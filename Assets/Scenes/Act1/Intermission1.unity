@@ -4589,7 +4589,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3550687176764936401, guid: 5e03f4c6298964751982f955fb52ef93,
+  m_Sprite: {fileID: 4543699004711004041, guid: cec49b7e47e75485bb0f5cb11154b30a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4635,7 +4635,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.7156107, y: 8.919999}
+    oldSize: {x: 5.634286, y: 10.24}
     newSize: {x: 0.33, y: 0.77}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4677,7 +4677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4debc58170ea40308162200df380db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 7
+  walkSpeed: 9
   examineBox: {fileID: 1613902714}
   canWalk: 1
   canInteract: 1
@@ -4685,6 +4685,9 @@ MonoBehaviour:
   down: {fileID: 1988832896}
   left: {fileID: 1221891135}
   right: {fileID: 1697323086}
+  playSteps: 0
+  stepNames: []
+  timeTillNextStep: 0.4
 --- !u!95 &1187029133
 Animator:
   serializedVersion: 3
@@ -6460,6 +6463,12 @@ PrefabInstance:
       propertyPath: soundArray.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 712b99d19035e2b40a0662b97f77f3c9,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ae7daed55ae00c468edd9ccf5bc2b3a,
         type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
