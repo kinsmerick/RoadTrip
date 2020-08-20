@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4567388746826646188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: -15.8, z: 0}
-  m_LocalScale: {x: 7.991145, y: 7.991145, z: 1}
+  m_LocalPosition: {x: -0.23, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1573155291282523165}
   m_RootOrder: 0
@@ -109,7 +109,7 @@ Transform:
   m_GameObject: {fileID: 5962563905369169660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.92, y: 0.46, z: 0}
-  m_LocalScale: {x: 0.075, y: 0.075, z: 1}
+  m_LocalScale: {x: 0.625, y: 0.625, z: 1}
   m_Children:
   - {fileID: 5834561037154268129}
   m_Father: {fileID: 0}
@@ -154,7 +154,7 @@ SpriteRenderer:
   m_SortingLayerID: 723444827
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fd25f97e8fab4404597b891329a61714, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b703e82aea1c4d340b698328beb27b66, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -180,21 +180,21 @@ MonoBehaviour:
   DialogueColor: {r: 0.5921569, g: 0.80784315, b: 0.9098039, a: 1}
   Expressions:
   - expressionName: Neutral
-    expression: {fileID: 21300000, guid: fd25f97e8fab4404597b891329a61714, type: 3}
+    expression: {fileID: 21300000, guid: b703e82aea1c4d340b698328beb27b66, type: 3}
   - expressionName: Sad
-    expression: {fileID: 21300000, guid: 61218296bf813624ab2cfa66546624f1, type: 3}
+    expression: {fileID: 21300000, guid: 629610d314bbd714c9a149369d44f933, type: 3}
   - expressionName: Smile
-    expression: {fileID: 21300000, guid: bf067bfbe4465a2439c798aaacfc2efd, type: 3}
+    expression: {fileID: 21300000, guid: edf49879b5106f346a75ff6420724cc8, type: 3}
   - expressionName: Tired
-    expression: {fileID: 21300000, guid: 95b73b34027c5df42ae196de031884e1, type: 3}
+    expression: {fileID: 21300000, guid: 5c5355851f04a2b438cffb2bcd332dc2, type: 3}
   - expressionName: Angry
-    expression: {fileID: 21300000, guid: 5ef2958e2863c91418d9b61852bab36b, type: 3}
+    expression: {fileID: 21300000, guid: dbded54e1a089ae4193ead7947a45514, type: 3}
   - expressionName: Embarrassed
-    expression: {fileID: 21300000, guid: 7ad83d6f72e94c74e8f24a4a0cc131f9, type: 3}
+    expression: {fileID: 21300000, guid: 74ba687a4378350479f017fcfc72f0a0, type: 3}
   - expressionName: Happy
-    expression: {fileID: 21300000, guid: c86b1528ad1ad7542b0585e33b4cf05c, type: 3}
+    expression: {fileID: 21300000, guid: 2729315ed60ad1647907021972b660ea, type: 3}
   - expressionName: Nervous
-    expression: {fileID: 21300000, guid: 7bd23da4741e0c549afef772b6a0be77, type: 3}
+    expression: {fileID: 21300000, guid: a863312044e1e024db6d4826106e48ae, type: 3}
   CharacterSounds:
   - {fileID: 11400000, guid: c70ac8f2983a98b4dbd7e494f53c3d9c, type: 2}
   BubblesPositions:

@@ -48,13 +48,15 @@ Yeah, wow do you need me to take over?
 
 <<SetSpeaker DialogueManager Daniella>>
 I can't even see the side of the road. 
+<<SetTruckActive FrontShot>>
 How am I supposed to pull over? 
 Oh my god a big 18 wheeler is coming behind me. What do I do?
 
 <<SetSpeaker DialogueManager Mish>>
 Hey! You're okay. 
+<<TruckExit FrontShot>>
 You're going to be fine. 
-Go as fast as you're comfortable. They'll pass you.
+Go as fast as you're comfortable. They'll pass you, see?
 
 [[MAINBRANCH15]]
 ===
@@ -114,6 +116,7 @@ Breathe deeper.
 <<ChangeShot DialogueManager Front>>
 <<SetBubblePosition DialogueManager OutCar>>
 <<SetSpeaker DialogueManager Daniella>>
+<<SetTruckInactive FrontShot>>
 [[I'm BREATHING, MISH.|BRANCH15A]]
 [[STOP. I really hate when you do this.|BRANCH15B]]
 ===

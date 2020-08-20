@@ -155,7 +155,7 @@ public class DialogueManager : MonoBehaviour
 
     private void _SetBubblePosition()
     {
-        speechBubble.transform.position = new Vector3(_currentSpeaker.transform.position.x - 6f, _currentSpeaker.transform.position.y + 4f,
+        speechBubble.transform.position = new Vector3(_currentSpeaker.transform.position.x - 6f, _currentSpeaker.transform.position.y + 2f,
                                                         _currentSpeaker.transform.position.z);
 
         //if the speaker is Daniella, move the options bubbles in relation to her
@@ -217,9 +217,9 @@ public class DialogueManager : MonoBehaviour
 
     private void _SetOptionsPosition()
     {
-        option1Bubble.transform.position = new Vector3(_currentSpeaker.transform.position.x - 2f, _currentSpeaker.transform.position.y + 2f,
+        option1Bubble.transform.position = new Vector3(_currentSpeaker.transform.position.x - 6f, _currentSpeaker.transform.position.y,
                                                         _currentSpeaker.transform.position.z);
-        option2Bubble.transform.position = new Vector3(_currentSpeaker.transform.position.x + 2f, _currentSpeaker.transform.position.y + 2f,
+        option2Bubble.transform.position = new Vector3(_currentSpeaker.transform.position.x + 6f, _currentSpeaker.transform.position.y,
                                                     _currentSpeaker.transform.position.z);
     }
 
