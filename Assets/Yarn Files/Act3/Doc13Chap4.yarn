@@ -131,6 +131,4 @@ Yeah, no problem. Night!
 Night.
 
 <<endif>>
-
-<<LoadNextScene DialogueManager>>
 ===

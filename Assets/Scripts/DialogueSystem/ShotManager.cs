@@ -45,6 +45,7 @@ public class ShotManager : MonoBehaviour
                 
                 _currentShot = shots[i];
                 _currentShot.SetActive(true);
+                _currentShot.GetComponentInChildren<Animator>().SetBool("PlayBump", false);
 
                 //if the new shot is the Front shot, set the characters' sprite renderers to enabled.
                 if (_currentShot.name.Contains("Front"))
@@ -80,6 +81,9 @@ public class ShotManager : MonoBehaviour
             {
                 spriteRenderer.enabled = state;
             }//end foreach for each sprite renderer
+
+            Debug.Log(chara.GetComponent<Animator>());
+            chara.GetComponent<Animator>().SetBool("PlayBump", false);
 
         }//end foreach for each character
 
