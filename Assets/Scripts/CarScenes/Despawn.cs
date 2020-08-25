@@ -2,7 +2,7 @@
 public class Despawn : MonoBehaviour
 {
     // Reference to the Prefab. Drag a Prefab into this field in the Inspector.
-    public float TimeTillDelete = 5f;
+    public float TimeTillDelete = 3f;
     private float timer;
 
     //Makes a repeating instance of the events called l8r
