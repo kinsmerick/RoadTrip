@@ -117,14 +117,18 @@ public class AudioManager : MonoBehaviour
         {
             if(audType == soundArray[i].audioType)
             {
+                float _adjVolume;
+
                 switch (audType)
                 {
                     case AudioType.Music:
-                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("Music Volume", 0.5f);
+                        _adjVolume = PlayerPrefs.GetFloat("Music Volume", 1f) * soundArray[i].volume;
+                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = _adjVolume;
                         break;
 
                     case AudioType.Sfx:
-                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("Sfx Volume", 0.5f);
+                        _adjVolume = PlayerPrefs.GetFloat("Sfx Volume", 1f) * soundArray[i].volume;
+                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = _adjVolume;
                         if (!cuePlayed)
                         {
                             stopSound("Start_Menu_Button_Succeed");
@@ -134,7 +138,8 @@ public class AudioManager : MonoBehaviour
                         break;
 
                     case AudioType.Character:
-                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("Chara Volume", 0.5f);
+                        _adjVolume = PlayerPrefs.GetFloat("Chara Volume", 1f) * soundArray[i].volume;
+                        _audioSourceObjs[i].GetComponent<AudioSource>().volume = _adjVolume;
                         if (!cuePlayed)
                         {
                             stopSound("Daniella_Speech");

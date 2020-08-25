@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Rain_Light
   clip: {fileID: 8300000, guid: affba6ba9117c17459b16633091c772c, type: 3}
-  volume: 0.5
+  volume: 1
   loop: 1
   playOnAwake: 1
   audioType: 2

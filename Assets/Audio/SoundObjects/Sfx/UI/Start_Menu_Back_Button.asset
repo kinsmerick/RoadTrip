@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Start_Menu_Back_Button
   clip: {fileID: 8300000, guid: 1460834343c041841bb73c290f66d1c7, type: 3}
-  volume: 1
+  volume: 0.9
   loop: 0
   playOnAwake: 0
   audioType: 2

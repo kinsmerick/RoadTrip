@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Start_Menu_Button_Succeed
   clip: {fileID: 8300000, guid: bc56bf63f597d8f4594945e882d3c0f9, type: 3}
-  volume: 1
+  volume: 0.9
   loop: 0
   playOnAwake: 0
   audioType: 2

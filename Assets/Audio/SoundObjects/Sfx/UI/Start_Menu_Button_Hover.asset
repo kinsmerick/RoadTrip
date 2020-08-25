@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Start_Menu_Button_Hover
   clip: {fileID: 8300000, guid: d5fa326daaa8c0143b7c0614bc260ba7, type: 3}
-  volume: 1
+  volume: 0.9
   loop: 0
   playOnAwake: 0
   audioType: 2

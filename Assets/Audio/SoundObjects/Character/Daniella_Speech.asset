@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Daniella_Speech
   clip: {fileID: 8300000, guid: 90be72ec8f118de4ebc265b9ade385ac, type: 3}
-  volume: 1
+  volume: 0.65
   loop: 0
   playOnAwake: 0
   audioType: 1

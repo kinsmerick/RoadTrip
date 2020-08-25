@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Car_Swerve
   clip: {fileID: 8300000, guid: f9d1aa68a903c9d43b01898fe5e26b91, type: 3}
-  volume: 0.1342325
+  volume: 0.5
   loop: 0
   playOnAwake: 0
   audioType: 2

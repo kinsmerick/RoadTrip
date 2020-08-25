@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Mish_Speech
   clip: {fileID: 8300000, guid: fdb24908a52ebe149b704ae079768935, type: 3}
-  volume: 1
+  volume: 0.65
   loop: 0
   playOnAwake: 0
   audioType: 1

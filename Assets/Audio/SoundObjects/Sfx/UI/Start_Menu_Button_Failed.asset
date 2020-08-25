@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Start_Menu_Button_Failed
   clip: {fileID: 8300000, guid: 0b2cbfc509f52e146a45f607406ece0f, type: 3}
-  volume: 1
+  volume: 0.9
   loop: 0
   playOnAwake: 0
   audioType: 2

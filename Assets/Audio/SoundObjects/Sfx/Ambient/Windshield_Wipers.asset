@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Windshield_Wipers
   clip: {fileID: 8300000, guid: 836dc00408d4bea4098185cd861a267b, type: 3}
-  volume: 0.1342325
+  volume: 1
   loop: 1
   playOnAwake: 1
   audioType: 2

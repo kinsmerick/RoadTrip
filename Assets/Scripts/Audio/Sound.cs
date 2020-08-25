@@ -37,6 +37,8 @@ public class Sound : ScriptableObject
 
     public AudioType audioType;
 
+    private float _adjVolume;
+
     //A constructor that sets a given AudioSource (instantiated in
     //AudioManager's Start()) to the values set in the inspector.
 
@@ -46,7 +48,7 @@ public class Sound : ScriptableObject
 
         _audioSource = source;
         _audioSource.clip = clip;
-        _audioSource.volume = volume;
+        _audioSource.volume = _adjVolume;
         _audioSource.loop = loop;
         _audioSource.playOnAwake = playOnAwake;
 
@@ -77,15 +79,15 @@ public class Sound : ScriptableObject
         switch (audioType)
         {
             case AudioType.Music:
-                volume = PlayerPrefs.GetFloat("Music Volume", 0.5f);
+                _adjVolume = PlayerPrefs.GetFloat("Music Volume", 1f) * volume;
                 break;
 
             case AudioType.Sfx:
-                volume = PlayerPrefs.GetFloat("Sfx Volume", 0.5f);
+                _adjVolume = PlayerPrefs.GetFloat("Sfx Volume", 1f) * volume;
                 break;
 
             case AudioType.Character:
-                volume = PlayerPrefs.GetFloat("Chara Volume", 0.5f);
+                _adjVolume = PlayerPrefs.GetFloat("Chara Volume", 1f) * volume;
                 break;
 
             default:

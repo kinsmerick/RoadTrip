@@ -95,9 +95,9 @@ public class GamePreferenceFunctions : MonoBehaviour
 
     public void setStartingPrefs()
     {
-        musSlider.value = PlayerPrefs.GetFloat("Music Volume", 0.5f);
-        sfxSlider.value = PlayerPrefs.GetFloat("Sfx Volume", 0.5f);
-        charaSlider.value = PlayerPrefs.GetFloat("Chara Volume", 0.5f);
+        musSlider.value = PlayerPrefs.GetFloat("Music Volume", 1f);
+        sfxSlider.value = PlayerPrefs.GetFloat("Sfx Volume", 1f);
+        charaSlider.value = PlayerPrefs.GetFloat("Chara Volume", 1f);
 
         switch(PlayerPrefs.GetString("TextSpeed", "Medium"))
         {

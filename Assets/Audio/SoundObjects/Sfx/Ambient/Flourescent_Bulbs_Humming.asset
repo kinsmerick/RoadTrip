@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Flourescent_Bulbs_Humming
   clip: {fileID: 8300000, guid: 3e361e0efdb59d341a2b09f0f9e5678b, type: 3}
-  volume: 0.1342325
+  volume: 1
   loop: 1
   playOnAwake: 1
   audioType: 2

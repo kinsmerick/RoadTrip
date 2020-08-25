@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Daytime_Radio
   clip: {fileID: 8300000, guid: 076a3c294a786c948bf9196466028f43, type: 3}
-  volume: 0.8625788
+  volume: 0.3
   loop: 1
   playOnAwake: 1
   audioType: 0
