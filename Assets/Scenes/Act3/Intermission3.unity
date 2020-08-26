@@ -663,7 +663,7 @@ PrefabInstance:
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: soundArray.Array.size
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
@@ -730,6 +730,12 @@ PrefabInstance:
       propertyPath: soundArray.Array.data[13]
       value: 
       objectReference: {fileID: 11400000, guid: 6cdd7e10aa98349bd984c12603ced33b,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[14]
+      value: 
+      objectReference: {fileID: 11400000, guid: 607d4f003501d4292b0b90340fb68e28,
         type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
@@ -1765,7 +1771,7 @@ MonoBehaviour:
   DialogueColor: {r: 0.8584906, g: 0.8554199, b: 0.6762638, a: 1}
   Expressions: []
   CharacterSounds:
-  - {fileID: 11400000, guid: 117611008ed4d284584b12ad36230b9a, type: 2}
+  - {fileID: 11400000, guid: 607d4f003501d4292b0b90340fb68e28, type: 2}
   BubblesPositions: []
   isDaniella: 0
 --- !u!1 &578824608
