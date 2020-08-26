@@ -31,4 +31,5 @@ public class Instantiation : MonoBehaviour
         //Instantiate(myAnimation, new Vector3(1, 1, 1), Quaternion.identity);
     }
 
+
 }

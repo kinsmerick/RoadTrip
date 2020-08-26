@@ -133,10 +133,10 @@ and such.
 <<SetExpression Mish Neutral>>
 Oh, yeah, duh. Of course.
 
+<<PlaySound AudioManager Engine_Sputtering>>
 <<SetSpeaker DialogueManager Daniella>>
 Yeah, uh-
 
-<<PlaySound AudioManager Engine_Sputtering>>
 Wait, what was that?
 
 <<SetSpeaker DialogueManager Mish>>

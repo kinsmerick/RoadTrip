@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Start_Menu_Button_Succeed
   m_EditorClassIdentifier: 
   clipName: Start_Menu_Button_Succeed
-  clip: {fileID: 8300000, guid: bc56bf63f597d8f4594945e882d3c0f9, type: 3}
+  clip: {fileID: 8300000, guid: 40d7637296e88f14cbeaa9eda9afe448, type: 3}
   volume: 0.9
   loop: 0
   playOnAwake: 0

@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 75,255
 ---
+<<StopSound AudioManager Menu_Loop>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubblePosition DialogueManager Night3>>
 <<SetBubbleStyle DialogueManager Standard>>
@@ -72,6 +73,7 @@ Sounds good to me. Goodnight Dani.
 
 <<SetSpeaker DialogueManager Daniella>>
 Night Mish.
+<<StopSound AudioManager Air_Conditioning>>
 
 <<else>>
 
@@ -129,6 +131,7 @@ Yeah, no problem. Night!
 
 <<SetSpeaker DialogueManager Daniella>>
 Night.
+<<StopSound AudioManager Air_Conditioning>>
 
 <<endif>>
 ===
