@@ -119,6 +119,8 @@ position: 334,167
 ---
 <<SetSpeaker DialogueManager Mish>>
 <<SetBubbleStyle DialogueManager Standard>>
+<<if $visited_frogmish is false>>
+<<set $visited_frogmish to true>>
 Hey! I found this! I thought you'd like it.
 
 <<SetSpeaker DialogueManager Daniella>>
@@ -129,6 +131,13 @@ Oh. My. God. Thank you so much!
 <<SetBubbleStyle DialogueManager Standard>>
 No problem. We should head out soon.
 I'm ready to go whenever you are.
+
+<<else>>
+<<SetSpeaker DialogueManager Mish>>
+<<SetBubbleStyle DialogueManager Standard>>
+We should head out soon.
+I'm ready to go whenever you are.
+<<endif>>
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
