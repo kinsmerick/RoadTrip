@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Start_Menu_Back_Button
   m_EditorClassIdentifier: 
   clipName: Start_Menu_Back_Button
-  clip: {fileID: 8300000, guid: 1460834343c041841bb73c290f66d1c7, type: 3}
+  clip: {fileID: 8300000, guid: 9bb229390365e084bad70e08b967e96c, type: 3}
   volume: 0.9
   loop: 0
   playOnAwake: 0

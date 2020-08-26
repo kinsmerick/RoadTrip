@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5215318244595772782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.54, y: 0.58, z: 0}
-  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
+  m_LocalScale: {x: 0.625, y: 0.625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 723444827
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7000ad3f73567164c99e6a4377a5f4b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ecc4b0b06ce546449c337cf6396d8ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -98,23 +98,23 @@ MonoBehaviour:
   DialogueColor: {r: 0.9098039, g: 0.5921569, b: 0.7607843, a: 1}
   Expressions:
   - expressionName: Neutral
-    expression: {fileID: 21300000, guid: 7000ad3f73567164c99e6a4377a5f4b9, type: 3}
+    expression: {fileID: 21300000, guid: 0ecc4b0b06ce546449c337cf6396d8ff, type: 3}
   - expressionName: Sad
-    expression: {fileID: 21300000, guid: bfa85855251f8914cbfeb2612534ef64, type: 3}
+    expression: {fileID: 21300000, guid: 89836900fa81dcc47889e7af9338bdc0, type: 3}
   - expressionName: Smile
-    expression: {fileID: 21300000, guid: 80f7317d57d39b7488479090b23ef820, type: 3}
+    expression: {fileID: 21300000, guid: 0d0f17900035b8645843e28947b8cf20, type: 3}
   - expressionName: Tired
-    expression: {fileID: 21300000, guid: f10cb1943e1d2b84a8ccf88596c57508, type: 3}
+    expression: {fileID: 21300000, guid: 8faadae66bdc5cb4589fd32daa77f78b, type: 3}
   - expressionName: Nervous
-    expression: {fileID: 21300000, guid: b4a930f3ed2c1b949af577d04f2bdfe2, type: 3}
+    expression: {fileID: 21300000, guid: 108e9786442fce041ad65838fb5011e2, type: 3}
   - expressionName: Happy
-    expression: {fileID: 21300000, guid: 26f37ed7a918d6f4b9343ee2cd16579c, type: 3}
+    expression: {fileID: 21300000, guid: 7db23901d4d224f4fbde1a842209d63b, type: 3}
   - expressionName: Embarrassed
-    expression: {fileID: 21300000, guid: 6ea162996c4bdc34c92d369de7a48eb8, type: 3}
+    expression: {fileID: 21300000, guid: 197058bf706db074eac8e2af28b80e19, type: 3}
   - expressionName: Angry
-    expression: {fileID: 21300000, guid: 26259605850fb4e47bcbfbb7b0064d0c, type: 3}
+    expression: {fileID: 21300000, guid: 488b561b56d25b94887a7491251640d1, type: 3}
   - expressionName: AngryCry
-    expression: {fileID: 21300000, guid: b5c0eac8cf99dc14299c6d54ac80732c, type: 3}
+    expression: {fileID: 21300000, guid: 6afaa8c6a0475be4eb57f23dff8d7bbc, type: 3}
   CharacterSounds:
   - {fileID: 11400000, guid: 6057b2049a1928841b7b073071ceffea, type: 2}
   - {fileID: 11400000, guid: 48cf6a39fd54f1e489289b50cd651ccb, type: 2}

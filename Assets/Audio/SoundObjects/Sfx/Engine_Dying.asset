@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Engine_Dying
   m_EditorClassIdentifier: 
   clipName: Engine_Dying
-  clip: {fileID: 8300000, guid: d5fa326daaa8c0143b7c0614bc260ba7, type: 3}
-  volume: 0.4739149
+  clip: {fileID: 8300000, guid: cdc624a68038b4846b977c077f7f7f83, type: 3}
+  volume: 1
   loop: 0
   playOnAwake: 0
   audioType: 2

@@ -20,6 +20,8 @@ public class CarBumpAnimation : MonoBehaviour
     private float _minTimeBeforeBump = 2f;
 
     private bool _setToFalse = true;
+    private bool _isDriving = true;
+    private bool _animSwitchedOff = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,34 +35,51 @@ public class CarBumpAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_timeElapsed > _minTimeBeforeBump)
+        if (_isDriving)
         {
-            randomFloat = Random.Range(0f, 100f);
-
-            if(randomFloat >= _THRESHOLD)
+            if (_timeElapsed > _minTimeBeforeBump)
             {
-                _carAnim.SetBool("PlayBump", true);
-                _mishAnim.SetBool("PlayBump", true);
-                _daniAnim.SetBool("PlayBump", true);
-                _sideCarAnim.SetBool("PlayBump", true);
+                randomFloat = Random.Range(0f, 100f);
 
-                _timeElapsed = 0f;
-                randomFloat = 0f;
-                _setToFalse = false;
+                if (randomFloat >= _THRESHOLD)
+                {
+                    _carAnim.SetBool("PlayBump", true);
+                    _mishAnim.SetBool("PlayBump", true);
+                    _daniAnim.SetBool("PlayBump", true);
+                    _sideCarAnim.SetBool("PlayBump", true);
+
+                    _timeElapsed = 0f;
+                    randomFloat = 0f;
+                    _setToFalse = false;
+                }
+            }
+            else
+            {
+                if (_timeElapsed > 0.2f && !_setToFalse)
+                {
+                    _carAnim.SetBool("PlayBump", false);
+                    _mishAnim.SetBool("PlayBump", false);
+                    _daniAnim.SetBool("PlayBump", false);
+                    _sideCarAnim.SetBool("PlayBump", false);
+
+                    _setToFalse = true;
+                }
+                _timeElapsed += Time.deltaTime;
             }
         }
-        else
+        else if (!_animSwitchedOff)
         {
-            if(_timeElapsed > 0.2f && !_setToFalse)
-            {
-                _carAnim.SetBool("PlayBump", false);
-                _mishAnim.SetBool("PlayBump", false);
-                _daniAnim.SetBool("PlayBump", false);
-                _sideCarAnim.SetBool("PlayBump", false);
+            _carAnim.SetBool("PlayBump", false);
+            _mishAnim.SetBool("PlayBump", false);
+            _daniAnim.SetBool("PlayBump", false);
+            _sideCarAnim.SetBool("PlayBump", false);
 
-                _setToFalse = true;
-            }
-            _timeElapsed += Time.deltaTime;
+            _animSwitchedOff = true;
         }
+    }
+
+    public void StopAnimations()
+    {
+        _isDriving = false;
     }
 }

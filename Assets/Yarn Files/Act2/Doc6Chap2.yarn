@@ -34,7 +34,6 @@ Hey, I'm not saying that-
 but wait, why did you think my coworkers weren't good people?
 
 <<SetSpeaker DialogueManager Daniella>>
-<<SetExpression Daniella Neutral>> 
 [[Did you forget that your coworkers were very rude to me when I tried going out?|BRANCH9A]]
 [[You don't remember when they made me so upset I had to leave?|BRANCH9B]]
 ===
@@ -147,6 +146,7 @@ position: 805,82
 <<set $forgiveness to $forgiveness + 0>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella AngryCry>>
+<<StopTrees Environment>>
 Fuck you, Mish. 
 
 <<SetSpeaker DialogueManager Mish>>
@@ -163,6 +163,7 @@ position: 808,406
 <<set $forgiveness to $forgiveness - 1>>
 <<SetSpeaker DialogueManager Daniella>>
 <<SetExpression Daniella AngryCry>>
+<<StopTrees Environment>>
 God, you are the worst person I've ever met.
 
 <<SetSpeaker DialogueManager Mish>>
@@ -177,6 +178,7 @@ colorID: 0
 position: 1099,253
 ---
 <<PlaySound AudioManager Engine_Dying>>
+<<StopSound AudioManager Engine_Hum>>
 
 <<SetSpeaker DialogueManager Mish>>
 <<SetExpression Mish Neutral>>
