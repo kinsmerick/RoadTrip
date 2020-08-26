@@ -34,12 +34,15 @@ public class NPCOrItem : MonoBehaviour
 
   private Animator characterAnim;
 
+  private AudioManager _audManager;
+
     // Start is called before the first frame update
     void Start()
     {
       playerControl = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
       dialogueRunner = FindObjectOfType<DialogueRunner>();
       characterAnim = GetComponent<Animator>();
+      _audManager = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -53,15 +56,16 @@ public class NPCOrItem : MonoBehaviour
 
         interacting = true;
         playerControl.canWalk = false;
-        if(!itemPickedUp){
-          itemPickedUp = true;
-          AddItemToCollection();
-        }
         dialogueRunner.StartDialogue(nodeName);
       }
       else if(interacting && !dialogueRunner.IsDialogueRunning ){
         if(characterAnim != null){
           characterAnim.SetTrigger("stoptalk");
+        }
+
+        if(!itemPickedUp){
+          itemPickedUp = true;
+          AddItemToCollection();
         }
 
         interacting = false;
@@ -110,6 +114,10 @@ public class NPCOrItem : MonoBehaviour
       FileStream file_save = File.Create (Application.persistentDataPath + "/items.sav");
       bf_save.Serialize(file_save, itemDataToSave);
       file_save.Close();
+
+      if(_audManager != null){
+        _audManager.playSound("ItemTake");
+      }
 
 
     }
