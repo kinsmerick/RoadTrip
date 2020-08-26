@@ -5212,6 +5212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 306741987}
+  secretText: {fileID: 1249051837}
   textSpeed: 0.07
   optionButtons:
   - {fileID: 2118589951}

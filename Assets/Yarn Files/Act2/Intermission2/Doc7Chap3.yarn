@@ -77,7 +77,7 @@ Oh. Thanks anyway?
 
 <<SetSpeaker DialogueManager Daniella>>
 <<SetBubbleStyle DialogueManager Thought>>
-No gas? What kind of place is this?
+No snacks? What kind of place is this?
 I guess I should go tell Mish.
 
 <<else>>
