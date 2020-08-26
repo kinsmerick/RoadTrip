@@ -125,12 +125,12 @@ MonoBehaviour:
     option2Pos: {x: -469, y: 114.005, z: 0}
   - posName: Far
     textPos: {x: -442, y: 199, z: 0}
-    option1Pos: {x: -480, y: 217, z: 0}
+    option1Pos: {x: -480, y: 125, z: 0}
     option2Pos: {x: -198, y: 138, z: 0}
   - posName: Close
     textPos: {x: -324, y: -47, z: 0}
     option1Pos: {x: -411, y: -149, z: 0}
-    option2Pos: {x: -114, y: 177, z: 0}
+    option2Pos: {x: -124, y: 107, z: 0}
   isDaniella: 1
 --- !u!95 &8722365807249323320
 Animator:

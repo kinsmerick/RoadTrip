@@ -16,22 +16,22 @@ public class EnableActButtons : MonoBehaviour
     // Start is called before the first frame update
     public void OnEnable()
     {
+        Debug.Log("EnableActButtons on enable called.");
 
       if(File.Exists(Application.persistentDataPath + "/gameCompletion.sav")) {
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Open(Application.persistentDataPath + "/gameCompletion.sav", FileMode.Open);
         actDataLoad = (GameCompletionRecord)bf.Deserialize(file);
         file.Close();
-      }
+        act2Button.interactable = actDataLoad.act1Complete;
+        act3Button.interactable = actDataLoad.act2Complete;
+        }
       //if the file doesn't exist, it was deleted, so the buttons should be not interactable
         else
         {
             act2Button.interactable = false;
             act3Button.interactable = false;
         }
-
-        act2Button.interactable = actDataLoad.act1Complete;
-        act3Button.interactable = actDataLoad.act2Complete;
 
     }
 

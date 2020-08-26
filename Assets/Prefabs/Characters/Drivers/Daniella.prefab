@@ -208,11 +208,11 @@ MonoBehaviour:
   - posName: Far
     textPos: {x: 385, y: 205, z: 0}
     option1Pos: {x: 173, y: 121, z: 0}
-    option2Pos: {x: 465, y: 213, z: 0}
+    option2Pos: {x: 465, y: 170, z: 0}
   - posName: Close
     textPos: {x: 290, y: 4, z: 0}
     option1Pos: {x: 427, y: -142, z: 0}
-    option2Pos: {x: 111, y: 135, z: 0}
+    option2Pos: {x: 131, y: 135, z: 0}
   isDaniella: 1
 --- !u!95 &407978248538632682
 Animator:
