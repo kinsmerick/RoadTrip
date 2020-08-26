@@ -4685,8 +4685,14 @@ MonoBehaviour:
   down: {fileID: 1988832896}
   left: {fileID: 1221891135}
   right: {fileID: 1697323086}
-  playSteps: 0
-  stepNames: []
+  playSteps: 1
+  stepNames:
+  - AsphaltStep1
+  - AsphaltStep2
+  - AsphaltStep3
+  - AsphaltStep4
+  - AsphaltStep5
+  - AsphaltStep6
   timeTillNextStep: 0.4
 --- !u!95 &1187029133
 Animator:
@@ -5206,7 +5212,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 306741987}
-  secretText: {fileID: 1249051837}
   textSpeed: 0.07
   optionButtons:
   - {fileID: 2118589951}
@@ -6617,7 +6622,7 @@ PrefabInstance:
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: soundArray.Array.size
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
@@ -6641,7 +6646,37 @@ PrefabInstance:
         type: 3}
       propertyPath: soundArray.Array.data[6]
       value: 
-      objectReference: {fileID: 11400000, guid: 3ae7daed55ae00c468edd9ccf5bc2b3a,
+      objectReference: {fileID: 11400000, guid: 8abd5acc6ed0a43078cbef59d6cf5af9,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: ab9b0e60a8ee44ffa8b5b733fee8224d,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 395d9ac71594f4f7eadaf1bc5eb9c83b,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 508ad473c317f422b95deed45cca3774,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: c4701a763262c42fca278db9fe0251f3,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d349ff47c3c045c283fd8d2e1a74199,
         type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
