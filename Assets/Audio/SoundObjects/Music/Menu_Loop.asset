@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: Menu_Loop
   clip: {fileID: 8300000, guid: 39c1c9a0d853be44982019b9b8bc64ca, type: 3}
-  volume: 0.7
+  volume: 0.6
   loop: 1
   playOnAwake: 1
   audioType: 0

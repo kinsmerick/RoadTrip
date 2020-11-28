@@ -46,6 +46,7 @@ public class CharacterController : MonoBehaviour
       daniAnimation = GetComponent<Animator>();
 
       daniSprite = GetComponent<SpriteRenderer>();
+      daniAnimation.SetBool("forward", lookingForward);
 
     }
 
