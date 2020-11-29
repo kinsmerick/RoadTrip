@@ -15,7 +15,7 @@ public class CarBumpAnimation : MonoBehaviour
     private Animator _daniAnim;
     private Animator _sideCarAnim;
 
-    private const float _THRESHOLD = 98f;
+    private const float _THRESHOLD = 99.85f;
     public float _timeElapsed = 0f;
     private float _minTimeBeforeBump = 2f;
 
@@ -43,25 +43,15 @@ public class CarBumpAnimation : MonoBehaviour
 
                 if (randomFloat >= _THRESHOLD)
                 {
-                    _carAnim.SetBool("PlayBump", true);
-                    _mishAnim.SetBool("PlayBump", true);
-                    _daniAnim.SetBool("PlayBump", true);
-                    _sideCarAnim.SetBool("PlayBump", true);
-
-                    _timeElapsed = 0f;
-                    randomFloat = 0f;
-                    _setToFalse = false;
+                    setTrue();
                 }
+
             }
             else
             {
-                if (_timeElapsed > 0.2f && !_setToFalse)
+                if (!_setToFalse)
                 {
-                    _carAnim.SetBool("PlayBump", false);
-                    _mishAnim.SetBool("PlayBump", false);
-                    _daniAnim.SetBool("PlayBump", false);
-                    _sideCarAnim.SetBool("PlayBump", false);
-
+                    setFalse();
                     _setToFalse = true;
                 }
                 _timeElapsed += Time.deltaTime;
@@ -69,10 +59,7 @@ public class CarBumpAnimation : MonoBehaviour
         }
         else if (!_animSwitchedOff)
         {
-            _carAnim.SetBool("PlayBump", false);
-            _mishAnim.SetBool("PlayBump", false);
-            _daniAnim.SetBool("PlayBump", false);
-            _sideCarAnim.SetBool("PlayBump", false);
+            setFalse();
 
             _animSwitchedOff = true;
         }
@@ -81,5 +68,29 @@ public class CarBumpAnimation : MonoBehaviour
     public void StopAnimations()
     {
         _isDriving = false;
+    }
+
+    private void setTrue()
+    {
+       // _carAnim.SetBool("PlayBump", true);
+        //_mishAnim.SetBool("PlayBump", true);
+       // _daniAnim.SetBool("PlayBump", true);
+      //  _sideCarAnim.SetBool("PlayBump", true);
+        _carAnim.Play("CarBump");
+        _mishAnim.Play("MishBump");
+        _daniAnim.Play("DaniBump");
+        _sideCarAnim.Play("SideCarBump");
+
+        _timeElapsed = 0f;
+        randomFloat = 0f;
+        _setToFalse = false;
+    }
+
+    private void setFalse()
+    {
+        _carAnim.SetBool("PlayBump", false);
+        _mishAnim.SetBool("PlayBump", false);
+        _daniAnim.SetBool("PlayBump", false);
+        _sideCarAnim.SetBool("PlayBump", false);
     }
 }

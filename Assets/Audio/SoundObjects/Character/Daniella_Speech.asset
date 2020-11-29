@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Daniella_Speech
   m_EditorClassIdentifier: 
   clipName: Daniella_Speech
-  clip: {fileID: 8300000, guid: 90be72ec8f118de4ebc265b9ade385ac, type: 3}
-  volume: 0.65
+  clip: {fileID: 8300000, guid: 9e89a44a1a19e3349ad25b3e0660f7ed, type: 3}
+  volume: 0.45
   loop: 0
   playOnAwake: 0
   audioType: 1
