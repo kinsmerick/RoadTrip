@@ -2,20 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+#if STEAM
+using Steamworks;
+#endif
+
 public class SteamIntegrationScript : MonoBehaviour
 {
 
   public bool steamActive = false;
 
-  public bool logOutSteam = false;
+  private static SteamIntegrationScript DetoursSteamInit;
 
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if(DetoursSteamInit == null){
+          DetoursSteamInit = this;
+          DontDestroyOnLoad(this.gameObject);
+
+#if STEAM
         try
         {
-        	Steamworks.SteamClient.Init( 1427300, true );
+        	SteamClient.Init( 1427300, true );
           steamActive = true;
         }
         catch ( System.Exception e )
@@ -23,28 +31,49 @@ public class SteamIntegrationScript : MonoBehaviour
         	Debug.Log("Error. No Steam?" + e);
           steamActive = false;
         }
+#endif
+      }
+      else{
+        GameObject.Destroy(this);
+      }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-      if(steamActive){
-        Steamworks.SteamClient.RunCallbacks();
-      }
 
-      if(logOutSteam){
-        Steamworks.SteamClient.Shutdown();
-        logOutSteam  = false;
-        steamActive = false;
-      }
 
     }
 
-
-    void OnApplicationQuit(){
-      if(steamActive){
-        Steamworks.SteamClient.Shutdown();
+    public void UnlockGoodEndingAchievement(){
+#if STEAM
+  if (SteamClient.IsValid && SteamClient.IsLoggedOn)
+      {
+          var ach = new Achievement("ENDING_GOOD_ACH");
+          ach.Trigger();
       }
+#endif
+    }
+
+    public void UnlockBadEndingAchievement(){
+#if STEAM
+  if (SteamClient.IsValid && SteamClient.IsLoggedOn)
+      {
+          var ach = new Achievement("ENDING_BAD_ACH");
+          ach.Trigger();
+      }
+#endif
+    }
+
+    public void UnlockItemsAchievement(){
+#if STEAM
+  if (SteamClient.IsValid && SteamClient.IsLoggedOn)
+      {
+          var ach = new Achievement("COLLECT_ALL_ACH");
+          ach.Trigger();
+      }
+#endif
     }
 
 

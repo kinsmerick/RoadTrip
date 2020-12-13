@@ -3,6 +3,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+#if STEAM
+using Steamworks;
+#endif
+
 [Serializable]
 public class ItemCollection
 {
@@ -37,6 +41,13 @@ public class ItemCollection
     temp.plushFrog = t.plushFrog || t2.plushFrog;
     temp.happyOwl = t.happyOwl || t2.happyOwl;
     temp.sadOwl = t.sadOwl || t2.sadOwl;
+
+#if STEAM
+    if(temp.dogPoster && temp.sadRock && temp.happyRock && temp.lollipop && temp.robot && temp.plushFrog && temp.happyOwl && temp.sadOwl){
+      var ach = new Achievement("COLLECT_ALL_ACH");
+      ach.Trigger();
+    }
+#endif
 
     return temp;
   }
