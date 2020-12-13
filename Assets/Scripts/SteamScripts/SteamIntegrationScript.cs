@@ -46,6 +46,12 @@ public class SteamIntegrationScript : MonoBehaviour
 
     }
 
+    void OnApplicationQuit(){
+#if STEAM
+      SteamClient.Shutdown();
+#endif
+    }
+
     public void UnlockGoodEndingAchievement(){
 #if STEAM
   if (SteamClient.IsValid && SteamClient.IsLoggedOn)
