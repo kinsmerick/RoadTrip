@@ -734,7 +734,7 @@ PrefabInstance:
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: soundArray.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
@@ -783,6 +783,12 @@ PrefabInstance:
       propertyPath: soundArray.Array.data[7]
       value: 
       objectReference: {fileID: 11400000, guid: 62aabac8b2e75b341b56590af2bcccaf,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9aaf61bc84e172d4e904ede2939e3f50,
         type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}

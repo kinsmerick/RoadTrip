@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: GrassStep2
   clip: {fileID: 8300000, guid: de57e4dfc527348f4948f03a77e530bf, type: 3}
-  volume: 0.3
+  volume: 0.25
   loop: 0
   playOnAwake: 0
   audioType: 2

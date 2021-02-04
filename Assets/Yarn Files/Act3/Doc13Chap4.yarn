@@ -74,6 +74,7 @@ Sounds good to me. Goodnight Dani.
 <<SetSpeaker DialogueManager Daniella>>
 Night Mish.
 <<StopSound AudioManager Air_Conditioning>>
+<<StopSound AudioManager Night_Talking>>
 
 <<else>>
 
@@ -132,6 +133,7 @@ Yeah, no problem. Night!
 <<SetSpeaker DialogueManager Daniella>>
 Night.
 <<StopSound AudioManager Air_Conditioning>>
+<<StopSound AudioManager Night_Talking>>
 
 <<endif>>
 ===

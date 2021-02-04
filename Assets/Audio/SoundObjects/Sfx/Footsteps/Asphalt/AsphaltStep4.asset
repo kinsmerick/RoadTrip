@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipName: AsphaltStep4
   clip: {fileID: 8300000, guid: 082531ce2ed0149f69890ce59b7f4484, type: 3}
-  volume: 0.3
+  volume: 0.25
   loop: 0
   playOnAwake: 0
   audioType: 2

@@ -121,6 +121,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &147251957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1355552511274871823, guid: bfc11795bd1961946b2089d9cadcdb6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1108348559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &147251963
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147251957}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7c554750ff5e3d34386747d0c8a6044a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &429236923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,7 +1946,7 @@ PrefabInstance:
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
       propertyPath: soundArray.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
@@ -1940,6 +1965,12 @@ PrefabInstance:
       propertyPath: soundArray.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 0af206b2cd77ffb4481c2d711192035b,
+        type: 2}
+    - target: {fileID: 7481877512317188032, guid: 6eaa11b4a1086714aad42eee477d2213,
+        type: 3}
+      propertyPath: soundArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 48f279689c38709458f0474ff9569457,
         type: 2}
     - target: {fileID: 8061711462131105785, guid: 6eaa11b4a1086714aad42eee477d2213,
         type: 3}
